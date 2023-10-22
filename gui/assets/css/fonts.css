@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  src: url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Myanmar';
+  font-weight: 700;
+  src: url('../fonts/NotoSansMyanmar-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Thai';
+  font-weight: 700;
+  src: url('../fonts/NotoSansThai-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}

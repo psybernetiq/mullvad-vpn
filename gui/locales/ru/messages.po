@@ -1,0 +1,1864 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: mullvad-app\n"
+"X-Crowdin-Project-ID: 350815\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Project-Id-Version: mullvad-app\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"PO-Revision-Date: 2023-09-05 14:16\n"
+
+msgid "%(duration)s was added, account paid until %(expiry)s."
+msgstr "Добавлено: %(duration)s. Учетная запись оплачена до %(expiry)s."
+
+msgid "1 day"
+msgid_plural "%d days"
+msgstr[0] "%d день"
+msgstr[1] "%d дня"
+msgstr[2] "%d дней"
+msgstr[3] "%d дня"
+
+msgid "1 day left"
+msgid_plural "%d days left"
+msgstr[0] "Остался %d день"
+msgstr[1] "Осталось %d дня"
+msgstr[2] "Осталось %d дней"
+msgstr[3] "Осталось %d дня"
+
+msgid "1 month"
+msgid_plural "%d months"
+msgstr[0] "%d месяц"
+msgstr[1] "%d месяца"
+msgstr[2] "%d месяцев"
+msgstr[3] "%d месяца"
+
+msgid "1 month left"
+msgid_plural "%d months left"
+msgstr[0] "Остался %d месяц"
+msgstr[1] "Осталось %d месяца"
+msgstr[2] "Осталось %d месяцев"
+msgstr[3] "Осталось %d месяца"
+
+msgid "1 year"
+msgid_plural "%d years"
+msgstr[0] "%d год"
+msgstr[1] "%d года"
+msgstr[2] "%d лет"
+msgstr[3] "%d года"
+
+msgid "1 year left"
+msgid_plural "%d years left"
+msgstr[0] "Остался %d год"
+msgstr[1] "Осталось %d года"
+msgstr[2] "Осталось %d лет"
+msgstr[3] "Осталось %d года"
+
+msgid "Account paid until %(expiry)s."
+msgstr "Учетная запись оплачена до %(expiry)s."
+
+msgid "Account settings"
+msgstr "Настройки учетной записи"
+
+msgid "Any"
+msgstr "Все"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "BETA"
+msgstr "БЕТА"
+
+msgid "BLOCKED CONNECTION"
+msgstr "ПОДКЛЮЧЕНИЕ ЗАБЛОКИРОВАНО"
+
+msgid "Blocking internet"
+msgstr "Блокируется доступ в Интернет"
+
+msgid "Buy credit"
+msgstr "Пополнить баланс"
+
+msgid "Buy more credit"
+msgstr "Пополнить баланс"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Connect"
+msgstr "Подключить"
+
+msgid "Connected"
+msgstr "Подключено"
+
+msgid "Connecting"
+msgstr "Идет подключение"
+
+#. Creating a secure connection that isn't breakable by quantum computers.
+msgid "CREATING QUANTUM SECURE CONNECTION"
+msgstr "СОЗДАНИЕ ПОДКЛЮЧЕНИЯ С ЗАЩИТОЙ ОТ КВАНТОВЫХ АТАК"
+
+msgid "CREATING SECURE CONNECTION"
+msgstr "СОЗДАНИЕ ЗАЩИЩЕННОГО ПОДКЛЮЧЕНИЯ"
+
+msgid "Custom"
+msgstr "Пользовательский"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Disable"
+msgstr "Отключить"
+
+msgid "Disconnect"
+msgstr "Отключить"
+
+msgid "Disconnect & quit"
+msgstr "Отключиться и выйти"
+
+msgid "Disconnected"
+msgstr "Разъединено"
+
+msgid "Disconnecting"
+msgstr "Отключение"
+
+msgid "Dismiss"
+msgstr "Закрыть"
+
+msgid "Enable anyway"
+msgstr "Всё равно включить"
+
+msgid "FAILED TO SECURE CONNECTION"
+msgstr "НЕ УДАЛОСЬ УСТАНОВИТЬ БЕЗОПАСНОЕ ПОДКЛЮЧЕНИЕ"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Go to System Settings"
+msgstr "Перейти в системные настройки"
+
+#. This is a button which closes a dialog.
+msgid "Got it!"
+msgstr "Понятно!"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "less than a day"
+msgstr "менее суток"
+
+msgid "less than a day left"
+msgstr "осталось менее суток"
+
+msgid "Next"
+msgstr "Далее"
+
+msgid "No result for <b>%(searchTerm)s</b>."
+msgstr "По запросу <b>%(searchTerm)s</b> ничего не найдено."
+
+msgid "Off"
+msgstr "Выключен"
+
+msgid "On"
+msgstr "Включен"
+
+msgid "Open URL"
+msgstr "Открыть URL"
+
+#. The connection is secure and isn't breakable by quantum computers.
+msgid "QUANTUM SECURE CONNECTION"
+msgstr "ПОДКЛЮЧЕНИЕ С ЗАЩИТОЙ ОТ КВАНТОВЫХ АТАК"
+
+msgid "Quit"
+msgstr "Выйти"
+
+msgid "Reconnect"
+msgstr "Переподключить"
+
+msgid "Search for..."
+msgstr "Поиск..."
+
+msgid "SECURE CONNECTION"
+msgstr "ЗАЩИЩЕННОЕ ПОДКЛЮЧЕНИЕ"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "System default"
+msgstr "Системные настройки по умолчанию"
+
+msgid "TCP"
+msgstr "TCP"
+
+#. Warning text in a dialog that is displayed after a setting is toggled.
+msgid "This setting increases latency. Use only if needed."
+msgstr "Этот параметр увеличивает задержку. Используйте только в случае необходимости."
+
+msgid "Troubleshoot"
+msgstr "Устранить неполадки"
+
+msgid "Try a different search."
+msgstr "Измените условие поиска."
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "Unblock"
+msgstr "Разблокировать"
+
+msgid "UNSECURED CONNECTION"
+msgstr "НЕЗАЩИЩЕННОЕ ПОДКЛЮЧЕНИЕ"
+
+msgctxt "accessibility"
+msgid "%(title)s, View loaded"
+msgstr "%(title)s, представление загружено"
+
+msgctxt "accessibility"
+msgid "Close notification"
+msgstr "Закрыть уведомление"
+
+msgctxt "accessibility"
+msgid "Collapse %(location)s"
+msgstr "Свернуть %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe a button
+#. which copies the account number to the clipboard.
+msgctxt "accessibility"
+msgid "Copy account number"
+msgstr "Копировать номер учетной записи"
+
+msgctxt "accessibility"
+msgid "Expand %(location)s"
+msgstr "Развернуть %(location)s"
+
+msgctxt "accessibility"
+msgid "Forget %(accountToken)s"
+msgstr "Забыть %(accountToken)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which obscures the account number.
+msgctxt "accessibility"
+msgid "Hide account number"
+msgstr "Скрыть номер учетной записи"
+
+msgctxt "accessibility"
+msgid "info"
+msgstr "информация"
+
+#. This is used by screenreaders to communicate the login button.
+msgctxt "accessibility"
+msgid "Login"
+msgstr "Вход"
+
+msgctxt "accessibility"
+msgid "More information"
+msgstr "Подробнее"
+
+msgctxt "accessibility"
+msgid "Opens externally"
+msgstr "Открыть в браузере"
+
+#. Button action description provided to accessibility tools such as screen
+#. readers.
+#. Available placeholders:
+#. %(deviceName)s - The device name to remove.
+msgctxt "accessibility"
+msgid "Remove device named %(deviceName)s"
+msgstr "Удалить устройство «%(deviceName)s»"
+
+msgctxt "accessibility"
+msgid "Remove item"
+msgstr "Удалить элемент"
+
+msgctxt "accessibility"
+msgid "Select location. Current location is %(location)s"
+msgstr "Выбрать местоположение. Текущее местоположение %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which unobscures the account number.
+msgctxt "accessibility"
+msgid "Show account number"
+msgstr "Показать номер учетной записи"
+
+#. Title label in navigation bar
+msgctxt "account-view"
+msgid "Account"
+msgstr "Учетная запись"
+
+msgctxt "account-view"
+msgid "Account number"
+msgstr "Номер учетной записи"
+
+msgctxt "account-view"
+msgid "Currently unavailable"
+msgstr "Сейчас недоступно"
+
+msgctxt "account-view"
+msgid "Log out"
+msgstr "Выйти"
+
+msgctxt "account-view"
+msgid "OUT OF TIME"
+msgstr "ЗАКОНЧИЛОСЬ ВРЕМЯ"
+
+msgctxt "account-view"
+msgid "Paid until"
+msgstr "Оплачено до"
+
+msgctxt "auth-failure"
+msgid "Blocking internet: account is out of time"
+msgstr "Интернет блокируется: время на учетной записи вышло"
+
+msgctxt "auth-failure"
+msgid "Too many simultaneous connections on this account. Disconnect another device or try connecting again shortly."
+msgstr "Слишком много одновременных подключений с этой учетной записи. Отключите другое устройство или попробуйте подключиться еще раз через некоторое время."
+
+msgctxt "auth-failure"
+msgid "Unable to authenticate account. Please send a problem report."
+msgstr "Не удается произвести аутентификацию учетной записи. Отправьте сообщение о проблеме."
+
+msgctxt "auth-failure"
+msgid "You are logged in with an invalid account number. Please log out and try another one."
+msgstr "Вы вошли в систему под недействительным номером учетной записи. Выйдите из системы и попробуйте еще раз."
+
+msgctxt "changelog"
+msgid "Changes in this version:"
+msgstr "Изменения в этой версии:"
+
+#. The selected location label displayed on the main view, when a user selected a specific host to connect to.
+#. Example: Malmö (se-mma-001)
+#. Available placeholders:
+#. %(city)s - a city name
+#. %(hostname)s - a hostname
+msgctxt "connect-container"
+msgid "%(city)s (%(hostname)s)"
+msgstr "%(city)s (%(hostname)s)"
+
+msgctxt "connect-view"
+msgid "Congrats!"
+msgstr "Поздравляем!"
+
+msgctxt "connect-view"
+msgid "Disconnect"
+msgstr "Отключить"
+
+msgctxt "connect-view"
+msgid "Either buy credit on our website or redeem a voucher."
+msgstr "Пополните баланс у нас на сайте или погасите ваучер."
+
+msgctxt "connect-view"
+msgid "Enter voucher code"
+msgstr "Введите код ваучера"
+
+msgctxt "connect-view"
+msgid "Go ahead and start using the app to begin reclaiming your online privacy."
+msgstr "Начните использовать приложение и верните себе право на конфиденциальность в Интернете."
+
+msgctxt "connect-view"
+msgid "Here’s your account number. Save it!"
+msgstr "Вот номер вашей учетной записи. Сохраните его!"
+
+msgctxt "connect-view"
+msgid "Learn about privacy"
+msgstr "Подробнее о конфиденциальности"
+
+msgctxt "connect-view"
+msgid "Out of time"
+msgstr "Закончилось время"
+
+msgctxt "connect-view"
+msgid "Redeem voucher"
+msgstr "Погасить ваучер"
+
+msgctxt "connect-view"
+msgid "Remember, turning it off will allow network traffic while the VPN is disconnected until you turn it back on under Advanced settings."
+msgstr "Внимание: если отключить этот параметр, то сетевой трафик при отсутствии VPN-подключения будет идти без ограничений. Чтобы ограничить трафик в отсутствие VPN, нужно будет вновь активировать этот параметр в дополнительных настройках."
+
+msgctxt "connect-view"
+msgid "Start using the app"
+msgstr "Начать использовать приложение"
+
+msgctxt "connect-view"
+msgid "Time was successfully added"
+msgstr "Время добавлено"
+
+msgctxt "connect-view"
+msgid "To add more, you will need to disconnect and access the Internet with an unsecure connection."
+msgstr "Чтобы добавить время, необходимо отключиться, а затем выйти в Интернет по незащищенному соединению."
+
+msgctxt "connect-view"
+msgid "To continue your journey as a privacy ninja, visit our website to pick up other privacy-friendly habits and tools."
+msgstr "На нашем сайте вы сможете узнать о полезных привычках и инструментах, которые помогут повысить ваши навыки ниндзя приватности."
+
+msgctxt "connect-view"
+msgid "To start using the app, you first need to add time to your account."
+msgstr "Чтобы пользоваться приложением, нужно добавить время на учетную запись."
+
+msgctxt "connect-view"
+msgid "Voucher was successfully redeemed"
+msgstr "Ваучер погашен"
+
+msgctxt "connect-view"
+msgid "You have no more VPN time left on this account."
+msgstr "На этой учетной записи времени VPN не осталось."
+
+msgctxt "connect-view"
+msgid "You need to disable \"Lockdown mode\" in order to access the Internet to add time."
+msgstr "Для выхода в Интернет и добавления времени необходимо отключить «Режим блокировки»."
+
+msgctxt "connect-view"
+msgid "You’re all set!"
+msgstr "Готово!"
+
+#. The hostname line displayed below the country on the main screen
+#. Available placeholders:
+#. %(relay)s - the relay hostname
+#. %(entry)s - the entry relay hostname
+msgctxt "connection-info"
+msgid "%(relay)s via %(entry)s"
+msgstr "%(relay)s через %(entry)s"
+
+#. The tunnel type line displayed below the hostname line on the main screen
+#. Available placeholders:
+#. %(tunnelType)s - the tunnel type, i.e OpenVPN
+#. %(bridgeType)s - the bridge type, i.e Shadowsocks
+msgctxt "connection-info"
+msgid "%(tunnelType)s via %(bridgeType)s"
+msgstr "%(tunnelType)s через %(bridgeType)s"
+
+msgctxt "connection-info"
+msgid "In"
+msgstr "Вход"
+
+msgctxt "connection-info"
+msgid "Out"
+msgstr "Выход"
+
+#. Text displayed above button which logs out another device.
+#. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(deviceName)s - The name of the device to log out.
+msgctxt "device-management"
+msgid "Are you sure you want to log <b>%(deviceName)s</b> out?"
+msgstr "Действительно выйти из профиля на устройстве <b>%(deviceName)s</b>?"
+
+#. Button for continuing login process.
+msgctxt "device-management"
+msgid "Continue with login"
+msgstr "Войти"
+
+#. Label informing the user when a device was created.
+#. Available placeholders:
+#. %(createdDate)s - The creation date of the device.
+msgctxt "device-management"
+msgid "Created: %(createdDate)s"
+msgstr "Создано: %(createdDate)s"
+
+msgctxt "device-management"
+msgid "Device is inactive"
+msgstr "Устройство неактивно"
+
+msgctxt "device-management"
+msgid "Device name"
+msgstr "Имя устройства"
+
+#. A label that will display the newly created device name to inform the user
+#. about it.
+#. Available placeholders:
+#. %(deviceName)s - The name of the current device
+msgctxt "device-management"
+msgid "Device name: %(deviceName)s"
+msgstr "Имя устройства: %(deviceName)s"
+
+msgctxt "device-management"
+msgid "Failed to remove device"
+msgstr "Не удалось удалить устройство"
+
+msgctxt "device-management"
+msgid "Go to login"
+msgstr "Войти"
+
+msgctxt "device-management"
+msgid "Going to login will unblock the Internet on this device."
+msgstr "Вход в учетную запись разблокирует Интернет на этом устройстве."
+
+msgctxt "device-management"
+msgid "If you log out, the device and the device name is removed. When you log back in again, the device will get a new name."
+msgstr "Если вы выйдете, устройство и его имя удалятся. При повторном входе устройство получит новое имя."
+
+#. Confirmation button when logging out
+msgctxt "device-management"
+msgid "Log out anyway"
+msgstr "Всё равно выйти"
+
+msgctxt "device-management"
+msgid "Please log out of at least one by removing it from the list below. You can find the corresponding device name under the device’s Account settings."
+msgstr "Выйдите из учетной записи хотя бы на одном из устройств, удалив его из списка ниже. Имя устройства указано в настройках учетной записи."
+
+#. Page title informing user that enough devices has been removed to continue
+#. login process.
+msgctxt "device-management"
+msgid "Super!"
+msgstr "Отлично!"
+
+#. This is is a further explanation of what happens when logging out.
+msgctxt "device-management"
+msgid "The ports forwarded to this device will be deleted if you log out."
+msgstr "При выходе будет очищен список перенаправленных портов для этого устройства."
+
+msgctxt "device-management"
+msgid "This is the name assigned to the device. Each device logged in on a Mullvad account gets a unique name that helps you identify it when you manage your devices in the app or on the website."
+msgstr "Это имя, присвоенное устройству. Каждое устройство, подключенное к учетной записи Mullvad, получает уникальное имя, которое помогает вам идентифицировать его при управлении устройствами в приложении или на сайте."
+
+#. Further information about consequences of logging out device.
+msgctxt "device-management"
+msgid "This will delete all forwarded ports. Local settings will be saved."
+msgstr "Будут удалены все перенаправленные порты. Локальные настройки сохранятся."
+
+msgctxt "device-management"
+msgid "Time left: %(timeLeft)s"
+msgstr "Осталось времени: %(timeLeft)s"
+
+#. Page title informing user that the login failed due to too many registered
+#. devices on account.
+msgctxt "device-management"
+msgid "Too many devices"
+msgstr "Слишком много устройств"
+
+#. Confirmation button when logging out other device.
+msgctxt "device-management"
+msgid "Yes, log out device"
+msgstr "Выйти из профиля на устройстве"
+
+msgctxt "device-management"
+msgid "You can have up to 5 devices logged in on one Mullvad account."
+msgstr "К одной учетной записи Mullvad можно подключить до 5 устройств."
+
+msgctxt "device-management"
+msgid "You can now continue logging in on this device."
+msgstr "Теперь можно войти в учетную запись на этом устройстве."
+
+msgctxt "device-management"
+msgid "You have removed this device. To connect again, you will need to log back in."
+msgstr "Вы удалили это устройство. Чтобы снова подключиться, нужно будет выполнить вход."
+
+#. The message displayed to the user in case of critical error in the GUI
+#. Available placeholders:
+#. %(email)s - support email
+msgctxt "error-boundary-view"
+msgid "Something went wrong. Please contact us at %(email)s"
+msgstr "Ошибка. Свяжитесь с нами по адресу %(email)s"
+
+#. Title label in navigation bar
+msgctxt "filter-nav"
+msgid "Filter"
+msgstr "Фильтр"
+
+msgctxt "filter-view"
+msgid "All providers"
+msgstr "Все провайдеры"
+
+msgctxt "filter-view"
+msgid "Mullvad owned only"
+msgstr "Только принадлежащие Mullvad"
+
+msgctxt "filter-view"
+msgid "Owned"
+msgstr "Во владении"
+
+msgctxt "filter-view"
+msgid "Ownership"
+msgstr "Собственность"
+
+msgctxt "filter-view"
+msgid "Providers"
+msgstr "Провайдеры"
+
+msgctxt "filter-view"
+msgid "Rented"
+msgstr "Арендованные"
+
+msgctxt "filter-view"
+msgid "Rented only"
+msgstr "Только арендованные"
+
+msgctxt "in-app-notifications"
+msgid "\"%(lockdownModeSettingName)s\" is enabled."
+msgstr "Включена опция «%(lockdownModeSettingName)s»."
+
+msgctxt "in-app-notifications"
+msgid "%(duration)s. Buy more credit."
+msgstr "%(duration)s. Пополните баланс."
+
+msgctxt "in-app-notifications"
+msgid "ACCOUNT CREDIT EXPIRES SOON"
+msgstr "ЗАКАНЧИВАЕТСЯ БАЛАНС НА УЧЕТНОЙ ЗАПИСИ"
+
+msgctxt "in-app-notifications"
+msgid "APP IS OUT OF SYNC"
+msgstr "ПРИЛОЖЕНИЕ НЕ СИНХРОНИЗИРОВАНО"
+
+msgctxt "in-app-notifications"
+msgid "BETA UPDATE AVAILABLE"
+msgstr "ДОСТУПНА БЕТА-ВЕРСИЯ"
+
+msgctxt "in-app-notifications"
+msgid "BLOCKING INTERNET"
+msgstr "ИНТЕРНЕТ ЗАБЛОКИРОВАН"
+
+#. The in-app banner displayed to the user when the app update is available.
+msgctxt "in-app-notifications"
+msgid "Install the latest app version to stay up to date."
+msgstr "Установите новейшую версию приложения, чтобы ничего не пропустить."
+
+msgctxt "in-app-notifications"
+msgid "NETWORK TRAFFIC MIGHT BE LEAKING"
+msgstr "ВОЗМОЖНА УТЕЧКА СЕТЕВОГО ТРАФИКА"
+
+msgctxt "in-app-notifications"
+msgid "NEW DEVICE CREATED"
+msgstr "СОЗДАНО НОВОЕ УСТРОЙСТВО"
+
+msgctxt "in-app-notifications"
+msgid "Please quit and restart the app."
+msgstr "Закройте и перезапустите приложение."
+
+msgctxt "in-app-notifications"
+msgid "Send problem report"
+msgstr "Отправить сообщение о проблеме"
+
+#. The in-app banner displayed to the user when the app beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "in-app-notifications"
+msgid "Try out the newest beta version (%(version)s)."
+msgstr "Попробуйте новейшую бета-версию (%(version)s)."
+
+msgctxt "in-app-notifications"
+msgid "UNSUPPORTED VERSION"
+msgstr "НЕПОДДЕРЖИВАЕМАЯ ВЕРСИЯ"
+
+msgctxt "in-app-notifications"
+msgid "UPDATE AVAILABLE"
+msgstr "ЕСТЬ ОБНОВЛЕНИЕ"
+
+msgctxt "in-app-notifications"
+msgid "Welcome, this device is now called <b>%(deviceName)s</b>. For more details see the info button in Account."
+msgstr "Добро пожаловать, теперь это устройство называется <b>%(deviceName)s</b>. Для получения более подробной нажмите на кнопку «Информация» в учетной записи."
+
+msgctxt "launch-view"
+msgid "Connecting to Mullvad system service..."
+msgstr "Подключение к системному сервису Mullvad..."
+
+msgctxt "launch-view"
+msgid "Permission for the Mullvad VPN service has been revoked. Please go to System Settings and allow Mullvad VPN under the “Allow in the Background” setting."
+msgstr "Разрешение для службы Mullvad VPN было отозвано. Зайдите в системные настройки и включите для Mullvad VPN параметр «Разрешить в фоновом режиме»."
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+#. Available placeholder:
+#. %(lockdownModeSettingName)s - The translation of "Lockdown mode"
+msgctxt "login-view"
+msgid "<b>%(lockdownModeSettingName)s</b> is enabled. Disable it to unblock your connection."
+msgstr "Включена опция <b>%(lockdownModeSettingName)s</b>. Отключите ее, чтобы разблокировать соединение."
+
+msgctxt "login-view"
+msgid "Account created"
+msgstr "Учетная запись создана"
+
+msgctxt "login-view"
+msgid "Checking account number"
+msgstr "Проверка номера учетной записи"
+
+msgctxt "login-view"
+msgid "Create account"
+msgstr "Создать учетную запись"
+
+msgctxt "login-view"
+msgid "Creating account..."
+msgstr "Создание учетной записи..."
+
+msgctxt "login-view"
+msgid "Don’t have an account number?"
+msgstr "У вас нет номера учетной записи?"
+
+msgctxt "login-view"
+msgid "Enter your account number"
+msgstr "Введите номер учетной записи"
+
+msgctxt "login-view"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "login-view"
+msgid "Failed to create account"
+msgstr "Не удалось создать учетную запись"
+
+#. Error message shown above login input when trying to login but the app fails
+#. to fetch the list of registered devices.
+msgctxt "login-view"
+msgid "Failed to fetch list of devices"
+msgstr "Не удалось получить список устройств"
+
+msgctxt "login-view"
+msgid "Finishing upgrade."
+msgstr "Завершение обновления."
+
+#. Error message shown above login input when trying to login with a
+#. non-existent account number.
+msgctxt "login-view"
+msgid "Invalid account number"
+msgstr "Недействительный номер учетной записи"
+
+msgctxt "login-view"
+msgid "Logged in"
+msgstr "Вход выполнен"
+
+msgctxt "login-view"
+msgid "Logging in..."
+msgstr "Выполняется вход..."
+
+msgctxt "login-view"
+msgid "Login"
+msgstr "Вход"
+
+msgctxt "login-view"
+msgid "Login failed"
+msgstr "Ошибка входа"
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+msgctxt "login-view"
+msgid "Our kill switch is currently blocking your connection."
+msgstr "Функция аварийного отключения блокирует соединение."
+
+msgctxt "login-view"
+msgid "Please wait"
+msgstr "Подождите"
+
+#. Error message shown above login input when trying to login to an account
+#. with too many registered devices.
+msgctxt "login-view"
+msgid "Too many devices"
+msgstr "Слишком много устройств"
+
+msgctxt "login-view"
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+msgctxt "login-view"
+msgid "Upgrading..."
+msgstr "Обновление…"
+
+msgctxt "login-view"
+msgid "Valid account number"
+msgstr "Действительный номер учетной записи"
+
+#. Title label in navigation bar
+msgctxt "navigation-bar"
+msgid "Settings"
+msgstr "Настройки"
+
+#. The system notification displayed to the user when the account credit is close to expiry.
+#. Available placeholder:
+#. %(duration)s - remaining time, e.g. "2 days"
+msgctxt "notifications"
+msgid "Account credit expires in %(duration)s. Buy more credit."
+msgstr "Баланс на учетной записи заканчивается через %(duration)s. Пополните баланс."
+
+msgctxt "notifications"
+msgid "Account is out of time"
+msgstr "Время на учетной записи вышло"
+
+msgctxt "notifications"
+msgid "App is out of sync. Please quit and restart."
+msgstr "Приложение не синхронизировано. Закройте и перезапустите его."
+
+#. The system notification that notifies the user when a beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "notifications"
+msgid "Beta update available. Try out the newest beta version (%(version)s)."
+msgstr "Доступно обновление до бета-версии. Попробуйте новейшую бета-версию (%(version)s)."
+
+msgctxt "notifications"
+msgid "Buy more"
+msgstr "Купить еще"
+
+msgctxt "notifications"
+msgid "Connected"
+msgstr "Подключено"
+
+#. The message showed when a server has been connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connected to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connected to %(location)s"
+msgstr "Подключено: %(location)s"
+
+msgctxt "notifications"
+msgid "Connecting"
+msgstr "Идет подключение"
+
+#. The message showed when a server is being connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connecting to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connecting to %(location)s"
+msgstr "Подключение: %(location)s"
+
+msgctxt "notifications"
+msgid "Could not configure IPv6. Disable it in the app or enable it on your device."
+msgstr "Не удается сконфигурировать IPv6. Отключите этот протокол в приложении или включите на устройстве."
+
+msgctxt "notifications"
+msgid "Disconnected and unsecure"
+msgstr "Отключено и не защищено"
+
+msgctxt "notifications"
+msgid "Lockdown mode active, connection blocked"
+msgstr "Режим блокировки активирован, соединение заблокировано"
+
+msgctxt "notifications"
+msgid "No servers match your settings, try changing server or other settings."
+msgstr "Нет серверов, соответствующих вашим настройкам. Попробуйте изменить сервер или задайте другие настройки."
+
+msgctxt "notifications"
+msgid "Reconnecting"
+msgstr "Идет переподключение"
+
+msgctxt "notifications"
+msgid "The apps excluded with %(splitTunneling)s might not work properly right now."
+msgstr "Приложения, исключенные с помощью функции «%(splitTunneling)s», могут сейчас работать неправильно."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules."
+msgstr "Не удалось применить правила брандмауэра."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try temporarily disabling any third-party antivirus or security software."
+msgstr "Не удалось применить правила брандмауэра. Попробуйте временно отключить сторонние антивирусы и приложения, обеспечивающее безопасность."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try updating your kernel."
+msgstr "Не удалось применить правила брандмауэра. Попробуйте обновить ядро."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Please troubleshoot or send a problem report."
+msgstr "Не удалось заблокировать весь сетевой трафик. Устраните неполадки или отправьте сообщение о проблеме."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try temporarily disabling any third-party antivirus or security software or send a problem report."
+msgstr "Не удалось заблокировать весь сетевой трафик. Попробуйте временно отключить сторонние антивирусы и приложения, обеспечивающее безопасность, или отправьте сообщение о проблеме."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try updating your kernel or send a problem report."
+msgstr "Не удалось заблокировать весь сетевой трафик. Попробуйте обновить ядро или отправьте сообщение о проблеме."
+
+msgctxt "notifications"
+msgid "Unable to communicate with Mullvad kernel driver. Try reconnecting or send a problem report."
+msgstr "Не удалось связаться с драйвером ядра Mullvad. Попробуйте подключиться заново или отправьте сообщение о проблеме."
+
+msgctxt "notifications"
+msgid "Unable to resolve host of custom tunnel. Try changing your settings."
+msgstr "Не удалось преобразовать имя узла пользовательского туннеля. Попробуйте изменить настройки."
+
+msgctxt "notifications"
+msgid "Unable to set system DNS server. Please send a problem report."
+msgstr "Не удалось установить системный DNS-сервер. Отправьте сообщение о проблеме."
+
+msgctxt "notifications"
+msgid "Unable to start tunnel connection. Please send a problem report."
+msgstr "Не удалось запустить туннельное соединение. Отправьте сообщение о проблеме."
+
+msgctxt "notifications"
+msgid "Update available. Install the latest app version to stay up to date"
+msgstr "Есть обновление. Установите новейшую версию приложения, чтобы ничего не пропустить"
+
+msgctxt "notifications"
+msgid "Upgrade"
+msgstr "Обновить"
+
+#. Available placeholders:
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "notifications"
+msgid "Valid %(wireguard)s key is missing. Manage keys under Advanced settings."
+msgstr "Не найден корректный ключ %(wireguard)s. Управлять ключами можно в разделе «Дополнительные настройки»."
+
+msgctxt "notifications"
+msgid "Your device is offline. The tunnel will automatically connect once your device is back online."
+msgstr "Устройство отключено от Интернета. Туннельное соединение автоматически запустится, как только ваше устройство подключится к Интернету."
+
+#. The in-app banner and system notification which are displayed to the user when the running app becomes unsupported.
+msgctxt "notifications"
+msgid "Your privacy might be at risk with this unsupported app version. Please update now."
+msgstr "Эта версия приложения не поддерживается, что может угрожать неприкосновенности ваших данных. Обновите приложение."
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(openvpn)s - Will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-nav"
+msgid "%(openvpn)s settings"
+msgstr "Настройки %(openvpn)s"
+
+#. %(openvpn)s will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "Настройки %(openvpn)s"
+
+#. The title for the port selector section.
+#. Available placeholders:
+#. %(portType)s - a selected protocol (either TCP or UDP)
+msgctxt "openvpn-settings-view"
+msgid "%(portType)s port"
+msgstr "Порт %(portType)s"
+
+#. The title for the shadowsocks bridge selector section.
+msgctxt "openvpn-settings-view"
+msgid "Bridge mode"
+msgstr "Режим моста"
+
+#. This is used as a description for the bridge mode
+#. setting.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "Helps circumvent censorship, by routing your traffic through a bridge server before reaching an %(openvpn)s server. Obfuscation is added to make fingerprinting harder."
+msgstr "Помогает обойти цензуру: трафик, прежде чем попасть на сервер %(openvpn)s, направляется через сервер-мост. Чтобы затруднить создание цифрового отпечатка, выполняется обфускация."
+
+msgctxt "openvpn-settings-view"
+msgid "Mssfix"
+msgstr "Mssfix"
+
+#. The hint displayed below the Mssfix input field.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with "OpenVPN"
+#. %(max)d - the maximum possible mssfix value
+#. %(min)d - the minimum possible mssfix value
+msgctxt "openvpn-settings-view"
+msgid "Set %(openvpn)s MSS value. Valid range: %(min)d - %(max)d."
+msgstr "Установите значение MSS для %(openvpn)s. Диапазон значений: %(min)d–%(max)d."
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(transportProtocol)s - the name of the transport protocol setting
+#. %(automat)s - the translation of "Automatic"
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, change <b>%(transportProtocol)s</b> to <b>%(automatic)s</b> or <b>%(tcp)s</b>."
+msgstr "Чтобы активировать режим моста, измените <b>%(transportProtocol)s</b> на <b>%(automatic)s</b> или <b>%(tcp)s</b>."
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, go back and change <b>%(tunnelProtocol)s</b> to <b>%(openvpn)s</b>."
+msgstr "Чтобы активировать режим моста, вернитесь и измените <b>%(tunnelProtocol)s</b> на <b>%(openvpn)s</b>."
+
+#. This is used to instruct users how to make UDP mode
+#. available.
+msgctxt "openvpn-settings-view"
+msgid "To activate UDP, change <b>Bridge mode</b> to <b>Automatic</b> or <b>Off</b>."
+msgstr "Чтобы активировать UDP, измените <b>Режим моста</b> на <b>Автоматически</b> или <b>Выключен</b>."
+
+msgctxt "openvpn-settings-view"
+msgid "Transport protocol"
+msgstr "Транспортный протокол"
+
+msgctxt "redeem-voucher-alert"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "redeem-voucher-alert"
+msgid "Enter voucher code"
+msgstr "Введите код ваучера"
+
+msgctxt "redeem-voucher-alert"
+msgid "Redeem voucher"
+msgstr "Погасить ваучер"
+
+msgctxt "redeem-voucher-view"
+msgid "An error occurred."
+msgstr "Произошла ошибка."
+
+msgctxt "redeem-voucher-view"
+msgid "Redeem"
+msgstr "Погасить"
+
+msgctxt "redeem-voucher-view"
+msgid "Verifying voucher..."
+msgstr "Идет проверка ваучера…"
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code has already been used."
+msgstr "Этот код ваучера уже использовался."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code is invalid."
+msgstr "Код ваучера недействителен."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher was successfully redeemed."
+msgstr "Ваучер погашен."
+
+#. Title label in navigation bar
+msgctxt "select-language-nav"
+msgid "Select language"
+msgstr "Выбрать язык"
+
+#. Title label in navigation bar
+msgctxt "select-location-nav"
+msgid "Select location"
+msgstr "Выбор местоположения"
+
+#. This is used for appending information about a location.
+#. E.g. "Gothenburg (Entry)" if Gothenburg has been selected as the entrypoint.
+#. Available placeholders:
+#. %(location)s - Translated location name
+#. %(info)s - Information about the location
+msgctxt "select-location-view"
+msgid "%(location)s (%(info)s)"
+msgstr "%(location)s (%(info)s)"
+
+msgctxt "select-location-view"
+msgid "Entry"
+msgstr "Вход"
+
+msgctxt "select-location-view"
+msgid "Exit"
+msgstr "Выход"
+
+msgctxt "select-location-view"
+msgid "Filtered:"
+msgstr "Фильтр:"
+
+msgctxt "select-location-view"
+msgid "Providers: %(numberOfProviders)d"
+msgstr "провайдеры: %(numberOfProviders)d"
+
+msgctxt "select-location-view"
+msgid "The app selects a random bridge server, but servers have a higher probability the closer they are to you."
+msgstr "Приложение выбирает случайный сервер-мост, но это могут быть серверы, близкие к вашему текущему местоположению."
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point (a bridge server) and the exit point (a VPN server)."
+msgstr "При подключении трафик будет направляться через два безопасных местоположения: точку входа (сервер-мост) и точку выхода (VPN-сервер)."
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point and the exit point (needs to be two different VPN servers)."
+msgstr "При подключении трафик будет направляться через два безопасных местоположения: точку входа и точку выхода (нужны два разных VPN-сервера)."
+
+msgctxt "settings-view"
+msgid "App is out of sync. Please quit and restart."
+msgstr "Приложение не синхронизировано. Закройте и перезапустите его."
+
+msgctxt "settings-view"
+msgid "App version"
+msgstr "Версия приложения"
+
+#. Navigation button to the 'Split tunneling' view
+msgctxt "settings-view"
+msgid "Split tunneling"
+msgstr "Раздельное туннелирование"
+
+msgctxt "settings-view"
+msgid "Support"
+msgstr "Поддержка"
+
+msgctxt "settings-view"
+msgid "Update available. Install the latest app version to stay up to date."
+msgstr "Доступно обновление. Установите последнюю версию приложения, чтобы ничего не пропустить."
+
+#. Navigation button to the 'User interface settings' view
+msgctxt "settings-view"
+msgid "User interface settings"
+msgstr "Настройки интерфейса"
+
+#. Navigation button to the 'VPN settings' view
+msgctxt "settings-view"
+msgid "VPN settings"
+msgstr "Настройки VPN"
+
+msgctxt "split-tunneling-view"
+msgid "%(applicationName)s is problematic and can’t be excluded from the VPN tunnel."
+msgstr "%(applicationName)s является проблемным и не может быть исключено из туннеля VPN."
+
+msgctxt "split-tunneling-view"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "split-tunneling-view"
+msgid "All apps"
+msgstr "Все приложения"
+
+msgctxt "split-tunneling-view"
+msgid "Choose the apps you want to exclude from the VPN tunnel."
+msgstr "Выберите приложения, которые нужно исключить из туннеля VPN."
+
+msgctxt "split-tunneling-view"
+msgid "Click on an app to launch it. Its traffic will bypass the VPN tunnel until you close it."
+msgstr "Щелкните по ярлыку приложения для запуска. Трафик приложения будет обходить туннель VPN, пока вы не закроете его."
+
+msgctxt "split-tunneling-view"
+msgid "Excluded apps"
+msgstr "Исключенные приложения"
+
+msgctxt "split-tunneling-view"
+msgid "Find another app"
+msgstr "Найти другое приложение"
+
+msgctxt "split-tunneling-view"
+msgid "If it’s already running, close %(applicationName)s before launching it from here. Otherwise it might not be excluded from the VPN tunnel."
+msgstr "Если приложение уже работает, закройте %(applicationName)s, и только после этого запускайте его отсюда. В противном случае его не удастся исключить из туннеля VPN."
+
+msgctxt "split-tunneling-view"
+msgid "Launch"
+msgstr "Запустить"
+
+#. This error message is shown if the user tries to launch a Linux desktop
+#. entry file that doesn't contain the required 'Exec' value.
+msgctxt "split-tunneling-view"
+msgid "Please send a problem report."
+msgstr "Отправьте сообщение о проблеме."
+
+#. This error message is shown if the user tries to launch an app that
+#. doesn't exist.
+#. This error message is shown if an application fails during startup.
+msgctxt "split-tunneling-view"
+msgid "Please try again or send a problem report."
+msgstr "Повторите попытку или отправьте сообщение о проблеме."
+
+#. Error message showed in a dialog when an application fails to launch.
+msgctxt "split-tunneling-view"
+msgid "Unable to launch selection. %(detailedErrorMessage)s"
+msgstr "Не удалось запустить выбор. %(detailedErrorMessage)s"
+
+msgctxt "support-view"
+msgid "Beta program"
+msgstr "Бета-программа"
+
+msgctxt "support-view"
+msgid "Continue anyway"
+msgstr "Всё равно продолжить"
+
+msgctxt "support-view"
+msgid "Edit message"
+msgstr "Изменить сообщение"
+
+msgctxt "support-view"
+msgid "Enable to get notified when new beta versions of the app are released."
+msgstr "Включить оповещения о выходе новых бета-версий приложения."
+
+msgctxt "support-view"
+msgid "Failed to send"
+msgstr "Ошибка отправки"
+
+#. Link to the webpage
+msgctxt "support-view"
+msgid "FAQs & Guides"
+msgstr "Ответы на вопросы и руководства"
+
+#. The message displayed to the user after submitting the problem report, given that the user left his or her email for us to reach back.
+#. Available placeholders:
+#. %(email)s
+msgctxt "support-view"
+msgid "If needed we will contact you at %(email)s"
+msgstr "При необходимости мы свяжемся с вами по адресу %(email)s"
+
+msgctxt "support-view"
+msgid "If you exit the form and try again later, the information you already entered will still be here."
+msgstr "Если вы выйдете из формы и повторите попытку позже, информация, которую вы уже ввели, сохранится."
+
+#. Title label in navigation bar
+#. Navigation button to the 'Report a problem' help view
+msgctxt "support-view"
+msgid "Report a problem"
+msgstr "Сообщение о проблеме"
+
+msgctxt "support-view"
+msgid "Send"
+msgstr "Отправить"
+
+msgctxt "support-view"
+msgid "Send anyway"
+msgstr "Все равно отправить"
+
+msgctxt "support-view"
+msgid "Sending..."
+msgstr "Идет отправка..."
+
+msgctxt "support-view"
+msgid "Sent"
+msgstr "Отправлено"
+
+#. Title label in navigation bar
+msgctxt "support-view"
+msgid "Support"
+msgstr "Поддержка"
+
+msgctxt "support-view"
+msgid "Thanks!"
+msgstr "Спасибо!"
+
+msgctxt "support-view"
+msgid "This option is unavailable while using a beta version."
+msgstr "Параметр недоступен в бета-версии."
+
+msgctxt "support-view"
+msgid "To assist you better, please write in English or Swedish and include which country you are connecting from."
+msgstr "Чтобы мы могли быстрее решить проблему, напишите нам на английском или шведском и укажите, из какой страны вы подключаетесь."
+
+msgctxt "support-view"
+msgid "To help you more effectively, your app’s log file will be attached to this message. Your data will remain secure and private, as it is anonymised before being sent over an encrypted channel."
+msgstr "Чтобы помощь была эффективнее, к этому сообщению будет прикреплен файл журнала из приложения. Ваши данные останутся защищенными и конфиденциальными: они обезличиваются и отправляются по зашифрованному каналу."
+
+msgctxt "support-view"
+msgid "Try again"
+msgstr "Повторить попытку"
+
+msgctxt "support-view"
+msgid "Upgrade app"
+msgstr "Обновить приложение"
+
+msgctxt "support-view"
+msgid "View app logs"
+msgstr "Открыть журналы"
+
+msgctxt "support-view"
+msgid "We will look into this."
+msgstr "Мы рассмотрим эту проблему."
+
+msgctxt "support-view"
+msgid "You are about to send the problem report without a way for us to get back to you. If you want an answer to your report you will have to enter an email address."
+msgstr "Вы собираетесь отправить отчет о проблеме, не оставив контакты. Если вы хотите получить ответ, введите свой адрес электронной почты."
+
+msgctxt "support-view"
+msgid "You are using an old version of the app. Please upgrade and see if the problem still exists before sending a report."
+msgstr "Вы используете старую версию приложения. Прежде чем сообщать о проблеме, обновите приложение и проверьте, не исчезла ли она."
+
+msgctxt "support-view"
+msgid "Your email (optional)"
+msgstr "Ваша электронная почта (необязательно)"
+
+msgctxt "tray-icon-context-menu"
+msgid "Disconnected from system service"
+msgstr "Отключено от системной службы"
+
+msgctxt "tray-icon-context-menu"
+msgid "Open %(mullvadVpn)s"
+msgstr "Открыть %(mullvadVpn)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "%(city)s, %(country)s"
+msgstr "%(city)s, %(country)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connected. %(location)s"
+msgstr "Подключено. %(location)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connecting. %(location)s"
+msgstr "Идет подключение. %(location)s"
+
+msgctxt "troubleshoot"
+msgid "If these steps do not work please send a problem report."
+msgstr "Если эти действия не помогли, отправьте сообщение о проблеме."
+
+msgctxt "troubleshoot"
+msgid "Make sure you have NF tables support."
+msgstr "Убедитесь, что у вас включена поддержка Nftables."
+
+msgctxt "troubleshoot"
+msgid "This error can happen when something other than Mullvad is actively updating the DNS."
+msgstr "Эта ошибка может произойти, когда стороннее приложение (не Mullvad) активно обновляет DNS."
+
+msgctxt "troubleshoot"
+msgid "This might be caused by an outdated kernel."
+msgstr "Причиной может быть устаревшее ядро."
+
+msgctxt "troubleshoot"
+msgid "Try reconnecting."
+msgstr "Попробуйте переподключиться."
+
+msgctxt "troubleshoot"
+msgid "Try restarting your device."
+msgstr "Попробуйте перезагрузить устройство."
+
+msgctxt "troubleshoot"
+msgid "Try to turn Wi-Fi Calling off in the FaceTime app settings and restart the Mac."
+msgstr "Попробуйте отключить вызовы по Wi-Fi в настройках приложения FaceTime и перезагрузите Mac."
+
+msgctxt "troubleshoot"
+msgid "Unable to communicate with Mullvad kernel driver."
+msgstr "Не удалось установить связь с драйвером ядра Mullvad."
+
+msgctxt "troubleshoot"
+msgid "Uninstall or disable other DNS, networking and ads/website blocking apps."
+msgstr "Удалите или отключите другие DNS, сетевые приложения и приложения для блокировки рекламы или сайтов."
+
+msgctxt "troubleshoot"
+msgid "Update your kernel."
+msgstr "Обновите ядро."
+
+msgctxt "tunnel-control"
+msgid "Secure my connection"
+msgstr "Защитить мое подключение"
+
+msgctxt "tunnel-control"
+msgid "Switch location"
+msgstr "Сменить местоположение"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable or disable system notifications. The critical notifications will always be displayed."
+msgstr "Включить или отключить системные уведомления. Критические уведомления будут отображаться в любом случае."
+
+msgctxt "user-interface-settings-view"
+msgid "Enable to move the app around as a free-standing window."
+msgstr "Возможность передвигать приложение на экране как незакрепленное окно."
+
+#. Navigation button to the 'Language' settings view
+msgctxt "user-interface-settings-view"
+msgid "Language"
+msgstr "Язык"
+
+msgctxt "user-interface-settings-view"
+msgid "Monochromatic tray icon"
+msgstr "Черно-белый значок в области уведомлений"
+
+msgctxt "user-interface-settings-view"
+msgid "Notifications"
+msgstr "Уведомления"
+
+msgctxt "user-interface-settings-view"
+msgid "Show only the tray icon when the app starts."
+msgstr "При запуске приложения показывать только значок в области уведомлений."
+
+msgctxt "user-interface-settings-view"
+msgid "Start minimized"
+msgstr "Запускать свернутым"
+
+msgctxt "user-interface-settings-view"
+msgid "Unpin app from taskbar"
+msgstr "Открепить приложение от панели задач"
+
+msgctxt "user-interface-settings-view"
+msgid "Use a monochromatic tray icon instead of a colored one."
+msgstr "Черно-белый значок в области уведомлений вместо цветного."
+
+#. Title label in navigation bar
+msgctxt "user-interface-settings-view"
+msgid "User interface settings"
+msgstr "Настройки интерфейса"
+
+#. %(openvpn)s will be replaced with the string "OpenVPN"
+msgctxt "vpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "Настройки %(openvpn)s"
+
+#. %(wireguard)s will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "Настройки %(wireguard)s"
+
+msgctxt "vpn-settings-view"
+msgid "Add a server"
+msgstr "Добавить сервер"
+
+msgctxt "vpn-settings-view"
+msgid "Add anyway"
+msgstr "Всё равно добавить"
+
+#. Label for settings that enables ad blocking.
+msgctxt "vpn-settings-view"
+msgid "Ads"
+msgstr "Реклама"
+
+#. Label for settings that enables block of adult content.
+msgctxt "vpn-settings-view"
+msgid "Adult content"
+msgstr "Контент для взрослых"
+
+msgctxt "vpn-settings-view"
+msgid "Attention: enabling this will always require a Mullvad VPN connection in order to reach the internet."
+msgstr "Внимание: при активации этой опции выход в Интернет будет возможен только через Mullvad VPN."
+
+msgctxt "vpn-settings-view"
+msgid "Auto-connect"
+msgstr "Автоподключение"
+
+msgctxt "vpn-settings-view"
+msgid "Automatically connect to a server when the app launches."
+msgstr "Автоматически подключаться к серверу при запуске приложения."
+
+#. This is displayed when the custom DNS setting is turned on which makes the block
+#. ads/trackers settings disabled. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(customDnsFeatureName)s - The name displayed next to the custom DNS toggle.
+msgctxt "vpn-settings-view"
+msgid "Disable <b>%(customDnsFeatureName)s</b> below to activate these settings."
+msgstr "Чтобы активировать эти параметры, отключите опцию <b>%(customDnsFeatureName)s</b> ниже."
+
+#. This is displayed when either or both of the block ads/trackers settings are
+#. turned on which makes the custom DNS setting disabled.
+#. Available placeholders:
+#. %(preferencesPageName)s - The page title showed on top in the preferences page.
+msgctxt "vpn-settings-view"
+msgid "Disable all <b>DNS content blockers</b> above to activate this setting."
+msgstr "Чтобы активировать эту опцию, отключите все <b>DNS-блокировщики контента</b>."
+
+msgctxt "vpn-settings-view"
+msgid "DNS content blockers"
+msgstr "DNS-блокировщики контента"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6"
+msgstr "Включить IPv6"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6 communication through the tunnel."
+msgstr "Включить передачу данных по IPv6 через туннель."
+
+#. The label next to the multihop settings toggle.
+msgctxt "vpn-settings-view"
+msgid "Enable multihop"
+msgstr "Многократные переходы"
+
+msgctxt "vpn-settings-view"
+msgid "Enable to add at least one DNS server."
+msgstr "Чтобы добавить как минимум один DNS-сервер, включите этот параметр."
+
+msgctxt "vpn-settings-view"
+msgid "Enter IP"
+msgstr "Введите IP-адрес"
+
+#. Label for settings that enables block of gamling related websites.
+msgctxt "vpn-settings-view"
+msgid "Gambling"
+msgstr "Азартные игры"
+
+#. Description for multihop settings toggle.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "Increases anonymity by routing your traffic into one %(wireguard)s server and out another, making it harder to trace."
+msgstr "Повышает анонимность, направляя трафик с одного сервера %(wireguard)s на другой, что затрудняет отслеживание."
+
+msgctxt "vpn-settings-view"
+msgid "It does this by allowing network communication outside the tunnel to local multicast and broadcast ranges as well as to and from these private IP ranges:"
+msgstr "Это достигается путем разрешения сетевого взаимодействия вне туннеля с локальными многоадресными и широковещательными диапазонами, а также со следующими диапазонами частных IP-адресов:"
+
+msgctxt "vpn-settings-view"
+msgid "Kill switch"
+msgstr "Аварийное отключение"
+
+msgctxt "vpn-settings-view"
+msgid "Launch app on start-up"
+msgstr "Автозапуск при загрузке системы"
+
+msgctxt "vpn-settings-view"
+msgid "Local network sharing"
+msgstr "Обмен данными в локальной сети"
+
+msgctxt "vpn-settings-view"
+msgid "Lockdown mode"
+msgstr "Режим блокировки"
+
+#. Label for settings that enables malware blocking.
+msgctxt "vpn-settings-view"
+msgid "Malware"
+msgstr "Вредоносное ПО"
+
+msgctxt "vpn-settings-view"
+msgid "The app’s built-in kill switch is always on. This setting will additionally block the internet if clicking Disconnect or Quit."
+msgstr "Функция аварийного отключения, встроенная в приложение, всегда включена. Эта опция дополнительно блокирует Интернет при нажатии «Отключить» или «Выход»."
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents."
+msgstr "Разница между опциями «Аварийное отключение» и «Режим блокировки» заключается в том, что «Аварийное отключение» предотвращает утечки во время автоматического переподключения туннеля, сбоев программного обеспечения и подобных случаев."
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents. With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "Разница между опциями «Аварийное отключение» и «Режим блокировки» заключается в том, что «Аварийное отключение» предотвращает утечки во время автоматического переподключения туннеля, сбоев программного обеспечения и подобных случаев. При включенной опции «Режим блокировки» для выхода в Интернет вы должны быть подключены к VPN-серверу Mullvad. Ручное отключение или выход из приложения заблокирует соединение."
+
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is a private IP. You must ensure that your network interfaces are configured to use it."
+msgstr "Добавляемый DNS-сервер является частным IP-адресом. Убедитесь, что сетевые интерфейсы настроены на его использование."
+
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is public and will only work with %(wireguard)s. To ensure that it always works, set the \"%(tunnelProtocol)s\" (in Advanced settings) to %(wireguard)s."
+msgstr "Добавляемый DNS-сервер является общедоступным и будет работать только с %(wireguard)s. Чтобы он работал всегда, установите значение %(wireguard)s для опции «%(tunnelProtocol)s» (в дополнительных настройках)."
+
+msgctxt "vpn-settings-view"
+msgid "This built-in feature prevents your traffic from leaking outside of the VPN tunnel if your network suddenly stops working or if the tunnel fails, it does this by blocking your traffic until your connection is reestablished."
+msgstr "Эта встроенная функция предотвращает утечку трафика за пределы VPN-туннеля: если сеть внезапно перестанет работать или если по какой-либо причине туннель деактивируется, функция заблокирует трафик до восстановления соединения."
+
+msgctxt "vpn-settings-view"
+msgid "This feature allows access to other devices on the local network, such as for sharing, printing, streaming, etc."
+msgstr "Эта функция позволяет получить доступ к другим устройствам в локальной сети, например, для организации общего доступа, печати, потоковой передачи и т. д."
+
+msgctxt "vpn-settings-view"
+msgid "This might cause issues on certain websites, services, and programs."
+msgstr "Это может привести к проблемам при использовании некоторых сайтов, служб и программ."
+
+#. Label for settings that enables tracker blocking.
+msgctxt "vpn-settings-view"
+msgid "Trackers"
+msgstr "Трекеры"
+
+msgctxt "vpn-settings-view"
+msgid "Tunnel protocol"
+msgstr "Протокол туннелирования"
+
+msgctxt "vpn-settings-view"
+msgid "Use custom DNS server"
+msgstr "Пользовательский DNS-сервер"
+
+#. Title label in navigation bar
+msgctxt "vpn-settings-view"
+msgid "VPN settings"
+msgstr "Настройки VPN"
+
+msgctxt "vpn-settings-view"
+msgid "Warning: The malware blocker is not an anti-virus and should not be treated as such, this is just an extra layer of protection."
+msgstr "Внимание! Блокировщик вредоносного ПО — это просто дополнительный уровень защиты, а не антивирус."
+
+msgctxt "vpn-settings-view"
+msgid "When this feature is enabled it stops the device from contacting certain domains or websites known for distributing ads, malware, trackers and more."
+msgstr "При включенной опции устройство не будет устанавливать соединение с определенными доменами и сайтами, известными распространением рекламы, вредоносного ПО, трекеров и т. д."
+
+msgctxt "vpn-settings-view"
+msgid "With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "При включенной опции «Режим блокировки» для выхода в Интернет вы должны быть подключены к VPN-серверу Mullvad. Ручное отключение или выход из приложения заблокирует соединение."
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-nav"
+msgid "%(wireguard)s settings"
+msgstr "Настройки %(wireguard)s"
+
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "Настройки %(wireguard)s"
+
+msgctxt "wireguard-settings-view"
+msgid "IP version"
+msgstr "Версия IP"
+
+msgctxt "wireguard-settings-view"
+msgid "It does this by performing an extra key exchange using a quantum safe algorithm and mixing the result into WireGuard’s regular encryption. This extra step uses approximately 500 kiB of traffic every time a new tunnel is established."
+msgstr "Для этого функция выполняет дополнительный обмен ключами с использованием квантово-устойчивого алгоритма и добавляет результат к обычному шифрованию WireGuard. Эта дополнительная мера использует примерно 500 КиБ трафика при каждом создании нового туннеля."
+
+msgctxt "wireguard-settings-view"
+msgid "MTU"
+msgstr "MTU"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation"
+msgstr "Обфускация"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation hides the WireGuard traffic inside another protocol. It can be used to help circumvent censorship and other types of filtering, where a plain WireGuard connect would be blocked."
+msgstr "Обфускация скрывает трафик WireGuard внутри другого протокола. Это может использоваться для обхода цензуры и других видов фильтрации, когда обычное соединение WireGuard было бы заблокировано."
+
+msgctxt "wireguard-settings-view"
+msgid "On (UDP-over-TCP)"
+msgstr "Вкл. (UDP через TCP)"
+
+msgctxt "wireguard-settings-view"
+msgid "Port"
+msgstr "Порт"
+
+#. The title for the WireGuard quantum resistance selector. This setting
+#. makes the cryptography resistant to the future abilities of quantum
+#. computers.
+msgctxt "wireguard-settings-view"
+msgid "Quantum-resistant tunnel"
+msgstr "Квантово-устойчивый туннель"
+
+#. The hint displayed below the WireGuard MTU input field.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+#. %(max)d - the maximum possible wireguard mtu value
+#. %(min)d - the minimum possible wireguard mtu value
+msgctxt "wireguard-settings-view"
+msgid "Set %(wireguard)s MTU value. Valid range: %(min)d - %(max)d."
+msgstr "Установите значение MTU для %(wireguard)s. Диапазон значений: %(min)d–%(max)d."
+
+msgctxt "wireguard-settings-view"
+msgid "The automatic setting will randomly choose from the valid port ranges shown below."
+msgstr "При автоматической настройке порт будет выбираться случайным образом из допустимого диапазона, показанного ниже."
+
+msgctxt "wireguard-settings-view"
+msgid "The custom port can be any value inside the valid ranges: %(portRanges)s."
+msgstr "Пользовательский порт может принимать любое значение внутри допустимых диапазонов: %(portRanges)s."
+
+#. The hint displayed below the WireGuard IP version selector.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "This allows access to %(wireguard)s for devices that only support IPv6."
+msgstr "Это обеспечивает доступ к %(wireguard)s для устройств, поддерживающих только IPv6."
+
+msgctxt "wireguard-settings-view"
+msgid "This feature makes the WireGuard tunnel resistant to potential attacks from quantum computers."
+msgstr "Эта функция делает туннель WireGuard устойчивым к потенциальным атакам с использованием квантовых компьютеров."
+
+msgctxt "wireguard-settings-view"
+msgid "UDP-over-TCP port"
+msgstr "Порт для UDP через TCP"
+
+msgctxt "wireguard-settings-view"
+msgid "Which TCP port the UDP-over-TCP obfuscation protocol should connect to on the VPN server."
+msgstr "TCP-порт, к которому должен подключаться протокол обфускации UDP через TCP на VPN-сервере."
+
+msgid "Account credit expires in a few minutes"
+msgstr "Баланс учетной записи закончится через несколько минут"
+
+msgid "Account credit expires soon"
+msgstr "Баланс учетной записи скоро закончится"
+
+msgid "Account time reminders"
+msgstr "Напоминания о времени на учетной записи"
+
+msgid "Add DNS server"
+msgstr "Добавить DNS-сервер"
+
+msgid "Agree and continue"
+msgstr "Согласиться и продолжить"
+
+msgid "All applications"
+msgstr "Все приложения"
+
+msgid "Allows access to other devices on the same network for sharing, printing etc."
+msgstr "Разрешить доступ к другим устройствам в той же сети для организации общего доступа, печати и т. д."
+
+msgid "Always-on VPN assigned to other app"
+msgstr "Опция «VPN всегда вкл.» назначена другому приложению"
+
+msgid "Always-on VPN might be enabled for another app"
+msgstr "Опцию «VPN всегда вкл.» может быть включена для другого приложения"
+
+msgid "Attention: this setting cannot be used in combination with <b>Use custom DNS server</b>."
+msgstr "Внимание: этот параметр нельзя использовать вместе с параметром <b>Пользовательский DNS-сервер</b>."
+
+msgid "Blocking internet (device offline)"
+msgstr "Блокируется доступ в Интернет (устройство офлайн)"
+
+msgid "Changes to DNS related settings might not go into effect immediately due to cached results."
+msgstr "Изменения в настройках, связанные с DNS, могут не сразу вступить в силу из-за кешированных результатов."
+
+msgid "Copied Mullvad account number to clipboard"
+msgstr "Номер учетной записи Mullvad скопирован в буфер обмена"
+
+msgid "Copied to clipboard"
+msgstr "Скопировано в буфер обмена"
+
+msgid "Critical error (your attention is required)"
+msgstr "Критическая ошибка (требуется ваше участие)"
+
+msgid "Custom DNS server addresses %s are invalid"
+msgstr "Пользовательские адреса DNS-серверов %s недопустимы"
+
+msgid "DNS settings might not go into effect immediately"
+msgstr "Настройки DNS могут не сразу вступить в силу"
+
+msgid "Disable all <b>%s</b> above to activate this setting."
+msgstr "Чтобы включить эту настройку, отключите все <b>%s</b> выше."
+
+msgid "Enable"
+msgstr "Включить"
+
+msgid "Enter MTU"
+msgstr "Введите MTU"
+
+msgid "Excluded applications"
+msgstr "Исключенные приложения"
+
+msgid "Going to login will unblock the internet on this device."
+msgstr "Вход в профиль разблокирует Интернет на этом устройстве."
+
+msgid "Install Mullvad VPN (%s) to stay up to date"
+msgstr "Пользуйтесь актуальной версией — установите Mullvad VPN (%s)"
+
+msgid "Manage account"
+msgstr "Управление учетной записью"
+
+msgid "Mullvad account number"
+msgstr "Номер учетной записи Mullvad"
+
+msgid "Preferences"
+msgstr "Параметры"
+
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Reset to default"
+msgstr "Восстановить значение по умолчанию"
+
+msgid "Secured"
+msgstr "Подключение защищено"
+
+msgid "Set WireGuard MTU value. Valid range: %d - %d."
+msgstr "Установите значение MTU для WireGuard. Диапазон значений: %d–%d."
+
+msgid "Show system apps"
+msgstr "Показывать системные приложения"
+
+msgid "Shows current VPN tunnel status"
+msgstr "Показывает текущее состояние VPN-туннеля"
+
+msgid "Shows reminders when the account time is about to expire"
+msgstr "Показывает уведомления, когда время на учетной записи скоро закончится"
+
+msgid "Split tunneling makes it possible to select which applications should not be routed through the VPN tunnel."
+msgstr "Раздельное туннелирование позволяет выбрать, какие приложения не должны маршрутизироваться через VPN-туннель."
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "The local DNS server will not work unless you enable \"Local Network Sharing\" under Preferences."
+msgstr "Локальный DNS-сервер не будет работать, пока вы не включите «Обмен данными в локальной сети» в разделе «Параметры»."
+
+msgid "This address has already been entered."
+msgstr "Этот адрес уже введен."
+
+msgid "This might cause issues on certain websites, services, and apps."
+msgstr "Это может привести к проблемам при использовании некоторых сайтов, служб и приложений."
+
+msgid "To make sure that you have the most secure version and to inform you of any issues with the current version that is running, the app performs version checks automatically. This sends the app version and Android system version to Mullvad servers. Mullvad keeps counters on number of used app versions and Android versions. The data is never stored or used in any way that can identify you.\\n\\nIf the split tunneling feature is used, then the app queries your system for a list of all installed applications. This list is only retrieved in the split tunneling view. The list of installed applications is never sent from the device."
+msgstr "Для обеспечения безопасности и информирования о проблемах текущей версии приложение автоматически проверяет установленную версию. Собираются и отправляются на серверы Mullvad только данные о версиях приложения и системы Android. Сбор и хранение данных никоим образом вас не идентифицируют.\\n\\nЕсли используется функция раздельного туннелирования, приложение Mullvad запрашивает список всех установленных приложений на устройстве. Это список никогда не отправляется с устройства."
+
+msgid "Toggle VPN"
+msgstr "Включение VPN"
+
+msgid "Unable to apply firewall rules. Please troubleshoot or send a problem report."
+msgstr "Невозможно применить правила брандмауэра. Устраните неполадки или отправьте сообщение о проблеме."
+
+msgid "Unable to start tunnel connection. Please disable Always-on VPN for <b>%s</b> before using Mullvad VPN."
+msgstr "Не удалось запустить туннельное соединение. Перед использованием Mullvad VPN отключите опцию «VPN всегда вкл.» для <b>%s</b>."
+
+msgid "Unsecured"
+msgstr "Подключение не защищено"
+
+msgid "Update DNS server"
+msgstr "Обновить DNS-сервер"
+
+msgid "Update available, download to remain safe."
+msgstr "Вышло обновление. Установите его, чтобы защитить подключения."
+
+msgid "VPN permission error"
+msgstr "Ошибка разрешения для VPN"
+
+msgid "VPN permission was denied when creating the tunnel. Please try connecting again."
+msgstr "При создании туннеля в доступе к VPN было отказано. Попробуйте подключиться снова."
+
+msgid "VPN tunnel status"
+msgstr "Состояние туннеля VPN"
+
+msgid "Valid WireGuard key is missing. Manage keys under Advanced settings."
+msgstr "Не найден действительный ключ WireGuard. Управлять ключами можно в дополнительных настройках."
+
+msgid "Virtual adapter error"
+msgstr "Ошибка виртуального адаптера"
+
+msgid "While connected, your real location is masked with a private and secure location in the selected region."
+msgstr "При подключении реальное местоположение маскируется защищенным конфиденциальным местоположением в выбранном регионе."
+
+msgid "WireGuard MTU"
+msgstr "MTU для WireGuard"
+
+msgid "WireGuard obfuscation"
+msgstr "Обфускация WireGuard"
+
+msgid "YOU MIGHT BE LEAKING NETWORK TRAFFIC"
+msgstr "ВОЗМОЖНА УТЕЧКА СЕТЕВОГО ТРАФИКА"
+
+msgid "You are running an unsupported app version."
+msgstr "Версия приложения, с которой вы работаете, не поддерживается."
+
+msgid "less than a minute ago"
+msgstr "менее минуты назад"
+
+msgid "Account credit expires in a day"
+msgid_plural "Account credit expires in %d days"
+msgstr[0] "Срок действия баланса учетной записи истекает через %d день"
+msgstr[1] "Срок действия баланса учетной записи истекает через %d дня"
+msgstr[2] "Срок действия баланса учетной записи истекает через %d дней"
+msgstr[3] "Срок действия баланса учетной записи истекает через %d дня"
+
+msgid "Account credit expires in an hour"
+msgid_plural "Account credit expires in %d hours"
+msgstr[0] "Срок действия баланса учетной записи истекает через %d час"
+msgstr[1] "Срок действия баланса учетной записи истекает через %d часа"
+msgstr[2] "Срок действия баланса учетной записи истекает через %d часов"
+msgstr[3] "Срок действия баланса учетной записи истекает через %d часа"
+
+msgid "a day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d день назад"
+msgstr[1] "%d дня назад"
+msgstr[2] "%d дней назад"
+msgstr[3] "%d дня назад"
+
+msgid "a minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d минуту назад"
+msgstr[1] "%d минуты назад"
+msgstr[2] "%d минут назад"
+msgstr[3] "%d минуты назад"
+
+msgid "a month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d месяц назад"
+msgstr[1] "%d месяца назад"
+msgstr[2] "%d месяцев назад"
+msgstr[3] "%d месяца назад"
+
+msgid "a year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d год назад"
+msgstr[1] "%d года назад"
+msgstr[2] "%d лет назад"
+msgstr[3] "%d года назад"
+
+msgid "an hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d час назад"
+msgstr[1] "%d часа назад"
+msgstr[2] "%d часов назад"
+msgstr[3] "%d часа назад"
+

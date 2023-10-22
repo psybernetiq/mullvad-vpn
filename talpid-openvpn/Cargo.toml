@@ -1,0 +1,51 @@
+[package]
+name = "talpid-openvpn"
+description = "Library for creating OpenVPN tunnels"
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+
+[dependencies]
+async-trait = "0.1"
+err-derive = { workspace = true }
+futures = "0.3.15"
+once_cell = { workspace = true }
+log = { workspace = true }
+shell-escape = "0.1"
+talpid-routing = { path = "../talpid-routing" }
+talpid-tunnel = { path = "../talpid-tunnel" }
+talpid-types = { path = "../talpid-types" }
+uuid = { version = "1.4.1", features = ["v4"] }
+tokio = { workspace = true, features = ["process", "rt-multi-thread", "fs"] }
+shadowsocks-service = { workspace = true,  features = [ "local", "stream-cipher" ] }
+
+[target.'cfg(not(target_os="android"))'.dependencies]
+parity-tokio-ipc = "0.9"
+triggered = "0.1.1"
+tonic = { workspace = true }
+prost = { workspace = true }
+
+[target.'cfg(windows)'.dependencies]
+widestring = "1.0"
+winreg = { version = "0.51", features = ["transactions"] }
+talpid-windows = { path = "../talpid-windows" }
+
+[target.'cfg(windows)'.dependencies.windows-sys]
+workspace = true
+features = [
+    "Win32_Foundation",
+    "Win32_System_LibraryLoader",
+    "Win32_System_Registry",
+    "Win32_NetworkManagement_Ndis",
+]
+
+[build-dependencies]
+tonic-build = { workspace = true, default-features = false, features = ["transport", "prost"] }
+
+
+[dev-dependencies]
+tokio = { workspace = true, features = [ "test-util" ] }

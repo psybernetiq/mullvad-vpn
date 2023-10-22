@@ -1,0 +1,1838 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: mullvad-app\n"
+"X-Crowdin-Project-ID: 350815\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Project-Id-Version: mullvad-app\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"PO-Revision-Date: 2023-09-05 14:16\n"
+
+msgid "%(duration)s was added, account paid until %(expiry)s."
+msgstr "%(duration)s eklendi, hesap için %(expiry)s tarihine kadar ödeme yapıldı."
+
+msgid "1 day"
+msgid_plural "%d days"
+msgstr[0] "1 gün"
+msgstr[1] "%d gün"
+
+msgid "1 day left"
+msgid_plural "%d days left"
+msgstr[0] "1 gün kaldı"
+msgstr[1] "%d gün kaldı"
+
+msgid "1 month"
+msgid_plural "%d months"
+msgstr[0] "1 ay"
+msgstr[1] "%d ay"
+
+msgid "1 month left"
+msgid_plural "%d months left"
+msgstr[0] "1 ay kaldı"
+msgstr[1] "%d ay kaldı"
+
+msgid "1 year"
+msgid_plural "%d years"
+msgstr[0] "1 yıl"
+msgstr[1] "%d yıl"
+
+msgid "1 year left"
+msgid_plural "%d years left"
+msgstr[0] "1 yıl kaldı"
+msgstr[1] "%d yıl kaldı"
+
+msgid "Account paid until %(expiry)s."
+msgstr "Hesap için %(expiry)s tarihine kadar ödeme yapıldı."
+
+msgid "Account settings"
+msgstr "Hesap ayarları"
+
+msgid "Any"
+msgstr "Tümü"
+
+msgid "Apply"
+msgstr "Uygula"
+
+msgid "Automatic"
+msgstr "Otomatik"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "BETA"
+msgstr "BETA"
+
+msgid "BLOCKED CONNECTION"
+msgstr "ENGELLENEN BAĞLANTI"
+
+msgid "Blocking internet"
+msgstr "İnternet bağlantısı engelleniyor"
+
+msgid "Buy credit"
+msgstr "Kredi satın alın"
+
+msgid "Buy more credit"
+msgstr "Daha fazla kredi satın alın"
+
+msgid "Cancel"
+msgstr "İptal et"
+
+msgid "Clear"
+msgstr "Temizle"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Connect"
+msgstr "Bağlan"
+
+msgid "Connected"
+msgstr "Bağlandı"
+
+msgid "Connecting"
+msgstr "Bağlanılıyor"
+
+#. Creating a secure connection that isn't breakable by quantum computers.
+msgid "CREATING QUANTUM SECURE CONNECTION"
+msgstr "KUANTUM GÜVENLİ BAĞLANTISI OLUŞTURULUYOR"
+
+msgid "CREATING SECURE CONNECTION"
+msgstr "GÜVENLİ BAĞLANTI OLUŞTURULUYOR"
+
+msgid "Custom"
+msgstr "Özel"
+
+msgid "Default"
+msgstr "Varsayılan"
+
+msgid "Disable"
+msgstr "Devre dışı bırak"
+
+msgid "Disconnect"
+msgstr "Bağlantıyı Kes"
+
+msgid "Disconnect & quit"
+msgstr "Bağlantıyı kes ve çık"
+
+msgid "Disconnected"
+msgstr "Bağlantı kesildi"
+
+msgid "Disconnecting"
+msgstr "Bağlantı kesiliyor"
+
+msgid "Dismiss"
+msgstr "Reddet"
+
+msgid "Enable anyway"
+msgstr "Yine de etkinleştir"
+
+msgid "FAILED TO SECURE CONNECTION"
+msgstr "GÜVENLİ BAĞLANTI OLUŞTURULAMADI"
+
+msgid "Filter"
+msgstr "Filtrele"
+
+msgid "Go to System Settings"
+msgstr "Sistem Ayarlarına Git"
+
+#. This is a button which closes a dialog.
+msgid "Got it!"
+msgstr "Anladım!"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "less than a day"
+msgstr "bir günden az"
+
+msgid "less than a day left"
+msgstr "bir günden az kaldı"
+
+msgid "Next"
+msgstr "Sonraki"
+
+msgid "No result for <b>%(searchTerm)s</b>."
+msgstr "<b>%(searchTerm)s</b> için sonuç bulunamadı."
+
+msgid "Off"
+msgstr "Kapalı"
+
+msgid "On"
+msgstr "Açık"
+
+msgid "Open URL"
+msgstr "URL'yi aç"
+
+#. The connection is secure and isn't breakable by quantum computers.
+msgid "QUANTUM SECURE CONNECTION"
+msgstr "KUANTUM GÜVENLİ BAĞLANTISI"
+
+msgid "Quit"
+msgstr "Çık"
+
+msgid "Reconnect"
+msgstr "Yeniden Bağlan"
+
+msgid "Search for..."
+msgstr "Ara..."
+
+msgid "SECURE CONNECTION"
+msgstr "GÜVENLİ BAĞLANTI"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "System default"
+msgstr "Sistem varsayılanı"
+
+msgid "TCP"
+msgstr "TCP"
+
+#. Warning text in a dialog that is displayed after a setting is toggled.
+msgid "This setting increases latency. Use only if needed."
+msgstr "Bu ayar gecikmeyi artırır. Sadece gerekiyorsa kullanın."
+
+msgid "Troubleshoot"
+msgstr "Sorun Giderme"
+
+msgid "Try a different search."
+msgstr "Farklı bir arama deneyin."
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "Unblock"
+msgstr "Engeli kaldır"
+
+msgid "UNSECURED CONNECTION"
+msgstr "GÜVENLİ OLMAYAN BAĞLANTI"
+
+msgctxt "accessibility"
+msgid "%(title)s, View loaded"
+msgstr "%(title)s, Görünüm yüklendi"
+
+msgctxt "accessibility"
+msgid "Close notification"
+msgstr "Bildirimi kapat"
+
+msgctxt "accessibility"
+msgid "Collapse %(location)s"
+msgstr "%(location)s listesini daralt"
+
+#. Provided to accessibility tools such as screenreaders to describe a button
+#. which copies the account number to the clipboard.
+msgctxt "accessibility"
+msgid "Copy account number"
+msgstr "Hesap numarasını kopyala"
+
+msgctxt "accessibility"
+msgid "Expand %(location)s"
+msgstr "%(location)s listesini genişlet"
+
+msgctxt "accessibility"
+msgid "Forget %(accountToken)s"
+msgstr "%(accountToken)s unut"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which obscures the account number.
+msgctxt "accessibility"
+msgid "Hide account number"
+msgstr "Hesap numarasını gizle"
+
+msgctxt "accessibility"
+msgid "info"
+msgstr "bilgiler"
+
+#. This is used by screenreaders to communicate the login button.
+msgctxt "accessibility"
+msgid "Login"
+msgstr "Oturum Aç"
+
+msgctxt "accessibility"
+msgid "More information"
+msgstr "Daha fazla bilgi"
+
+msgctxt "accessibility"
+msgid "Opens externally"
+msgstr "Harici bir tarayıcı penceresini açar"
+
+#. Button action description provided to accessibility tools such as screen
+#. readers.
+#. Available placeholders:
+#. %(deviceName)s - The device name to remove.
+msgctxt "accessibility"
+msgid "Remove device named %(deviceName)s"
+msgstr "%(deviceName)s adlı cihazı kaldırın"
+
+msgctxt "accessibility"
+msgid "Remove item"
+msgstr "Öğeyi kaldır"
+
+msgctxt "accessibility"
+msgid "Select location. Current location is %(location)s"
+msgstr "Konum seçin. Mevcut konum %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which unobscures the account number.
+msgctxt "accessibility"
+msgid "Show account number"
+msgstr "Hesap numarasını göster"
+
+#. Title label in navigation bar
+msgctxt "account-view"
+msgid "Account"
+msgstr "Hesap"
+
+msgctxt "account-view"
+msgid "Account number"
+msgstr "Hesap Kimliği"
+
+msgctxt "account-view"
+msgid "Currently unavailable"
+msgstr "Şu an kullanılamıyor"
+
+msgctxt "account-view"
+msgid "Log out"
+msgstr "Oturumu kapat"
+
+msgctxt "account-view"
+msgid "OUT OF TIME"
+msgstr "SÜRE DOLDU"
+
+msgctxt "account-view"
+msgid "Paid until"
+msgstr "Şu tarihe kadar ödendi:"
+
+msgctxt "auth-failure"
+msgid "Blocking internet: account is out of time"
+msgstr "İnternet bağlantısı engelleniyor: hesabın süresi doldu"
+
+msgctxt "auth-failure"
+msgid "Too many simultaneous connections on this account. Disconnect another device or try connecting again shortly."
+msgstr "Bu hesabın çok fazla eş zamanlı bağlantısı var. Diğer cihazlardan bir tanesinin bağlantısını kesin veya kısa süre sonra tekrar bağlanmayı deneyin."
+
+msgctxt "auth-failure"
+msgid "Unable to authenticate account. Please send a problem report."
+msgstr "Hesap doğrulanamıyor. Lütfen bir hata raporu gönderin."
+
+msgctxt "auth-failure"
+msgid "You are logged in with an invalid account number. Please log out and try another one."
+msgstr "Geçersiz bir hesap numarası ile giriş yaptınız. Lütfen çıkış yapın ve farklı bir hesap numarası ile tekrar deneyin."
+
+msgctxt "changelog"
+msgid "Changes in this version:"
+msgstr "Bu sürümdeki değişiklikler:"
+
+#. The selected location label displayed on the main view, when a user selected a specific host to connect to.
+#. Example: Malmö (se-mma-001)
+#. Available placeholders:
+#. %(city)s - a city name
+#. %(hostname)s - a hostname
+msgctxt "connect-container"
+msgid "%(city)s (%(hostname)s)"
+msgstr "%(city)s (%(hostname)s)"
+
+msgctxt "connect-view"
+msgid "Congrats!"
+msgstr "Tebrikler!"
+
+msgctxt "connect-view"
+msgid "Disconnect"
+msgstr "Bağlantıyı kes"
+
+msgctxt "connect-view"
+msgid "Either buy credit on our website or redeem a voucher."
+msgstr "Web sitemizden kredi satın alın veya kupon kullanın."
+
+msgctxt "connect-view"
+msgid "Enter voucher code"
+msgstr "Kupon kodunu girin"
+
+msgctxt "connect-view"
+msgid "Go ahead and start using the app to begin reclaiming your online privacy."
+msgstr "Devam edin ve çevrimiçi gizliliğinizi geri kazanmak için uygulamayı kullanmaya başlayın."
+
+msgctxt "connect-view"
+msgid "Here’s your account number. Save it!"
+msgstr "İşte hesap numaranız. Kaydedin!"
+
+msgctxt "connect-view"
+msgid "Learn about privacy"
+msgstr "Gizlilik hakkında bilgi edinin"
+
+msgctxt "connect-view"
+msgid "Out of time"
+msgstr "Süre doldu"
+
+msgctxt "connect-view"
+msgid "Redeem voucher"
+msgstr "Kuponu kullan"
+
+msgctxt "connect-view"
+msgid "Remember, turning it off will allow network traffic while the VPN is disconnected until you turn it back on under Advanced settings."
+msgstr "Devre dışı bırakmanın, Gelişmiş ayarlar altında tekrar etkinleştirene kadar VPN bağlantısını keserek ağ trafiğine izin verdiğini unutmayın."
+
+msgctxt "connect-view"
+msgid "Start using the app"
+msgstr "Uygulamayı kullanmaya başlayın"
+
+msgctxt "connect-view"
+msgid "Time was successfully added"
+msgstr "Süre başarıyla eklendi"
+
+msgctxt "connect-view"
+msgid "To add more, you will need to disconnect and access the Internet with an unsecure connection."
+msgstr "Daha fazla süre eklemek için, bağlantıyı keserek güvenli olmayan bir bağlantıyla internete erişmeniz gerekir."
+
+msgctxt "connect-view"
+msgid "To continue your journey as a privacy ninja, visit our website to pick up other privacy-friendly habits and tools."
+msgstr "Yolculuğunuza bir gizlilik ninjası olarak devam etmek için web sitemizi ziyaret edin ve diğer gizlilik dostu alışkanlıklar ve araçlar hakkında bilgi edinin."
+
+msgctxt "connect-view"
+msgid "To start using the app, you first need to add time to your account."
+msgstr "Uygulamayı kullanmaya başlamak için önce hesabınıza süre eklemeniz gerekir."
+
+msgctxt "connect-view"
+msgid "Voucher was successfully redeemed"
+msgstr "Kupon başarıyla kullanıldı"
+
+msgctxt "connect-view"
+msgid "You have no more VPN time left on this account."
+msgstr "Bu hesap için artık VPN süreniz kalmadı."
+
+msgctxt "connect-view"
+msgid "You need to disable \"Lockdown mode\" in order to access the Internet to add time."
+msgstr "Süre bilgisi ekleyerek internete erişmek için \"Kilitleme modu\" seçeneğini devre dışı bırakmanız gerekir."
+
+msgctxt "connect-view"
+msgid "You’re all set!"
+msgstr "Artık hazırsınız!"
+
+#. The hostname line displayed below the country on the main screen
+#. Available placeholders:
+#. %(relay)s - the relay hostname
+#. %(entry)s - the entry relay hostname
+msgctxt "connection-info"
+msgid "%(relay)s via %(entry)s"
+msgstr "%(entry)s aracılığıyla %(relay)s"
+
+#. The tunnel type line displayed below the hostname line on the main screen
+#. Available placeholders:
+#. %(tunnelType)s - the tunnel type, i.e OpenVPN
+#. %(bridgeType)s - the bridge type, i.e Shadowsocks
+msgctxt "connection-info"
+msgid "%(tunnelType)s via %(bridgeType)s"
+msgstr "%(bridgeType)s aracılığıyla %(tunnelType)s"
+
+msgctxt "connection-info"
+msgid "In"
+msgstr "Giriş"
+
+msgctxt "connection-info"
+msgid "Out"
+msgstr "Çıkış"
+
+#. Text displayed above button which logs out another device.
+#. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(deviceName)s - The name of the device to log out.
+msgctxt "device-management"
+msgid "Are you sure you want to log <b>%(deviceName)s</b> out?"
+msgstr "<b>%(deviceName)s</b> adlı cihazdan çıkış yapmak istediğinizden emin misiniz?"
+
+#. Button for continuing login process.
+msgctxt "device-management"
+msgid "Continue with login"
+msgstr "Giriş yapmak için devam et"
+
+#. Label informing the user when a device was created.
+#. Available placeholders:
+#. %(createdDate)s - The creation date of the device.
+msgctxt "device-management"
+msgid "Created: %(createdDate)s"
+msgstr "Oluşturma tarihi: %(createdDate)s"
+
+msgctxt "device-management"
+msgid "Device is inactive"
+msgstr "Cihaz etkin değil"
+
+msgctxt "device-management"
+msgid "Device name"
+msgstr "Cihaz adı"
+
+#. A label that will display the newly created device name to inform the user
+#. about it.
+#. Available placeholders:
+#. %(deviceName)s - The name of the current device
+msgctxt "device-management"
+msgid "Device name: %(deviceName)s"
+msgstr "Cihaz adı: %(deviceName)s"
+
+msgctxt "device-management"
+msgid "Failed to remove device"
+msgstr "Cihaz kaldırılamadı"
+
+msgctxt "device-management"
+msgid "Go to login"
+msgstr "Giriş sayfasına git"
+
+msgctxt "device-management"
+msgid "Going to login will unblock the Internet on this device."
+msgstr "Giriş yapmak bu cihazdaki internet engelini kaldıracaktır."
+
+msgctxt "device-management"
+msgid "If you log out, the device and the device name is removed. When you log back in again, the device will get a new name."
+msgstr "Oturumu kapatırsanız cihaz ve cihaz adı kaldırılır. Tekrar oturum açtığınızda cihaza yeni bir ad verilir."
+
+#. Confirmation button when logging out
+msgctxt "device-management"
+msgid "Log out anyway"
+msgstr "Yine de çıkış yap"
+
+msgctxt "device-management"
+msgid "Please log out of at least one by removing it from the list below. You can find the corresponding device name under the device’s Account settings."
+msgstr "Lütfen aşağıdaki listeden en az bir cihazı kaldırarak çıkış yapın. İlgili cihaz adını cihazın Hesap ayarları altında bulabilirsiniz."
+
+#. Page title informing user that enough devices has been removed to continue
+#. login process.
+msgctxt "device-management"
+msgid "Super!"
+msgstr "Süper!"
+
+#. This is is a further explanation of what happens when logging out.
+msgctxt "device-management"
+msgid "The ports forwarded to this device will be deleted if you log out."
+msgstr "Çıkış yaparsanız bu cihaza yönlendirilen portlar silinecektir."
+
+msgctxt "device-management"
+msgid "This is the name assigned to the device. Each device logged in on a Mullvad account gets a unique name that helps you identify it when you manage your devices in the app or on the website."
+msgstr "Bu, cihaza atanan addır. Mullvad hesabında oturum açan her cihaza, uygulamadaki veya web sitesindeki cihazlarınızı yönetirken tanımlamanıza yardımcı olacak benzersiz bir ad verilir."
+
+#. Further information about consequences of logging out device.
+msgctxt "device-management"
+msgid "This will delete all forwarded ports. Local settings will be saved."
+msgstr "Bu işlem, yönlendirilen tüm portları silecek. Yerel ayarlar kaydedilecektir."
+
+msgctxt "device-management"
+msgid "Time left: %(timeLeft)s"
+msgstr "Kalan süre: %(timeLeft)s"
+
+#. Page title informing user that the login failed due to too many registered
+#. devices on account.
+msgctxt "device-management"
+msgid "Too many devices"
+msgstr "Cihaz sayısı çok fazla"
+
+#. Confirmation button when logging out other device.
+msgctxt "device-management"
+msgid "Yes, log out device"
+msgstr "Evet, cihazdan çıkış yap"
+
+msgctxt "device-management"
+msgid "You can have up to 5 devices logged in on one Mullvad account."
+msgstr "Bir Mullvad hesabı ile en fazla 5 cihazda oturum açabilirsiniz."
+
+msgctxt "device-management"
+msgid "You can now continue logging in on this device."
+msgstr "Artık bu cihazda oturum açmaya devam edebilirsiniz."
+
+msgctxt "device-management"
+msgid "You have removed this device. To connect again, you will need to log back in."
+msgstr "Bu cihazı kaldırdın. Tekrar bağlanmak için yeniden giriş yapmanız gerekecek."
+
+#. The message displayed to the user in case of critical error in the GUI
+#. Available placeholders:
+#. %(email)s - support email
+msgctxt "error-boundary-view"
+msgid "Something went wrong. Please contact us at %(email)s"
+msgstr "Bir sorun oluştu. Lütfen bizimle %(email)s adresinden iletişime geçin"
+
+#. Title label in navigation bar
+msgctxt "filter-nav"
+msgid "Filter"
+msgstr "Filtrele"
+
+msgctxt "filter-view"
+msgid "All providers"
+msgstr "Tüm hizmet sağlayıcılar"
+
+msgctxt "filter-view"
+msgid "Mullvad owned only"
+msgstr "Sadece Mullvad'a ait olanlar"
+
+msgctxt "filter-view"
+msgid "Owned"
+msgstr "Tarafımıza ait olanlar"
+
+msgctxt "filter-view"
+msgid "Ownership"
+msgstr "Sahiplik durumu"
+
+msgctxt "filter-view"
+msgid "Providers"
+msgstr "Hizmet sağlayıcılar"
+
+msgctxt "filter-view"
+msgid "Rented"
+msgstr "Kiralananlar"
+
+msgctxt "filter-view"
+msgid "Rented only"
+msgstr "Sadece kiralananlar"
+
+msgctxt "in-app-notifications"
+msgid "\"%(lockdownModeSettingName)s\" is enabled."
+msgstr "\"%(lockdownModeSettingName)s\" etkinleştirildi."
+
+msgctxt "in-app-notifications"
+msgid "%(duration)s. Buy more credit."
+msgstr "%(duration)s. Daha fazla kredi satın alın."
+
+msgctxt "in-app-notifications"
+msgid "ACCOUNT CREDIT EXPIRES SOON"
+msgstr "HESAP KREDİSİNİN SÜRESİ YAKINDA DOLACAK"
+
+msgctxt "in-app-notifications"
+msgid "APP IS OUT OF SYNC"
+msgstr "UYGULAMA SENKRONİZE DEĞİL"
+
+msgctxt "in-app-notifications"
+msgid "BETA UPDATE AVAILABLE"
+msgstr "BETA GÜNCELLEME MEVCUT"
+
+msgctxt "in-app-notifications"
+msgid "BLOCKING INTERNET"
+msgstr "İNTERNET ENGELLENİYOR"
+
+#. The in-app banner displayed to the user when the app update is available.
+msgctxt "in-app-notifications"
+msgid "Install the latest app version to stay up to date."
+msgstr "Güncel kalmak için en son uygulama sürümünü yükleyin."
+
+msgctxt "in-app-notifications"
+msgid "NETWORK TRAFFIC MIGHT BE LEAKING"
+msgstr "AĞ BAĞLANTISI TRAFİĞİNDE SIZINTI OLABİLİR"
+
+msgctxt "in-app-notifications"
+msgid "NEW DEVICE CREATED"
+msgstr "YENİ CİHAZ OLUŞTURULDU"
+
+msgctxt "in-app-notifications"
+msgid "Please quit and restart the app."
+msgstr "Lütfen uygulamadan çıkış yapın ve yeniden başlatın."
+
+msgctxt "in-app-notifications"
+msgid "Send problem report"
+msgstr "Hata raporu gönder"
+
+#. The in-app banner displayed to the user when the app beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "in-app-notifications"
+msgid "Try out the newest beta version (%(version)s)."
+msgstr "En yeni beta sürümü (%(version)s) deneyin."
+
+msgctxt "in-app-notifications"
+msgid "UNSUPPORTED VERSION"
+msgstr "DESTEKLENMEYEN SÜRÜM"
+
+msgctxt "in-app-notifications"
+msgid "UPDATE AVAILABLE"
+msgstr "GÜNCELLEME MEVCUT"
+
+msgctxt "in-app-notifications"
+msgid "Welcome, this device is now called <b>%(deviceName)s</b>. For more details see the info button in Account."
+msgstr "Hoş geldiniz, bu cihaz artık <b>%(deviceName)s</b> olarak adlandırılıyor. Daha fazla ayrıntı için Hesaptaki bilgi düğmesine bakın."
+
+msgctxt "launch-view"
+msgid "Connecting to Mullvad system service..."
+msgstr "Mullvad sistem hizmetlerine bağlanılıyor..."
+
+msgctxt "launch-view"
+msgid "Permission for the Mullvad VPN service has been revoked. Please go to System Settings and allow Mullvad VPN under the “Allow in the Background” setting."
+msgstr "Mullvad VPN hizmetinin izni iptal edildi. Lütfen Sistem Ayarları'na giderek \"Arka Planda İzin Ver\" seçeneğinden Mullvad VPN'e izin verin."
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+#. Available placeholder:
+#. %(lockdownModeSettingName)s - The translation of "Lockdown mode"
+msgctxt "login-view"
+msgid "<b>%(lockdownModeSettingName)s</b> is enabled. Disable it to unblock your connection."
+msgstr "<b>%(lockdownModeSettingName)s</b> etkinleştirildi. Bağlantınızın engelini kaldırmak için bu seçeneği devre dışı bırakın."
+
+msgctxt "login-view"
+msgid "Account created"
+msgstr "Hesap oluşturuldu"
+
+msgctxt "login-view"
+msgid "Checking account number"
+msgstr "Hesap numarası kontrol ediliyor"
+
+msgctxt "login-view"
+msgid "Create account"
+msgstr "Hesap oluştur"
+
+msgctxt "login-view"
+msgid "Creating account..."
+msgstr "Hesap oluşturuluyor..."
+
+msgctxt "login-view"
+msgid "Don’t have an account number?"
+msgstr "Hesap numaranız yok mu?"
+
+msgctxt "login-view"
+msgid "Enter your account number"
+msgstr "Hesap numaranızı girin"
+
+msgctxt "login-view"
+msgid "Error"
+msgstr "Hata"
+
+msgctxt "login-view"
+msgid "Failed to create account"
+msgstr "Hesap oluşturulamadı"
+
+#. Error message shown above login input when trying to login but the app fails
+#. to fetch the list of registered devices.
+msgctxt "login-view"
+msgid "Failed to fetch list of devices"
+msgstr "Cihaz listesi alınamadı"
+
+msgctxt "login-view"
+msgid "Finishing upgrade."
+msgstr "Yükseltme tamamlanıyor."
+
+#. Error message shown above login input when trying to login with a
+#. non-existent account number.
+msgctxt "login-view"
+msgid "Invalid account number"
+msgstr "Geçersiz hesap numarası"
+
+msgctxt "login-view"
+msgid "Logged in"
+msgstr "Oturum açıldı"
+
+msgctxt "login-view"
+msgid "Logging in..."
+msgstr "Oturum açılıyor..."
+
+msgctxt "login-view"
+msgid "Login"
+msgstr "Oturum Aç"
+
+msgctxt "login-view"
+msgid "Login failed"
+msgstr "Oturum açma başarısız"
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+msgctxt "login-view"
+msgid "Our kill switch is currently blocking your connection."
+msgstr "Kill Switch özelliğimiz şu anda bağlantınızı engelliyor."
+
+msgctxt "login-view"
+msgid "Please wait"
+msgstr "Lütfen bekleyin"
+
+#. Error message shown above login input when trying to login to an account
+#. with too many registered devices.
+msgctxt "login-view"
+msgid "Too many devices"
+msgstr "Cihaz sayısı çok fazla"
+
+msgctxt "login-view"
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+msgctxt "login-view"
+msgid "Upgrading..."
+msgstr "Yükseltiliyor..."
+
+msgctxt "login-view"
+msgid "Valid account number"
+msgstr "Geçerli hesap numarası"
+
+#. Title label in navigation bar
+msgctxt "navigation-bar"
+msgid "Settings"
+msgstr "Ayarlar"
+
+#. The system notification displayed to the user when the account credit is close to expiry.
+#. Available placeholder:
+#. %(duration)s - remaining time, e.g. "2 days"
+msgctxt "notifications"
+msgid "Account credit expires in %(duration)s. Buy more credit."
+msgstr "Hesap kredisi %(duration)s içinde sona eriyor. Daha fazla kredi satın alın."
+
+msgctxt "notifications"
+msgid "Account is out of time"
+msgstr "Hesabın süresi doldu"
+
+msgctxt "notifications"
+msgid "App is out of sync. Please quit and restart."
+msgstr "Uygulama senkronize değil. Lütfen çıkış yapın ve yeniden başlatın."
+
+#. The system notification that notifies the user when a beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "notifications"
+msgid "Beta update available. Try out the newest beta version (%(version)s)."
+msgstr "Beta güncelleme mevcut. En yeni beta sürümü (%(version)s) deneyin."
+
+msgctxt "notifications"
+msgid "Buy more"
+msgstr "Daha fazla satın al"
+
+msgctxt "notifications"
+msgid "Connected"
+msgstr "Bağlandı"
+
+#. The message showed when a server has been connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connected to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connected to %(location)s"
+msgstr "%(location)s konumuna bağlanıldı"
+
+msgctxt "notifications"
+msgid "Connecting"
+msgstr "Bağlanılıyor"
+
+#. The message showed when a server is being connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connecting to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connecting to %(location)s"
+msgstr "%(location)s konumuna bağlanılıyor"
+
+msgctxt "notifications"
+msgid "Could not configure IPv6. Disable it in the app or enable it on your device."
+msgstr "IPv6 yapılandırılamadı. IPv6'yı uygulamada devre dışı bırakın veya cihazınızda etkinleştirin."
+
+msgctxt "notifications"
+msgid "Disconnected and unsecure"
+msgstr "Bağlantı kesildi ve güvenli değil"
+
+msgctxt "notifications"
+msgid "Lockdown mode active, connection blocked"
+msgstr "Kilitleme modu etkin, bağlantı engellendi"
+
+msgctxt "notifications"
+msgid "No servers match your settings, try changing server or other settings."
+msgstr "Ayarlarınızla eşleşen sunucu yok. Sunucuyu veya diğer ayarları değiştirmeyi deneyin."
+
+msgctxt "notifications"
+msgid "Reconnecting"
+msgstr "Yeniden Bağlanılıyor"
+
+msgctxt "notifications"
+msgid "The apps excluded with %(splitTunneling)s might not work properly right now."
+msgstr "%(splitTunneling)s ile hariç tutulan uygulamalar şu anda düzgün çalışmayabilir."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules."
+msgstr "Güvenlik duvarı kuralları uygulanamıyor."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try temporarily disabling any third-party antivirus or security software."
+msgstr "Güvenlik duvarı kuralları uygulanamıyor. Üçüncü taraf antivirüs veya güvenlik yazılımını geçici olarak devre dışı bırakmayı deneyin."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try updating your kernel."
+msgstr "Güvenlik duvarı kuralları uygulanamıyor. İşletim sistemi çekirdeğinizi güncellemeyi deneyin."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Please troubleshoot or send a problem report."
+msgstr "Tüm ağ trafiği engellenemiyor. Lütfen sorunu çözmeyi deneyin veya bir hata raporu gönderin."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try temporarily disabling any third-party antivirus or security software or send a problem report."
+msgstr "Tüm ağ trafiği engellenemiyor. Üçüncü taraf antivirüs veya güvenlik yazılımını geçici olarak devre dışı bırakmayı deneyin ya da bir hata raporu gönderin."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try updating your kernel or send a problem report."
+msgstr "Tüm ağ trafiği engellenemiyor. İşletim sistemi çekirdeğinizi güncellemeyi deneyin veya bir hata raporu gönderin."
+
+msgctxt "notifications"
+msgid "Unable to communicate with Mullvad kernel driver. Try reconnecting or send a problem report."
+msgstr "Mullvad çekirdek sürücüsü ile iletişim kurulamıyor. Yeniden bağlanmayı deneyin veya bir hata raporu gönderin."
+
+msgctxt "notifications"
+msgid "Unable to resolve host of custom tunnel. Try changing your settings."
+msgstr "Özel tünel ana bilgisayarı çözülemedi. Ayarlarınızı değiştirmeyi deneyin."
+
+msgctxt "notifications"
+msgid "Unable to set system DNS server. Please send a problem report."
+msgstr "Sistem DNS sunucusu ayarlanamıyor. Lütfen bir hata raporu gönderin."
+
+msgctxt "notifications"
+msgid "Unable to start tunnel connection. Please send a problem report."
+msgstr "Tünel bağlantısı başlatılamıyor. Lütfen bir hata raporu gönderin."
+
+msgctxt "notifications"
+msgid "Update available. Install the latest app version to stay up to date"
+msgstr "Güncelleme mevcut. Güncel kalmak için en son uygulama sürümünü yükleyin"
+
+msgctxt "notifications"
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#. Available placeholders:
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "notifications"
+msgid "Valid %(wireguard)s key is missing. Manage keys under Advanced settings."
+msgstr "Geçerli %(wireguard)s anahtarı eksik. Gelişmiş ayarlardan anahtarları yönetin."
+
+msgctxt "notifications"
+msgid "Your device is offline. The tunnel will automatically connect once your device is back online."
+msgstr "Cihazınız çevrimdışı. Cihazınız tekrar çevrimiçi olduğunda tünel otomatik olarak bağlanacak."
+
+#. The in-app banner and system notification which are displayed to the user when the running app becomes unsupported.
+msgctxt "notifications"
+msgid "Your privacy might be at risk with this unsupported app version. Please update now."
+msgstr "Bu desteklenmeyen uygulama sürümüyle gizliliğiniz risk altında olabilir. Lütfen hemen güncelleyin."
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(openvpn)s - Will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-nav"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)s ayarları"
+
+#. %(openvpn)s will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)s ayarları"
+
+#. The title for the port selector section.
+#. Available placeholders:
+#. %(portType)s - a selected protocol (either TCP or UDP)
+msgctxt "openvpn-settings-view"
+msgid "%(portType)s port"
+msgstr "%(portType)s portu"
+
+#. The title for the shadowsocks bridge selector section.
+msgctxt "openvpn-settings-view"
+msgid "Bridge mode"
+msgstr "Köprü modu"
+
+#. This is used as a description for the bridge mode
+#. setting.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "Helps circumvent censorship, by routing your traffic through a bridge server before reaching an %(openvpn)s server. Obfuscation is added to make fingerprinting harder."
+msgstr "%(openvpn)s sunucusuna ulaşmadan önce trafiği bir köprü sunucusu üzerinden yönlendirerek sansürü aşmaya yardımcı olur. Dijital parmak izi oluşturmayı daha zor hale getirmek için gizleme ekler."
+
+msgctxt "openvpn-settings-view"
+msgid "Mssfix"
+msgstr "Mssfix"
+
+#. The hint displayed below the Mssfix input field.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with "OpenVPN"
+#. %(max)d - the maximum possible mssfix value
+#. %(min)d - the minimum possible mssfix value
+msgctxt "openvpn-settings-view"
+msgid "Set %(openvpn)s MSS value. Valid range: %(min)d - %(max)d."
+msgstr "%(openvpn)s MSS değerini ayarlayın. Geçerli aralık: %(min)d - %(max)d."
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(transportProtocol)s - the name of the transport protocol setting
+#. %(automat)s - the translation of "Automatic"
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, change <b>%(transportProtocol)s</b> to <b>%(automatic)s</b> or <b>%(tcp)s</b>."
+msgstr "Köprü modunu etkinleştirmek için <b>%(transportProtocol)s</b> seçeneğini <b>%(automatic)s</b> veya <b>%(tcp)s</b> olarak değiştirin."
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, go back and change <b>%(tunnelProtocol)s</b> to <b>%(openvpn)s</b>."
+msgstr "Köprü modunu etkinleştirmek için geri dönün ve <b>%(tunnelProtocol)s</b> seçeneğini <b>%(openvpn)s</b> olarak değiştirin."
+
+#. This is used to instruct users how to make UDP mode
+#. available.
+msgctxt "openvpn-settings-view"
+msgid "To activate UDP, change <b>Bridge mode</b> to <b>Automatic</b> or <b>Off</b>."
+msgstr "UDP'yi etkinleştirmek için <b>Köprü modu</b>'nu <b>Otomatik</b> veya <b>Kapalı</b> olarak değiştirin."
+
+msgctxt "openvpn-settings-view"
+msgid "Transport protocol"
+msgstr "Taşıma protokolü"
+
+msgctxt "redeem-voucher-alert"
+msgid "Cancel"
+msgstr "İptal et"
+
+msgctxt "redeem-voucher-alert"
+msgid "Enter voucher code"
+msgstr "Kupon kodunu girin"
+
+msgctxt "redeem-voucher-alert"
+msgid "Redeem voucher"
+msgstr "Kuponu kullan"
+
+msgctxt "redeem-voucher-view"
+msgid "An error occurred."
+msgstr "Bir hata oluştu."
+
+msgctxt "redeem-voucher-view"
+msgid "Redeem"
+msgstr "Kullan"
+
+msgctxt "redeem-voucher-view"
+msgid "Verifying voucher..."
+msgstr "Kupon doğrulanıyor..."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code has already been used."
+msgstr "Kupon kodu zaten kullanılmış."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code is invalid."
+msgstr "Kupon kodu geçersiz."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher was successfully redeemed."
+msgstr "Kupon başarıyla kullanıldı."
+
+#. Title label in navigation bar
+msgctxt "select-language-nav"
+msgid "Select language"
+msgstr "Dili seçin"
+
+#. Title label in navigation bar
+msgctxt "select-location-nav"
+msgid "Select location"
+msgstr "Konum seçin"
+
+#. This is used for appending information about a location.
+#. E.g. "Gothenburg (Entry)" if Gothenburg has been selected as the entrypoint.
+#. Available placeholders:
+#. %(location)s - Translated location name
+#. %(info)s - Information about the location
+msgctxt "select-location-view"
+msgid "%(location)s (%(info)s)"
+msgstr "%(location)s (%(info)s)"
+
+msgctxt "select-location-view"
+msgid "Entry"
+msgstr "Giriş"
+
+msgctxt "select-location-view"
+msgid "Exit"
+msgstr "Çıkış"
+
+msgctxt "select-location-view"
+msgid "Filtered:"
+msgstr "Filtrelendi:"
+
+msgctxt "select-location-view"
+msgid "Providers: %(numberOfProviders)d"
+msgstr "Hizmet sağlayıcılar: %(numberOfProviders)d"
+
+msgctxt "select-location-view"
+msgid "The app selects a random bridge server, but servers have a higher probability the closer they are to you."
+msgstr "Uygulama rastgele bir köprü sunucusu seçer, ancak sunucular size ne kadar yakınsa seçilme olasılığı da o kadar fazladır."
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point (a bridge server) and the exit point (a VPN server)."
+msgstr "Bağlıyken, İnternet trafiğiniz giriş noktası (bir köprü sunucusu) ve çıkış noktası (bir VPN sunucusu) olmak üzere iki güvenli konum boyunca yönlendirilir."
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point and the exit point (needs to be two different VPN servers)."
+msgstr "Bağlıyken trafiğiniz, giriş noktası ve çıkış noktası (iki farklı VPN sunucusu gerekir) olmak üzere iki güvenli konum üzerinden yönlendirilir."
+
+msgctxt "settings-view"
+msgid "App is out of sync. Please quit and restart."
+msgstr "Uygulama senkronize değil. Lütfen çıkış yapın ve yeniden başlatın."
+
+msgctxt "settings-view"
+msgid "App version"
+msgstr "Uygulama sürümü"
+
+#. Navigation button to the 'Split tunneling' view
+msgctxt "settings-view"
+msgid "Split tunneling"
+msgstr "Bölünmüş tünelleme"
+
+msgctxt "settings-view"
+msgid "Support"
+msgstr "Destek"
+
+msgctxt "settings-view"
+msgid "Update available. Install the latest app version to stay up to date."
+msgstr "Güncelleme mevcut. Güncel kalmak için en son uygulama sürümünü yükleyin."
+
+#. Navigation button to the 'User interface settings' view
+msgctxt "settings-view"
+msgid "User interface settings"
+msgstr "Kullanıcı arayüzü ayarları"
+
+#. Navigation button to the 'VPN settings' view
+msgctxt "settings-view"
+msgid "VPN settings"
+msgstr "VPN ayarları"
+
+msgctxt "split-tunneling-view"
+msgid "%(applicationName)s is problematic and can’t be excluded from the VPN tunnel."
+msgstr "%(applicationName)s uygulaması hatalı ve VPN tünelinin dışında bırakılamıyor."
+
+msgctxt "split-tunneling-view"
+msgid "Add"
+msgstr "Ekle"
+
+msgctxt "split-tunneling-view"
+msgid "All apps"
+msgstr "Tüm uygulamalar"
+
+msgctxt "split-tunneling-view"
+msgid "Choose the apps you want to exclude from the VPN tunnel."
+msgstr "VPN tünelinden hariç tutmak istediğiniz uygulamaları seçin."
+
+msgctxt "split-tunneling-view"
+msgid "Click on an app to launch it. Its traffic will bypass the VPN tunnel until you close it."
+msgstr "Başlatmak için bir uygulamanın üzerine tıklayın. Uygulama trafiği, siz kapatana kadar VPN tünelini atlayacaktır."
+
+msgctxt "split-tunneling-view"
+msgid "Excluded apps"
+msgstr "Hariç tutulan uygulamalar"
+
+msgctxt "split-tunneling-view"
+msgid "Find another app"
+msgstr "Başka bir uygulama bul"
+
+msgctxt "split-tunneling-view"
+msgid "If it’s already running, close %(applicationName)s before launching it from here. Otherwise it might not be excluded from the VPN tunnel."
+msgstr "Zaten çalışıyorsa, buradan başlatmadan önce %(applicationName)s uygulamasını kapatın. Aksi takdirde VPN tünelinin dışında tutulmayacaktır."
+
+msgctxt "split-tunneling-view"
+msgid "Launch"
+msgstr "Başlat"
+
+#. This error message is shown if the user tries to launch a Linux desktop
+#. entry file that doesn't contain the required 'Exec' value.
+msgctxt "split-tunneling-view"
+msgid "Please send a problem report."
+msgstr "Lütfen bir hata raporu gönderin."
+
+#. This error message is shown if the user tries to launch an app that
+#. doesn't exist.
+#. This error message is shown if an application fails during startup.
+msgctxt "split-tunneling-view"
+msgid "Please try again or send a problem report."
+msgstr "Lütfen tekrar deneyin veya bir hata raporu gönderin."
+
+#. Error message showed in a dialog when an application fails to launch.
+msgctxt "split-tunneling-view"
+msgid "Unable to launch selection. %(detailedErrorMessage)s"
+msgstr "Başlatma seçenekleri kullanılamıyor %(detailedErrorMessage)s"
+
+msgctxt "support-view"
+msgid "Beta program"
+msgstr "Beta program"
+
+msgctxt "support-view"
+msgid "Continue anyway"
+msgstr "Yine de devam et"
+
+msgctxt "support-view"
+msgid "Edit message"
+msgstr "Mesajı düzenle"
+
+msgctxt "support-view"
+msgid "Enable to get notified when new beta versions of the app are released."
+msgstr "Uygulamanın yeni beta sürümleri yayınlandığında bildirim almayı etkinleştirin."
+
+msgctxt "support-view"
+msgid "Failed to send"
+msgstr "Gönderme başarısız"
+
+#. Link to the webpage
+msgctxt "support-view"
+msgid "FAQs & Guides"
+msgstr "SSS ve Kılavuzlar"
+
+#. The message displayed to the user after submitting the problem report, given that the user left his or her email for us to reach back.
+#. Available placeholders:
+#. %(email)s
+msgctxt "support-view"
+msgid "If needed we will contact you at %(email)s"
+msgstr "Gerektiğinde sizinle %(email)s adresinden iletişime geçeceğiz"
+
+msgctxt "support-view"
+msgid "If you exit the form and try again later, the information you already entered will still be here."
+msgstr "Formdan çıkıp daha sonra tekrar denerseniz, girmiş olduğunuz bilgiler hala burada olacaktır."
+
+#. Title label in navigation bar
+#. Navigation button to the 'Report a problem' help view
+msgctxt "support-view"
+msgid "Report a problem"
+msgstr "Bir sorun bildir"
+
+msgctxt "support-view"
+msgid "Send"
+msgstr "Gönder"
+
+msgctxt "support-view"
+msgid "Send anyway"
+msgstr "Yine de gönder"
+
+msgctxt "support-view"
+msgid "Sending..."
+msgstr "Gönderiliyor..."
+
+msgctxt "support-view"
+msgid "Sent"
+msgstr "Gönderildi"
+
+#. Title label in navigation bar
+msgctxt "support-view"
+msgid "Support"
+msgstr "Destek"
+
+msgctxt "support-view"
+msgid "Thanks!"
+msgstr "Teşekkürler!"
+
+msgctxt "support-view"
+msgid "This option is unavailable while using a beta version."
+msgstr "Beta sürümde bu seçenek kullanılamaz."
+
+msgctxt "support-view"
+msgid "To assist you better, please write in English or Swedish and include which country you are connecting from."
+msgstr "Size daha iyi yardımcı olabilmemiz için lütfen mesajınızı İngilizce veya İsveççe olarak yazın ve hangi ülkeden bağlandığınızı belirtin."
+
+msgctxt "support-view"
+msgid "To help you more effectively, your app’s log file will be attached to this message. Your data will remain secure and private, as it is anonymised before being sent over an encrypted channel."
+msgstr "Size daha etkili bir şekilde yardımcı olmak için uygulamanızın günlük dosyası bu mesaja eklenecektir. Verileriniz şifrelenmiş bir kanal üzerinden gönderilmeden önce anonimleştirildiği için güvenli ve gizli kalacaktır."
+
+msgctxt "support-view"
+msgid "Try again"
+msgstr "Tekrar dene"
+
+msgctxt "support-view"
+msgid "Upgrade app"
+msgstr "Uygulamayı yükselt"
+
+msgctxt "support-view"
+msgid "View app logs"
+msgstr "Uygulama kayıtlarını görüntüle"
+
+msgctxt "support-view"
+msgid "We will look into this."
+msgstr "Bunu araştıracağız."
+
+msgctxt "support-view"
+msgid "You are about to send the problem report without a way for us to get back to you. If you want an answer to your report you will have to enter an email address."
+msgstr "Sorun raporunu, size geri dönüş yapmamıza imkan vermeyen bir şekilde göndermek üzeresiniz. Sorununuz için yanıt almak istiyorsanız bir e-posta adresi girmelisiniz."
+
+msgctxt "support-view"
+msgid "You are using an old version of the app. Please upgrade and see if the problem still exists before sending a report."
+msgstr "Şu anda uygulamanın eski bir sürümünü kullanıyorsunuz. Lütfen yeni sürüme geçin ve rapor göndermeden önce sorunun hala devam edip etmediğine bakın."
+
+msgctxt "support-view"
+msgid "Your email (optional)"
+msgstr "E-posta adresiniz (isteğe bağlı)"
+
+msgctxt "tray-icon-context-menu"
+msgid "Disconnected from system service"
+msgstr "Sistem hizmetiyle bağlantı kesildi"
+
+msgctxt "tray-icon-context-menu"
+msgid "Open %(mullvadVpn)s"
+msgstr "%(mullvadVpn)s aç"
+
+msgctxt "tray-icon-tooltip"
+msgid "%(city)s, %(country)s"
+msgstr "%(city)s, %(country)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connected. %(location)s"
+msgstr "Bağlandı. %(location)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connecting. %(location)s"
+msgstr "Bağlanılıyor. %(location)s"
+
+msgctxt "troubleshoot"
+msgid "If these steps do not work please send a problem report."
+msgstr "Bu adımlar işe yaramazsa lütfen bir hata raporu gönderin."
+
+msgctxt "troubleshoot"
+msgid "Make sure you have NF tables support."
+msgstr "NFtables desteğinizin olduğundan emin olun."
+
+msgctxt "troubleshoot"
+msgid "This error can happen when something other than Mullvad is actively updating the DNS."
+msgstr "Bu hata, Mullvad dışındaki bir yazılımın DNS'yi aktif olarak güncellemesi sırasında ortaya çıkabilir."
+
+msgctxt "troubleshoot"
+msgid "This might be caused by an outdated kernel."
+msgstr "Bu durum, güncel olmayan bir çekirdekten kaynaklanabilir."
+
+msgctxt "troubleshoot"
+msgid "Try reconnecting."
+msgstr "Yeniden bağlanmayı deneyin."
+
+msgctxt "troubleshoot"
+msgid "Try restarting your device."
+msgstr "Cihazınızı yeniden başlatmayı deneyin."
+
+msgctxt "troubleshoot"
+msgid "Try to turn Wi-Fi Calling off in the FaceTime app settings and restart the Mac."
+msgstr "FaceTime uygulama ayarlarından Wi-Fi Aramasını kapatmayı deneyin ve Mac'i yeniden başlatın."
+
+msgctxt "troubleshoot"
+msgid "Unable to communicate with Mullvad kernel driver."
+msgstr "Mullvad çekirdek sürücüsü ile iletişim kurulamıyor."
+
+msgctxt "troubleshoot"
+msgid "Uninstall or disable other DNS, networking and ads/website blocking apps."
+msgstr "Diğer DNS, ağ iletişimi ve reklamları/web sitesi engelleme uygulamalarını kaldırın veya devre dışı bırakın."
+
+msgctxt "troubleshoot"
+msgid "Update your kernel."
+msgstr "Çekirdeğinizi güncelleyin."
+
+msgctxt "tunnel-control"
+msgid "Secure my connection"
+msgstr "Bağlantımı güvenceye al"
+
+msgctxt "tunnel-control"
+msgid "Switch location"
+msgstr "Konum değiştir"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable or disable system notifications. The critical notifications will always be displayed."
+msgstr "Sistem bildirimlerini açın veya kapatın. Önemli bildirimler her zaman gösterilir."
+
+msgctxt "user-interface-settings-view"
+msgid "Enable to move the app around as a free-standing window."
+msgstr "Uygulamayı bağımsız bir pencere olarak taşımak için etkinleştirin."
+
+#. Navigation button to the 'Language' settings view
+msgctxt "user-interface-settings-view"
+msgid "Language"
+msgstr "Dil"
+
+msgctxt "user-interface-settings-view"
+msgid "Monochromatic tray icon"
+msgstr "Monokrom tepsi simgesi"
+
+msgctxt "user-interface-settings-view"
+msgid "Notifications"
+msgstr "Bildirimler"
+
+msgctxt "user-interface-settings-view"
+msgid "Show only the tray icon when the app starts."
+msgstr "Uygulama başlatıldığında sadece tepsi simgesini göster."
+
+msgctxt "user-interface-settings-view"
+msgid "Start minimized"
+msgstr "Küçültülmüş olarak başlat"
+
+msgctxt "user-interface-settings-view"
+msgid "Unpin app from taskbar"
+msgstr "Uygulamayı görev çubuğundan kaldır"
+
+msgctxt "user-interface-settings-view"
+msgid "Use a monochromatic tray icon instead of a colored one."
+msgstr "Renkli yerine monokrom bir tepsi simgesi kullan."
+
+#. Title label in navigation bar
+msgctxt "user-interface-settings-view"
+msgid "User interface settings"
+msgstr "Kullanıcı arayüzü ayarları"
+
+#. %(openvpn)s will be replaced with the string "OpenVPN"
+msgctxt "vpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)s ayarları"
+
+#. %(wireguard)s will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)s ayarları"
+
+msgctxt "vpn-settings-view"
+msgid "Add a server"
+msgstr "Sunucu ekle"
+
+msgctxt "vpn-settings-view"
+msgid "Add anyway"
+msgstr "Yine de ekle"
+
+#. Label for settings that enables ad blocking.
+msgctxt "vpn-settings-view"
+msgid "Ads"
+msgstr "Reklamlar"
+
+#. Label for settings that enables block of adult content.
+msgctxt "vpn-settings-view"
+msgid "Adult content"
+msgstr "Yetişkinlere özel içerik"
+
+msgctxt "vpn-settings-view"
+msgid "Attention: enabling this will always require a Mullvad VPN connection in order to reach the internet."
+msgstr "Dikkat: Bu seçeneğin etkinleştirilmesi, internete erişim için her zaman bir Mullvad VPN bağlantısı gerektirir."
+
+msgctxt "vpn-settings-view"
+msgid "Auto-connect"
+msgstr "Otomatik Bağlan"
+
+msgctxt "vpn-settings-view"
+msgid "Automatically connect to a server when the app launches."
+msgstr "Uygulama başladığında bir sunucuya otomatik olarak bağlan."
+
+#. This is displayed when the custom DNS setting is turned on which makes the block
+#. ads/trackers settings disabled. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(customDnsFeatureName)s - The name displayed next to the custom DNS toggle.
+msgctxt "vpn-settings-view"
+msgid "Disable <b>%(customDnsFeatureName)s</b> below to activate these settings."
+msgstr "Bu ayarları etkinleştirmek için aşağıdaki <b>%(customDnsFeatureName)s</b> seçeneğini devre dışı bırakın."
+
+#. This is displayed when either or both of the block ads/trackers settings are
+#. turned on which makes the custom DNS setting disabled.
+#. Available placeholders:
+#. %(preferencesPageName)s - The page title showed on top in the preferences page.
+msgctxt "vpn-settings-view"
+msgid "Disable all <b>DNS content blockers</b> above to activate this setting."
+msgstr "Bu ayarı etkinleştirmek için yukarıdaki tüm <b>DNS içerik engelleyicileri</b> devre dışı bırakın."
+
+msgctxt "vpn-settings-view"
+msgid "DNS content blockers"
+msgstr "DNS içerik engelleyiciler"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6"
+msgstr "IPv6'yı etkinleştir"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6 communication through the tunnel."
+msgstr "Tünel üzerinden IPv6 iletişimini etkinleştir."
+
+#. The label next to the multihop settings toggle.
+msgctxt "vpn-settings-view"
+msgid "Enable multihop"
+msgstr "Çoklu geçişi etkinleştir"
+
+msgctxt "vpn-settings-view"
+msgid "Enable to add at least one DNS server."
+msgstr "En az bir DNS sunucusu eklemek için etkinleştirin."
+
+msgctxt "vpn-settings-view"
+msgid "Enter IP"
+msgstr "IP'yi girin"
+
+#. Label for settings that enables block of gamling related websites.
+msgctxt "vpn-settings-view"
+msgid "Gambling"
+msgstr "Kumar"
+
+#. Description for multihop settings toggle.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "Increases anonymity by routing your traffic into one %(wireguard)s server and out another, making it harder to trace."
+msgstr "Trafiğinizi bir %(wireguard)s sunucusundan diğerine yönlendirerek gizliliği artırır ve izlemeyi zorlaştırır."
+
+msgctxt "vpn-settings-view"
+msgid "It does this by allowing network communication outside the tunnel to local multicast and broadcast ranges as well as to and from these private IP ranges:"
+msgstr "Bunu, yerel çok noktaya yayın ve yayın aralıklarının yanı sıra aşağıdaki özel IP aralıkları arasında tünel dışı ağ iletişimine izin vererek yapar:"
+
+msgctxt "vpn-settings-view"
+msgid "Kill switch"
+msgstr "Kill switch"
+
+msgctxt "vpn-settings-view"
+msgid "Launch app on start-up"
+msgstr "Uygulamayı başlangıçta aç"
+
+msgctxt "vpn-settings-view"
+msgid "Local network sharing"
+msgstr "Yerel ağ paylaşımı"
+
+msgctxt "vpn-settings-view"
+msgid "Lockdown mode"
+msgstr "Kilitleme modu"
+
+#. Label for settings that enables malware blocking.
+msgctxt "vpn-settings-view"
+msgid "Malware"
+msgstr "Kötü amaçlı yazılım"
+
+msgctxt "vpn-settings-view"
+msgid "The app’s built-in kill switch is always on. This setting will additionally block the internet if clicking Disconnect or Quit."
+msgstr "Uygulamanın dahili kill switch seçeneği her zaman açıktır. Ayrıca bu ayar, Bağlantıyı Kes veya Çık seçeneklerini tıkladığınızda interneti de engeller."
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents."
+msgstr "Kill Switch ve Kilitleme Modu arasındaki fark, Kill Switch'in otomatik olarak tünel bağlantısının yeniden kurulması, yazılım çökmeleri ve benzer sorunlar sırasında herhangi bir sızıntının olmasını engellemesidir."
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents. With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "Kill Switch ve Kilitleme Modu arasındaki fark, Kill Switch'in otomatik olarak tünel bağlantısının yeniden kurulması, yazılım çökmeleri ve benzer sorunlar sırasında herhangi bir sızıntının olmasını engellemesidir. Kilitleme Modu etkinken, internete erişmek için bir Mullvad VPN sunucusuna bağlı olmanız gerekir. Uygulamanın bağlantısını manuel olarak kesmek veya uygulamadan çıkmak bağlantınızı engeller."
+
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is a private IP. You must ensure that your network interfaces are configured to use it."
+msgstr "Eklemek istediğiniz DNS sunucusu özel bir IP'dir. Ağ arayüzlerinizin bu IP'yi kullanacak şekilde yapılandırıldığından emin olun."
+
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is public and will only work with %(wireguard)s. To ensure that it always works, set the \"%(tunnelProtocol)s\" (in Advanced settings) to %(wireguard)s."
+msgstr "Eklemek istediğiniz DNS sunucusu herkese açıktır ve yalnızca %(wireguard)s ile çalışır. Her zaman etkin kalması için \"%(tunnelProtocol)s\" seçeneğini (Gelişmiş ayarlardan) %(wireguard)s olarak ayarlayın."
+
+msgctxt "vpn-settings-view"
+msgid "This built-in feature prevents your traffic from leaking outside of the VPN tunnel if your network suddenly stops working or if the tunnel fails, it does this by blocking your traffic until your connection is reestablished."
+msgstr "Bu dahili özellik, ağ bağlantınız aniden kesilirse veya tünelle ilgili bir sorun meydana gelirse ağ trafiğinizin VPN tünelinin dışına sızmasını önler ve bağlantınız yeniden kurulana kadar ağ trafiğinizi engeller."
+
+msgctxt "vpn-settings-view"
+msgid "This feature allows access to other devices on the local network, such as for sharing, printing, streaming, etc."
+msgstr "Bu özellik; paylaşım, yazdırma, akış sağlama gibi özellikler için yerel ağdaki diğer cihazlara erişim izni verir."
+
+msgctxt "vpn-settings-view"
+msgid "This might cause issues on certain websites, services, and programs."
+msgstr "Bu özellik belirli web sitelerinde, hizmetlerde ve programlarda sorunlara neden olabilir."
+
+#. Label for settings that enables tracker blocking.
+msgctxt "vpn-settings-view"
+msgid "Trackers"
+msgstr "İzleyiciler"
+
+msgctxt "vpn-settings-view"
+msgid "Tunnel protocol"
+msgstr "Tünel protokolü"
+
+msgctxt "vpn-settings-view"
+msgid "Use custom DNS server"
+msgstr "Özel DNS sunucusu kullanın"
+
+#. Title label in navigation bar
+msgctxt "vpn-settings-view"
+msgid "VPN settings"
+msgstr "VPN ayarları"
+
+msgctxt "vpn-settings-view"
+msgid "Warning: The malware blocker is not an anti-virus and should not be treated as such, this is just an extra layer of protection."
+msgstr "Uyarı: Kötü amaçlı yazılım engelleyici, virüsten koruma yazılımı değildir ve bu şekilde değerlendirilmemelidir. Sadece ek bir koruma seviyesi sağlamaktadır."
+
+msgctxt "vpn-settings-view"
+msgid "When this feature is enabled it stops the device from contacting certain domains or websites known for distributing ads, malware, trackers and more."
+msgstr "Bu özellik etkinleştirildiğinde, cihazınızın reklamlar, kötü amaçlı yazılımlar, izleyiciler ve daha fazlasını dağıttığı bilinen belirli alan adlarıyla veya web siteleriyle iletişim kurmasını durdurur."
+
+msgctxt "vpn-settings-view"
+msgid "With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "Kilitleme Modu etkinken, internete erişebilmek için bir Mullvad VPN sunucusuna bağlı olmanız gerekir. Uygulamanın bağlantısını manuel olarak kesmek veya uygulamadan çıkmak bağlantınızı engeller."
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-nav"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)s ayarları"
+
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)s ayarları"
+
+msgctxt "wireguard-settings-view"
+msgid "IP version"
+msgstr "IP sürümü"
+
+msgctxt "wireguard-settings-view"
+msgid "It does this by performing an extra key exchange using a quantum safe algorithm and mixing the result into WireGuard’s regular encryption. This extra step uses approximately 500 kiB of traffic every time a new tunnel is established."
+msgstr "Bu işlemi, bir kuantum güvenlik algoritmasıyla ekstra bir anahtar değişimi gerçekleştirdikten sonra sonucu WireGuard'ın normal şifrelemesiyle karıştırarak yapar. Bu ekstra adım, her yeni tünel kurulduğunda yaklaşık 500 kiB trafik kullanır."
+
+msgctxt "wireguard-settings-view"
+msgid "MTU"
+msgstr "MTU"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation"
+msgstr "Gizleme"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation hides the WireGuard traffic inside another protocol. It can be used to help circumvent censorship and other types of filtering, where a plain WireGuard connect would be blocked."
+msgstr "Gizleme, WireGuard trafiğini başka bir protokolün içinde gizler. Normal bir WireGuard bağlantısının engelleneceği sansürü ve diğer filtreleme türlerini aşmaya yardımcı olmak için kullanılabilir."
+
+msgctxt "wireguard-settings-view"
+msgid "On (UDP-over-TCP)"
+msgstr "Açık (TCP üzerinden UDP)"
+
+msgctxt "wireguard-settings-view"
+msgid "Port"
+msgstr "Port"
+
+#. The title for the WireGuard quantum resistance selector. This setting
+#. makes the cryptography resistant to the future abilities of quantum
+#. computers.
+msgctxt "wireguard-settings-view"
+msgid "Quantum-resistant tunnel"
+msgstr "Kuantuma dayanıklı tünel"
+
+#. The hint displayed below the WireGuard MTU input field.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+#. %(max)d - the maximum possible wireguard mtu value
+#. %(min)d - the minimum possible wireguard mtu value
+msgctxt "wireguard-settings-view"
+msgid "Set %(wireguard)s MTU value. Valid range: %(min)d - %(max)d."
+msgstr "%(wireguard)s MTU değerini ayarlayın. Geçerli aralık: %(min)d - %(max)d."
+
+msgctxt "wireguard-settings-view"
+msgid "The automatic setting will randomly choose from the valid port ranges shown below."
+msgstr "Otomatik ayar, aşağıda gösterilen geçerli port aralıklarından rastgele seçim yapar."
+
+msgctxt "wireguard-settings-view"
+msgid "The custom port can be any value inside the valid ranges: %(portRanges)s."
+msgstr "Özel port, geçerli aralıklar içindeki herhangi bir değer olabilir: %(portRanges)s."
+
+#. The hint displayed below the WireGuard IP version selector.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "This allows access to %(wireguard)s for devices that only support IPv6."
+msgstr "Bu, sadece IPv6'yı destekleyen cihazlarda %(wireguard)s için erişim izni sağlar."
+
+msgctxt "wireguard-settings-view"
+msgid "This feature makes the WireGuard tunnel resistant to potential attacks from quantum computers."
+msgstr "Bu özellik, WireGuard tünelini kuantum bilgisayarlardan gelebilecek potansiyel saldırılara karşı dayanıklı hale getirir."
+
+msgctxt "wireguard-settings-view"
+msgid "UDP-over-TCP port"
+msgstr "TCP üzerinden UDP portu"
+
+msgctxt "wireguard-settings-view"
+msgid "Which TCP port the UDP-over-TCP obfuscation protocol should connect to on the VPN server."
+msgstr "TCP üzerinden UDP gizleme protokolünün VPN sunucusunda hangi TCP portuna bağlanması gerekiyor."
+
+msgid "Account credit expires in a few minutes"
+msgstr "Hesap kredisinin süresi birkaç dakika içinde doluyor"
+
+msgid "Account credit expires soon"
+msgstr "Hesap kredisinin süresi yakında doluyor"
+
+msgid "Account time reminders"
+msgstr "Hesap süresi hatırlatıcıları"
+
+msgid "Add DNS server"
+msgstr "DNS sunucusu ekle"
+
+msgid "Agree and continue"
+msgstr "Kabul et ve devam et"
+
+msgid "All applications"
+msgstr "Tüm uygulamalar"
+
+msgid "Allows access to other devices on the same network for sharing, printing etc."
+msgstr "Paylaşım, yazdırma gibi özellikler için aynı ağdaki diğer cihazlara erişim izni verir."
+
+msgid "Always-on VPN assigned to other app"
+msgstr "Her zaman açık VPN başka bir uygulamaya atandı"
+
+msgid "Always-on VPN might be enabled for another app"
+msgstr "Her zaman açık VPN başka bir uygulama için etkinleştirilebilir"
+
+msgid "Attention: this setting cannot be used in combination with <b>Use custom DNS server</b>."
+msgstr "Dikkat: Bu ayar <b>Özel DNS sunucusu kullan</b> seçeneği ile birlikte kullanılamaz."
+
+msgid "Blocking internet (device offline)"
+msgstr "İnternet bağlantısı engelleniyor (cihaz çevrimdışı)"
+
+msgid "Changes to DNS related settings might not go into effect immediately due to cached results."
+msgstr "DNS ile ilgili ayarlarda yapılan değişiklikler, önbelleğe alınan sonuçlar nedeniyle hemen etkili olmayabilir."
+
+msgid "Copied Mullvad account number to clipboard"
+msgstr "Mullvad hesap numarası panoya kopyalandı"
+
+msgid "Copied to clipboard"
+msgstr "Panoya kopyalandı"
+
+msgid "Critical error (your attention is required)"
+msgstr "Kritik hata (Lütfen dikkatli olun)"
+
+msgid "Custom DNS server addresses %s are invalid"
+msgstr "Özel DNS sunucu adresleri (%s) geçersiz"
+
+msgid "DNS settings might not go into effect immediately"
+msgstr "DNS ayarları hemen etkili olmayabilir"
+
+msgid "Disable all <b>%s</b> above to activate this setting."
+msgstr "Bu ayarı etkinleştirmek için yukarıdaki <b>%s</b> öğelerinin tümünü devre dışı bırakın."
+
+msgid "Enable"
+msgstr "Etkinleştir"
+
+msgid "Enter MTU"
+msgstr "MTU'yu girin"
+
+msgid "Excluded applications"
+msgstr "Hariç tutulan uygulamalar"
+
+msgid "Going to login will unblock the internet on this device."
+msgstr "Giriş yapmak bu cihazdaki internet engelini kaldıracaktır."
+
+msgid "Install Mullvad VPN (%s) to stay up to date"
+msgstr "Güncel kalmak için Mullvad VPN (%s) yükleyin"
+
+msgid "Manage account"
+msgstr "Hesabı yönet"
+
+msgid "Mullvad account number"
+msgstr "Mullvad hesap numarası"
+
+msgid "Preferences"
+msgstr "Tercihler"
+
+msgid "Privacy"
+msgstr "Gizlilik"
+
+msgid "Privacy policy"
+msgstr "Gizlilik politikası"
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Reset to default"
+msgstr "Varsayılana sıfırla"
+
+msgid "Secured"
+msgstr "Güvenli"
+
+msgid "Set WireGuard MTU value. Valid range: %d - %d."
+msgstr "WireGuard MTU değerini ayarlayın. Geçerli aralık: %d - %d."
+
+msgid "Show system apps"
+msgstr "Sistem uygulamalarını göster"
+
+msgid "Shows current VPN tunnel status"
+msgstr "Mevcut VPN tünelinin durumunu gösterir"
+
+msgid "Shows reminders when the account time is about to expire"
+msgstr "Hesap süresinin dolmak üzere olduğunu bildiren hatırlatıcıları gösterir"
+
+msgid "Split tunneling makes it possible to select which applications should not be routed through the VPN tunnel."
+msgstr "Bölünmüş tünelleme, VPN tüneli üzerinden yönlendirilmemesi gereken uygulamaları seçmenize imkan sağlar."
+
+msgid "Submit"
+msgstr "Gönder"
+
+msgid "The local DNS server will not work unless you enable \"Local Network Sharing\" under Preferences."
+msgstr "Tercihler sekmesinin altındaki \"Yerel Ağ Paylaşımı\" seçeneğini etkinleştirmediğiniz sürece yerel DNS sunucusu çalışmaz."
+
+msgid "This address has already been entered."
+msgstr "Bu adres zaten girilmiş."
+
+msgid "This might cause issues on certain websites, services, and apps."
+msgstr "Bu özellik belirli web sitelerinde, hizmetlerde ve uygulamalarda sorunlara neden olabilir."
+
+msgid "To make sure that you have the most secure version and to inform you of any issues with the current version that is running, the app performs version checks automatically. This sends the app version and Android system version to Mullvad servers. Mullvad keeps counters on number of used app versions and Android versions. The data is never stored or used in any way that can identify you.\\n\\nIf the split tunneling feature is used, then the app queries your system for a list of all installed applications. This list is only retrieved in the split tunneling view. The list of installed applications is never sent from the device."
+msgstr "Uygulama, en güvenli sürüme sahip olduğunuzdan emin olmak ve çalışan mevcut sürümle ilgili sorunları size bildirmek için sürüm kontrollerini otomatik olarak gerçekleştirir. Bu işlem, uygulama sürümünü ve Android sistem sürümünü Mullvad sunucularına gönderir. Mullvad, kullanılan uygulama sürümlerinin ve Android sürümlerinin numarasını kaydeder. Veriler asla sizi tanımlayacak şekilde saklanmaz veya kullanılmaz.\\n\\nUygulama, bölünmüş tünel oluşturma özelliği kullanılıyorsa yüklü tüm uygulamaların listesini çıkarmak için sisteminizi sorgular. Bu liste yalnızca bölünmüş tünel görünümünde alınabilir. Cihazdaki yüklü uygulamaların listesi asla gönderilmez."
+
+msgid "Toggle VPN"
+msgstr "VPN'i aç/kapat"
+
+msgid "Unable to apply firewall rules. Please troubleshoot or send a problem report."
+msgstr "Güvenlik duvarı kuralları uygulanamıyor. Lütfen sorunu çözmeye çalışın veya bir hata raporu gönderin."
+
+msgid "Unable to start tunnel connection. Please disable Always-on VPN for <b>%s</b> before using Mullvad VPN."
+msgstr "Tünel bağlantısı başlatılamıyor. Mullvad VPN'i kullanmadan önce lütfen Her zaman açık VPN'i <b>%s</b> için devre dışı bırakın."
+
+msgid "Unsecured"
+msgstr "Güvenli değil"
+
+msgid "Update DNS server"
+msgstr "DNS sunucusunu güncelle"
+
+msgid "Update available, download to remain safe."
+msgstr "Güncelleme mevcut, güvende kalmak için güncellemeyi indirin."
+
+msgid "VPN permission error"
+msgstr "VPN izin hatası"
+
+msgid "VPN permission was denied when creating the tunnel. Please try connecting again."
+msgstr "Tünel oluşturulurken VPN izni reddedildi. Lütfen tekrar bağlanmayı deneyin."
+
+msgid "VPN tunnel status"
+msgstr "VPN tüneli durumu"
+
+msgid "Valid WireGuard key is missing. Manage keys under Advanced settings."
+msgstr "Geçerli WireGuard anahtarı eksik. Gelişmiş ayarlardan anahtarları yönetin."
+
+msgid "Virtual adapter error"
+msgstr "Sanal adaptör hatası"
+
+msgid "While connected, your real location is masked with a private and secure location in the selected region."
+msgstr "Bağlıyken gerçek konumunuz, seçilen bölgedeki özel ve gizli bir konumla maskelenir."
+
+msgid "WireGuard MTU"
+msgstr "WireGuard MTU"
+
+msgid "WireGuard obfuscation"
+msgstr "WireGuard gizlemesi"
+
+msgid "YOU MIGHT BE LEAKING NETWORK TRAFFIC"
+msgstr "AĞ TRAFİĞİNİZDE SIZINTI OLABİLİR"
+
+msgid "You are running an unsupported app version."
+msgstr "Desteklenmeyen bir uygulama sürümünü kullanıyorsunuz."
+
+msgid "less than a minute ago"
+msgstr "bir dakikadan az"
+
+msgid "Account credit expires in a day"
+msgid_plural "Account credit expires in %d days"
+msgstr[0] "Hesap kredisi bir gün içinde sona eriyor"
+msgstr[1] "Hesap kredisi %d gün içinde sona eriyor"
+
+msgid "Account credit expires in an hour"
+msgid_plural "Account credit expires in %d hours"
+msgstr[0] "Hesap kredisi bir saat içinde sona eriyor"
+msgstr[1] "Hesap kredisi %d saat içinde sona eriyor"
+
+msgid "a day ago"
+msgid_plural "%d days ago"
+msgstr[0] "bir gün önce"
+msgstr[1] "%d gün önce"
+
+msgid "a minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "bir dakika önce"
+msgstr[1] "%d dakika önce"
+
+msgid "a month ago"
+msgid_plural "%d months ago"
+msgstr[0] "bir ay önce"
+msgstr[1] "%d ay önce"
+
+msgid "a year ago"
+msgid_plural "%d years ago"
+msgstr[0] "bir yıl önce"
+msgstr[1] "%d yıl önce"
+
+msgid "an hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "bir saat önce"
+msgstr[1] "%d saat önce"
+

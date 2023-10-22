@@ -1,0 +1,122 @@
+# To build the image (executed from the repository root):
+# podman build -f building/Dockerfile . -t mullvadvpn-app-build
+#
+# To run the image and build the app you need to mount the app's source directory into the
+# container. You also probably want to mount in a directory for CARGO_HOME, so each container
+# does not need to start from scratch with cloning the crates.io index, download all
+# dependencies and building everything.
+#
+# podman run --rm \
+#     -v $CARGO_TARGET_VOLUME_NAME:/cargo-target:Z \
+#     -v $CARGO_REGISTRY_VOLUME_NAME:/root/.cargo/registry:Z \
+#     -v /path/to/repository_root:/build:Z \
+#     mullvadvpn-app-build ./build.sh
+#
+# And add -e TARGETS="aarch64-unknown-linux-gnu" to build for ARM64
+
+# When building the app, we must link towards the oldest glibc version we want to support.
+# This is currently glibc 2.31 which is the version in Debian 11.
+# When updating this base image, to find the checksum, run: podman inspect <image> | jq '.[]["Digest"]'
+# This checksum points to a 11.6-slim image.
+FROM debian@sha256:77f46c1cf862290e750e913defffb2828c889d291a93bdd10a7a0597720948fc
+
+LABEL org.opencontainers.image.source=https://github.com/mullvad/mullvadvpn-app
+LABEL org.opencontainers.image.description="Mullvad VPN app Linux build container"
+LABEL org.opencontainers.image.licenses=GPL-3.0
+
+# === Define toolchain versions and paths ===
+
+ENV CARGO_TARGET_DIR=/cargo-target/target
+
+ARG GOLANG_VERSION=1.18.5 \
+    GOLANG_HASH=9e5de37f9c49942c601b191ac5fba404b868bfc21d446d6960acc12283d6e5f2
+
+# The pinned commit has this solved: https://github.com/rui314/mold/issues/1003.
+ARG MOLD_COMMIT_REF=c4722fe5aed96295837d9150b20ef8698c7a28db
+
+# Pinned to commit hash for tag v4.24.3
+ARG PROTOBUF_COMMIT_REF=ee1355459c9ce7ffe264bc40cfdc7b7623d37e99
+
+# === Install/set up the image ===
+
+RUN dpkg --add-architecture arm64 && apt-get update -y && apt-get install -y \
+    git \
+    curl \
+    gcc gcc-aarch64-linux-gnu \
+    libdbus-1-dev libdbus-1-dev:arm64 \
+    rpm \
+    # For cross-compiling/linting towards Windows
+    gcc-mingw-w64-x86-64 \
+    && rm -rf /var/lib/apt/lists/*
+
+# === Rust ===
+
+# Install latest stable Rust toolchain for both x86_64-unknown-linux-gnu and aarch64-unknown-linux-gnu,
+# plus x86_64-pc-windows-gnu for Windows cross-compilation/linting
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | \
+    sh -s -- -y \
+    --default-toolchain stable \
+    --profile minimal \
+    --component clippy \
+    --target aarch64-unknown-linux-gnu \
+    --target x86_64-pc-windows-gnu
+
+ENV PATH=/root/.cargo/bin:$PATH
+ENV CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER="aarch64-linux-gnu-gcc" \
+    PKG_CONFIG_SYSROOT_DIR_aarch64_unknown_linux_gnu=/usr/lib/aarch64-linux-gnu
+
+# Enable Cargo's sparse protocol. Allows fetching the index much faster.
+# Is targeted for being the default in Rust 1.70. If that happens, this can be removed.
+# https://blog.rust-lang.org/2023/03/09/Rust-1.68.0.html#cargos-sparse-protocol
+ENV CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
+
+# === protobuf (for compiling .proto files) ===
+
+RUN apt-get update -y && \
+    apt-get install -y --mark-auto cmake g++ && \
+    rm -rf /var/lib/apt/lists/* && \
+    git clone https://github.com/protocolbuffers/protobuf.git && \
+    cd protobuf && \
+    git reset --hard "$PROTOBUF_COMMIT_REF" && \
+    git submodule update --init --recursive && \
+    cmake . -DCMAKE_CXX_STANDARD=14 && \
+    cmake --build . -j $(nproc) && \
+    cmake --install . && \
+    cd .. && rm -rf protobuf && \
+    apt-get autoremove -y
+
+# === mold (fast linker) ===
+# Allows linking Rust binaries significantly faster.
+
+RUN apt-get update -y && \
+    apt-get install -y --mark-auto cmake libssl-dev zlib1g-dev gcc g++ && \
+    rm -rf /var/lib/apt/lists/* && \
+    git clone https://github.com/rui314/mold.git && \
+    mkdir mold/build && cd mold/build && \
+    git reset --hard "$MOLD_COMMIT_REF" && \
+    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=c++ .. && \
+    cmake --build . -j $(nproc) && \
+    cmake --install . && \
+    cd ../.. && rm -rf mold && \
+    apt-get autoremove -y
+
+# === Volta for npm + node ===
+
+ENV PATH=/root/.volta/bin:$PATH
+# volta seemingly does not have a way to explicitly install the toolchain
+# versions from package.json, but `node --version` triggers an install
+COPY gui/package.json .
+RUN curl https://get.volta.sh | bash && node --version && rm package.json
+
+# === Golang ===
+
+# Install golang
+# Checksum from: https://go.dev/dl/
+RUN curl -Lo go.tgz https://go.dev/dl/go${GOLANG_VERSION}.linux-amd64.tar.gz && \
+    echo "${GOLANG_HASH} go.tgz" | sha256sum -c - && \
+    tar -C /usr/local -xzf go.tgz && \
+    rm go.tgz
+ENV PATH=/usr/local/go/bin:$PATH
+
+
+WORKDIR /build

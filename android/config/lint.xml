@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Ignore the following rules as they don't match our localization workflow. -->
+    <issue id="ExtraTranslation" severity="ignore" />
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="Typos" severity="ignore" />
+    <issue id="UnusedResources">
+        <ignore path="res/values/strings.xml" />
+    </issue>
+    <!-- We are currently not using the ellipsis character -->
+    <issue id="TypographyEllipsis" severity="ignore" />
+</lint>

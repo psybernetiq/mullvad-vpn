@@ -1,0 +1,11 @@
+LIBRARY log
+
+EXPORTS
+
+SetLogTarget
+Log
+LogWithDetails
+LogWindowsVersion
+
+PluginLog
+PluginLogWithDetails

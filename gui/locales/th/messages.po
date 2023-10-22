@@ -1,0 +1,1825 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: mullvad-app\n"
+"X-Crowdin-Project-ID: 350815\n"
+"X-Crowdin-Language: th\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Project-Id-Version: mullvad-app\n"
+"Language-Team: Thai\n"
+"Language: th_TH\n"
+"PO-Revision-Date: 2023-09-05 14:16\n"
+
+msgid "%(duration)s was added, account paid until %(expiry)s."
+msgstr "มีการเพิ่ม %(duration)s แล้ว บัญชีได้ชำระเงินจนถึง %(expiry)s"
+
+msgid "1 day"
+msgid_plural "%d days"
+msgstr[0] "%d วัน"
+
+msgid "1 day left"
+msgid_plural "%d days left"
+msgstr[0] "คงเหลือ %d วัน"
+
+msgid "1 month"
+msgid_plural "%d months"
+msgstr[0] "%d เดือน"
+
+msgid "1 month left"
+msgid_plural "%d months left"
+msgstr[0] "คงเหลือ %d เดือน"
+
+msgid "1 year"
+msgid_plural "%d years"
+msgstr[0] "%d ปี"
+
+msgid "1 year left"
+msgid_plural "%d years left"
+msgstr[0] "คงเหลือ %d ปี"
+
+msgid "Account paid until %(expiry)s."
+msgstr "บัญชีได้ชำระเงินจนถึง %(expiry)s"
+
+msgid "Account settings"
+msgstr "การตั้งค่าบัญชี"
+
+msgid "Any"
+msgstr "อะไรก็ได้"
+
+msgid "Apply"
+msgstr "ใช้"
+
+msgid "Automatic"
+msgstr "อัตโนมัติ"
+
+msgid "Back"
+msgstr "ย้อนกลับ"
+
+msgid "BETA"
+msgstr "เบต้า"
+
+msgid "BLOCKED CONNECTION"
+msgstr "การเชื่อมต่อที่ถูกบล็อก"
+
+msgid "Blocking internet"
+msgstr "กำลังบล็อกอินเทอร์เน็ต"
+
+msgid "Buy credit"
+msgstr "ซื้อเครดิต"
+
+msgid "Buy more credit"
+msgstr "ซื้อเครดิตเพิ่ม"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Clear"
+msgstr "ล้าง"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Connect"
+msgstr "เชื่อมต่อ"
+
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+msgid "Connecting"
+msgstr "กำลังเชื่อมต่อ"
+
+#. Creating a secure connection that isn't breakable by quantum computers.
+msgid "CREATING QUANTUM SECURE CONNECTION"
+msgstr "กำลังสร้างการเชื่อมต่อควอนตัมที่ปลอดภัย"
+
+msgid "CREATING SECURE CONNECTION"
+msgstr "กำลังสร้างการเชื่อมต่อที่ปลอดภัย"
+
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+msgid "Disable"
+msgstr "ปิดใช้งาน"
+
+msgid "Disconnect"
+msgstr "ตัดการเชื่อมต่อ"
+
+msgid "Disconnect & quit"
+msgstr "ตัดการเชื่อมต่อและออก"
+
+msgid "Disconnected"
+msgstr "ตัดการเชื่อมต่อแล้ว"
+
+msgid "Disconnecting"
+msgstr "กำลังตัดการเชื่อมต่อ"
+
+msgid "Dismiss"
+msgstr "ละทิ้ง"
+
+msgid "Enable anyway"
+msgstr "เปิดใช้งานต่อไป"
+
+msgid "FAILED TO SECURE CONNECTION"
+msgstr "ไม่สามารถเชื่อมต่ออย่างปลอดภัยได้"
+
+msgid "Filter"
+msgstr "ตัวกรอง"
+
+msgid "Go to System Settings"
+msgstr "ไปที่การตั้งค่าระบบ"
+
+#. This is a button which closes a dialog.
+msgid "Got it!"
+msgstr "รับทราบ!"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "less than a day"
+msgstr "น้อยกว่าหนึ่งวัน"
+
+msgid "less than a day left"
+msgstr "เหลือเวลาน้อยกว่าหนึ่งวัน"
+
+msgid "Next"
+msgstr "ถัดไป"
+
+msgid "No result for <b>%(searchTerm)s</b>."
+msgstr "ไม่มีผลลัพธ์สำหรับ <b>%(searchTerm)s</b>"
+
+msgid "Off"
+msgstr "ปิด"
+
+msgid "On"
+msgstr "เปิด"
+
+msgid "Open URL"
+msgstr "Open URL"
+
+#. The connection is secure and isn't breakable by quantum computers.
+msgid "QUANTUM SECURE CONNECTION"
+msgstr "การเชื่อมต่อควอนตัมที่ปลอดภัย"
+
+msgid "Quit"
+msgstr "ออก"
+
+msgid "Reconnect"
+msgstr "เชื่อมต่อใหม่"
+
+msgid "Search for..."
+msgstr "ค้นหา…"
+
+msgid "SECURE CONNECTION"
+msgstr "การเชื่อมต่อที่ปลอดภัย"
+
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+msgid "System default"
+msgstr "ค่าเริ่มต้นของระบบ"
+
+msgid "TCP"
+msgstr "TCP"
+
+#. Warning text in a dialog that is displayed after a setting is toggled.
+msgid "This setting increases latency. Use only if needed."
+msgstr "การตั้งค่านี้จะเพิ่มความหน่วงแฝง ใช้เมื่อจำเป็นเท่านั้น"
+
+msgid "Troubleshoot"
+msgstr "การแก้ไขปัญหา"
+
+msgid "Try a different search."
+msgstr "ลองใช้การค้นหาอื่น"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "Unblock"
+msgstr "ปลดบล็อก"
+
+msgid "UNSECURED CONNECTION"
+msgstr "การเชื่อมต่อที่ไม่ปลอดภัย"
+
+msgctxt "accessibility"
+msgid "%(title)s, View loaded"
+msgstr "%(title)s โหลดมุมมองแล้ว"
+
+msgctxt "accessibility"
+msgid "Close notification"
+msgstr "ปิดการแจ้งเตือน"
+
+msgctxt "accessibility"
+msgid "Collapse %(location)s"
+msgstr "ย่อ %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe a button
+#. which copies the account number to the clipboard.
+msgctxt "accessibility"
+msgid "Copy account number"
+msgstr "คัดลอกหมายเลขบัญชี"
+
+msgctxt "accessibility"
+msgid "Expand %(location)s"
+msgstr "ขยาย %(location)s"
+
+msgctxt "accessibility"
+msgid "Forget %(accountToken)s"
+msgstr "ลืม %(accountToken)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which obscures the account number.
+msgctxt "accessibility"
+msgid "Hide account number"
+msgstr "ซ่อนหมายเลขบัญชี"
+
+msgctxt "accessibility"
+msgid "info"
+msgstr "ข้อมูล"
+
+#. This is used by screenreaders to communicate the login button.
+msgctxt "accessibility"
+msgid "Login"
+msgstr "เข้าสู่ระบบ"
+
+msgctxt "accessibility"
+msgid "More information"
+msgstr "ข้อมูลเพิ่มเติม"
+
+msgctxt "accessibility"
+msgid "Opens externally"
+msgstr "เปิดจากภายนอก"
+
+#. Button action description provided to accessibility tools such as screen
+#. readers.
+#. Available placeholders:
+#. %(deviceName)s - The device name to remove.
+msgctxt "accessibility"
+msgid "Remove device named %(deviceName)s"
+msgstr "ลบอุปกรณ์ที่มีชื่อว่า %(deviceName)s"
+
+msgctxt "accessibility"
+msgid "Remove item"
+msgstr "นำรายการออก"
+
+msgctxt "accessibility"
+msgid "Select location. Current location is %(location)s"
+msgstr "เลือกตำแหน่งที่ตั้ง ตำแหน่งที่ตั้งปัจจุบันคือ %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which unobscures the account number.
+msgctxt "accessibility"
+msgid "Show account number"
+msgstr "แสดงหมายเลขบัญชี"
+
+#. Title label in navigation bar
+msgctxt "account-view"
+msgid "Account"
+msgstr "บัญชี"
+
+msgctxt "account-view"
+msgid "Account number"
+msgstr "หมายเลขบัญชี"
+
+msgctxt "account-view"
+msgid "Currently unavailable"
+msgstr "ไม่พร้อมใช้งานในปัจจุบัน"
+
+msgctxt "account-view"
+msgid "Log out"
+msgstr "ลงชื่อออก"
+
+msgctxt "account-view"
+msgid "OUT OF TIME"
+msgstr "หมดเวลา"
+
+msgctxt "account-view"
+msgid "Paid until"
+msgstr "ชำระเงินแล้วจนถึง"
+
+msgctxt "auth-failure"
+msgid "Blocking internet: account is out of time"
+msgstr "บล็อกอินเทอร์เน็ต: บัญชีหมดเวลา"
+
+msgctxt "auth-failure"
+msgid "Too many simultaneous connections on this account. Disconnect another device or try connecting again shortly."
+msgstr "มีการเชื่อมต่อพร้อมกันมากเกินไปบนบัญชีนี้ โปรดตัดการเชื่อมต่อจากอุปกรณ์อีกเครื่อง หรือลองเชื่อมต่อใหม่อีกครั้งในอีกสักครู่"
+
+msgctxt "auth-failure"
+msgid "Unable to authenticate account. Please send a problem report."
+msgstr "ไม่สามารถตรวจสอบความถูกต้องของบัญชีได้ โปรดส่งรายงานปัญหา"
+
+msgctxt "auth-failure"
+msgid "You are logged in with an invalid account number. Please log out and try another one."
+msgstr "คุณกำลังเข้าสู่ระบบโดยใช้หมายเลขบัญชีที่ไม่ถูกต้อง โปรดออกจากระบบแล้วลองใช้บัญชีอื่น"
+
+msgctxt "changelog"
+msgid "Changes in this version:"
+msgstr "การเปลี่ยนแปลงในเวอร์ชันนี้:"
+
+#. The selected location label displayed on the main view, when a user selected a specific host to connect to.
+#. Example: Malmö (se-mma-001)
+#. Available placeholders:
+#. %(city)s - a city name
+#. %(hostname)s - a hostname
+msgctxt "connect-container"
+msgid "%(city)s (%(hostname)s)"
+msgstr "%(city)s (%(hostname)s)"
+
+msgctxt "connect-view"
+msgid "Congrats!"
+msgstr "ยินดีด้วย!"
+
+msgctxt "connect-view"
+msgid "Disconnect"
+msgstr "ตัดการเชื่อมต่อ"
+
+msgctxt "connect-view"
+msgid "Either buy credit on our website or redeem a voucher."
+msgstr "ซื้อเครดิตบนเว็บไซต์ของเรา หรือแลกรับบัตรกำนัล"
+
+msgctxt "connect-view"
+msgid "Enter voucher code"
+msgstr "ป้อนรหัสบัตรกำนัล"
+
+msgctxt "connect-view"
+msgid "Go ahead and start using the app to begin reclaiming your online privacy."
+msgstr "เข้ามาและเริ่มใช้แอปเพื่อเริ่มยึดความเป็นส่วนตัวบนออนไลน์ของคุณคืนมา"
+
+msgctxt "connect-view"
+msgid "Here’s your account number. Save it!"
+msgstr "นี่คือหมายเลขบัญชีของคุณ จดบันทึกไว้ด้วยนะ!"
+
+msgctxt "connect-view"
+msgid "Learn about privacy"
+msgstr "เรียนรู้เกี่ยวกับความเป็นส่วนตัว"
+
+msgctxt "connect-view"
+msgid "Out of time"
+msgstr "หมดเวลา"
+
+msgctxt "connect-view"
+msgid "Redeem voucher"
+msgstr "แลกบัตรกำนัล"
+
+msgctxt "connect-view"
+msgid "Remember, turning it off will allow network traffic while the VPN is disconnected until you turn it back on under Advanced settings."
+msgstr "โปรดจำไว้ว่า การปิดใช้งานตัวเลือกนี้จะเป็นการอนุญาตให้มีการรับส่งข้อมูลทางเครือข่าย ในขณะที่ VPN ถูกตัดการเชื่อมต่ออยู่ จนกว่าคุณจะเปิดใช้งานตัวเลือกนี้ในการตั้งค่าขั้นสูงอีกครั้ง"
+
+msgctxt "connect-view"
+msgid "Start using the app"
+msgstr "เริ่มใช้แอป"
+
+msgctxt "connect-view"
+msgid "Time was successfully added"
+msgstr "เพิ่มเวลาสำเร็จแล้ว"
+
+msgctxt "connect-view"
+msgid "To add more, you will need to disconnect and access the Internet with an unsecure connection."
+msgstr "ในการเพิ่ม คุณจำเป็นจะต้องตัดการเชื่อมต่อ และเข้าใช้อินเทอร์เน็ตผ่านการเชื่อมต่อที่ไม่ปลอดภัย"
+
+msgctxt "connect-view"
+msgid "To continue your journey as a privacy ninja, visit our website to pick up other privacy-friendly habits and tools."
+msgstr "เยี่ยมชมเว็บไซต์ของเรา เพื่อฝึกนิสัยและรับเครื่องมือต่างๆ ที่เป็นมิตรต่อความเป็นส่วนตัว เพื่อเดินทางต่อไปในฐานะนินจาผู้มีความเป็นส่วนตัว"
+
+msgctxt "connect-view"
+msgid "To start using the app, you first need to add time to your account."
+msgstr "คุณจำเป็นต้องเพิ่มเวลาไปยังบัญชีของคุณก่อน เพื่อที่จะเริ่มใช้งานแอป"
+
+msgctxt "connect-view"
+msgid "Voucher was successfully redeemed"
+msgstr "แลกบัตรกำนัลสำเร็จแล้ว"
+
+msgctxt "connect-view"
+msgid "You have no more VPN time left on this account."
+msgstr "คุณไม่มีเวลาใช้งาน VPN เหลืออยู่ในบัญชีนี้แล้ว"
+
+msgctxt "connect-view"
+msgid "You need to disable \"Lockdown mode\" in order to access the Internet to add time."
+msgstr "คุณจำเป็นต้องปิดใช้งาน \"โหมดล็อกดาวน์\" เพื่อเข้าอินเทอร์เน็ตไปเพิ่มเวลา"
+
+msgctxt "connect-view"
+msgid "You’re all set!"
+msgstr "คุณพร้อมแล้ว!"
+
+#. The hostname line displayed below the country on the main screen
+#. Available placeholders:
+#. %(relay)s - the relay hostname
+#. %(entry)s - the entry relay hostname
+msgctxt "connection-info"
+msgid "%(relay)s via %(entry)s"
+msgstr "%(relay)s ผ่าน %(entry)s"
+
+#. The tunnel type line displayed below the hostname line on the main screen
+#. Available placeholders:
+#. %(tunnelType)s - the tunnel type, i.e OpenVPN
+#. %(bridgeType)s - the bridge type, i.e Shadowsocks
+msgctxt "connection-info"
+msgid "%(tunnelType)s via %(bridgeType)s"
+msgstr "%(tunnelType)s ผ่าน %(bridgeType)s"
+
+msgctxt "connection-info"
+msgid "In"
+msgstr "เข้า"
+
+msgctxt "connection-info"
+msgid "Out"
+msgstr "ออก"
+
+#. Text displayed above button which logs out another device.
+#. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(deviceName)s - The name of the device to log out.
+msgctxt "device-management"
+msgid "Are you sure you want to log <b>%(deviceName)s</b> out?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบบน <b>%(deviceName)s</b>"
+
+#. Button for continuing login process.
+msgctxt "device-management"
+msgid "Continue with login"
+msgstr "เข้าสู่ระบบต่อ"
+
+#. Label informing the user when a device was created.
+#. Available placeholders:
+#. %(createdDate)s - The creation date of the device.
+msgctxt "device-management"
+msgid "Created: %(createdDate)s"
+msgstr "วันที่สร้าง: %(createdDate)s"
+
+msgctxt "device-management"
+msgid "Device is inactive"
+msgstr "อุปกรณ์ไม่ได้ใช้งาน"
+
+msgctxt "device-management"
+msgid "Device name"
+msgstr "ชื่ออุปกรณ์"
+
+#. A label that will display the newly created device name to inform the user
+#. about it.
+#. Available placeholders:
+#. %(deviceName)s - The name of the current device
+msgctxt "device-management"
+msgid "Device name: %(deviceName)s"
+msgstr "ชื่ออุปกรณ์: %(deviceName)s"
+
+msgctxt "device-management"
+msgid "Failed to remove device"
+msgstr "ไม่สามารถลบอุปกรณ์ได้"
+
+msgctxt "device-management"
+msgid "Go to login"
+msgstr "ไปเข้าสู่ระบบ"
+
+msgctxt "device-management"
+msgid "Going to login will unblock the Internet on this device."
+msgstr "การไปที่ส่วนเข้าสู่ระบบจะปลดบล็อกอินเทอร์เน็ตบนอุปกรณ์เครื่องนี้"
+
+msgctxt "device-management"
+msgid "If you log out, the device and the device name is removed. When you log back in again, the device will get a new name."
+msgstr "หากคุณออกจากระบบ อุปกรณ์และชื่ออุปกรณ์จะถูกลบออก และเมื่อคุณลงชื่อเข้าใช้อีกครั้ง อุปกรณ์จะได้รับชื่อใหม่"
+
+#. Confirmation button when logging out
+msgctxt "device-management"
+msgid "Log out anyway"
+msgstr "ออกจากระบบ"
+
+msgctxt "device-management"
+msgid "Please log out of at least one by removing it from the list below. You can find the corresponding device name under the device’s Account settings."
+msgstr "โปรดลงชื่อออกจากระบบบนอุปกรณ์อย่างน้อยหนึ่งเครื่อง เพื่อนำอุปกรณ์ออกจากรายการด้านล่าง คุณสามารถดูชื่ออุปกรณ์ที่เกี่ยวข้องได้ ภายใต้การตั้งค่าบัญชีของอุปกรณ์"
+
+#. Page title informing user that enough devices has been removed to continue
+#. login process.
+msgctxt "device-management"
+msgid "Super!"
+msgstr "เยี่ยมยอด!"
+
+#. This is is a further explanation of what happens when logging out.
+msgctxt "device-management"
+msgid "The ports forwarded to this device will be deleted if you log out."
+msgstr "พอร์ตที่ส่งต่อไปยังอุปกรณ์นี้จะถูกลบหากคุณออกจากระบบ"
+
+msgctxt "device-management"
+msgid "This is the name assigned to the device. Each device logged in on a Mullvad account gets a unique name that helps you identify it when you manage your devices in the app or on the website."
+msgstr "นี่เป็นชื่อที่มอบหมายให้กับอุปกรณ์ อุปกรณ์แต่ละเครื่องที่ลงชื่อเข้าใช้บนบัญชี Mullvad จะได้รับชื่อเฉพาะ ที่จะช่วยคุณระบุอุปกรณ์ ในขณะที่คุณจัดการอุปกรณ์ของคุณในแอปหรือบนเว็บไซต์"
+
+#. Further information about consequences of logging out device.
+msgctxt "device-management"
+msgid "This will delete all forwarded ports. Local settings will be saved."
+msgstr "นี่จะเป็นการลบพอร์ตที่ส่งต่อทั้งหมด และการตั้งค่าบนอุปกรณ์จะได้รับการบันทึกไว้"
+
+msgctxt "device-management"
+msgid "Time left: %(timeLeft)s"
+msgstr "เหลือเวลา: %(timeLeft)s"
+
+#. Page title informing user that the login failed due to too many registered
+#. devices on account.
+msgctxt "device-management"
+msgid "Too many devices"
+msgstr "มีอุปกรณ์มากเกินไป"
+
+#. Confirmation button when logging out other device.
+msgctxt "device-management"
+msgid "Yes, log out device"
+msgstr "ใช่ นำอุปกรณ์ออกจากระบบ"
+
+msgctxt "device-management"
+msgid "You can have up to 5 devices logged in on one Mullvad account."
+msgstr "คุณสามารถลงชื่อเข้าใช้อุปกรณ์ได้สูงสุด 5 เครื่อง กับบัญชี Mullvad หนึ่งบัญชี"
+
+msgctxt "device-management"
+msgid "You can now continue logging in on this device."
+msgstr "คุณสามารถดำเนินการเข้าสู่ระบบต่อบนอุปกรณ์เครื่องนี้ได้แล้ว"
+
+msgctxt "device-management"
+msgid "You have removed this device. To connect again, you will need to log back in."
+msgstr "คุณได้ลบอุปกรณ์เครื่องนี้แล้ว หากต้องการเชื่อมต่ออีกครั้ง คุณจะต้องเข้าสู่ระบบใหม่อีกครั้ง"
+
+#. The message displayed to the user in case of critical error in the GUI
+#. Available placeholders:
+#. %(email)s - support email
+msgctxt "error-boundary-view"
+msgid "Something went wrong. Please contact us at %(email)s"
+msgstr "เกิดข้อผิดพลาดขึ้น โปรดติดต่อเราที่ %(email)s"
+
+#. Title label in navigation bar
+msgctxt "filter-nav"
+msgid "Filter"
+msgstr "กรอง"
+
+msgctxt "filter-view"
+msgid "All providers"
+msgstr "ผู้ให้บริการทั้งหมด"
+
+msgctxt "filter-view"
+msgid "Mullvad owned only"
+msgstr "ของ Mullvad เท่านั้น"
+
+msgctxt "filter-view"
+msgid "Owned"
+msgstr "เป็นเจ้าของ"
+
+msgctxt "filter-view"
+msgid "Ownership"
+msgstr "ความเป็นเจ้าของ"
+
+msgctxt "filter-view"
+msgid "Providers"
+msgstr "ผู้ให้บริการ"
+
+msgctxt "filter-view"
+msgid "Rented"
+msgstr "เช่า"
+
+msgctxt "filter-view"
+msgid "Rented only"
+msgstr "เช่าเท่านั้น"
+
+msgctxt "in-app-notifications"
+msgid "\"%(lockdownModeSettingName)s\" is enabled."
+msgstr "เปิดใช้งาน \"%(lockdownModeSettingName)s\" อยู่"
+
+msgctxt "in-app-notifications"
+msgid "%(duration)s. Buy more credit."
+msgstr "%(duration)s ซื้อเครดิตเพิ่ม"
+
+msgctxt "in-app-notifications"
+msgid "ACCOUNT CREDIT EXPIRES SOON"
+msgstr "เครดิตในบัญชีจะหมดอายุในเร็ว ๆ นี้"
+
+msgctxt "in-app-notifications"
+msgid "APP IS OUT OF SYNC"
+msgstr "แอปไม่ได้มีการซิงค์"
+
+msgctxt "in-app-notifications"
+msgid "BETA UPDATE AVAILABLE"
+msgstr "มีการอัปเดตเบต้าให้ใช้งาน"
+
+msgctxt "in-app-notifications"
+msgid "BLOCKING INTERNET"
+msgstr "กำลังบล็อกอินเทอร์เน็ต"
+
+#. The in-app banner displayed to the user when the app update is available.
+msgctxt "in-app-notifications"
+msgid "Install the latest app version to stay up to date."
+msgstr "ติดตั้งแอปเวอร์ชันล่าสุดเพื่อรับข้อมูลการอัปเดตล่าสุด"
+
+msgctxt "in-app-notifications"
+msgid "NETWORK TRAFFIC MIGHT BE LEAKING"
+msgstr "การรับส่งข้อมูลทางเครือข่ายอาจรั่วไหล"
+
+msgctxt "in-app-notifications"
+msgid "NEW DEVICE CREATED"
+msgstr "สร้างอุปกรณ์ใหม่แล้ว"
+
+msgctxt "in-app-notifications"
+msgid "Please quit and restart the app."
+msgstr "โปรดออกและเปิดแอปขึ้นมาใหม่"
+
+msgctxt "in-app-notifications"
+msgid "Send problem report"
+msgstr "ส่งรายงานปัญหา"
+
+#. The in-app banner displayed to the user when the app beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "in-app-notifications"
+msgid "Try out the newest beta version (%(version)s)."
+msgstr "ลองใช้เวอร์ชันเบต้าใหม่ล่าสุด (%(version)s)"
+
+msgctxt "in-app-notifications"
+msgid "UNSUPPORTED VERSION"
+msgstr "เวอร์ชันที่ไม่รองรับ"
+
+msgctxt "in-app-notifications"
+msgid "UPDATE AVAILABLE"
+msgstr "มีการอัปเดตให้ใช้งาน"
+
+msgctxt "in-app-notifications"
+msgid "Welcome, this device is now called <b>%(deviceName)s</b>. For more details see the info button in Account."
+msgstr "ยินดีต้อนรับ ขณะนี้อุปกรณ์นี้จะมีชื่อว่า <b>%(deviceName)s</b> สำหรับข้อมูลเพิ่มเติม โปรดกดปุ่มข้อมูลในบัญชี"
+
+msgctxt "launch-view"
+msgid "Connecting to Mullvad system service..."
+msgstr "กำลังเชื่อมต่อบริการของระบบ Mullvad..."
+
+msgctxt "launch-view"
+msgid "Permission for the Mullvad VPN service has been revoked. Please go to System Settings and allow Mullvad VPN under the “Allow in the Background” setting."
+msgstr "สิทธิ์การเข้าถึงบริการ Mullvad VPN ได้ถูกเพิกถอนแล้ว โปรดเข้าไปยังการตั้งค่าระบบ แล้วให้สิทธิ์อนุญาต Mullvad VPN ภายใต้การตั้งค่า \"อนุญาตในพื้นหลัง\""
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+#. Available placeholder:
+#. %(lockdownModeSettingName)s - The translation of "Lockdown mode"
+msgctxt "login-view"
+msgid "<b>%(lockdownModeSettingName)s</b> is enabled. Disable it to unblock your connection."
+msgstr "<b>%(lockdownModeSettingName)s</b> ได้เปิดใช้งานแล้ว ปิดใช้งานเพื่อปลดบล็อกการเชื่อมต่อของคุณ"
+
+msgctxt "login-view"
+msgid "Account created"
+msgstr "สร้างบัญชีแล้ว"
+
+msgctxt "login-view"
+msgid "Checking account number"
+msgstr "กำลังตรวจสอบหมายเลขบัญชี"
+
+msgctxt "login-view"
+msgid "Create account"
+msgstr "สร้างบัญชี"
+
+msgctxt "login-view"
+msgid "Creating account..."
+msgstr "กำลังสร้างบัญชี..."
+
+msgctxt "login-view"
+msgid "Don’t have an account number?"
+msgstr "ยังไม่มีหมายเลขบัญชีใช่ไหม"
+
+msgctxt "login-view"
+msgid "Enter your account number"
+msgstr "ป้อนหมายเลขบัญชีของคุณ"
+
+msgctxt "login-view"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgctxt "login-view"
+msgid "Failed to create account"
+msgstr "ไม่สามารถสร้างบัญชีได้"
+
+#. Error message shown above login input when trying to login but the app fails
+#. to fetch the list of registered devices.
+msgctxt "login-view"
+msgid "Failed to fetch list of devices"
+msgstr "ไม่สามารถดึงรายการอุปกรณ์มาได้"
+
+msgctxt "login-view"
+msgid "Finishing upgrade."
+msgstr "กำลังอัปเกรดให้เสร็จสิ้น"
+
+#. Error message shown above login input when trying to login with a
+#. non-existent account number.
+msgctxt "login-view"
+msgid "Invalid account number"
+msgstr "หมายเลขบัญชีไม่ถูกต้อง"
+
+msgctxt "login-view"
+msgid "Logged in"
+msgstr "เข้าสู่ระบบแล้ว"
+
+msgctxt "login-view"
+msgid "Logging in..."
+msgstr "กำลังเข้าสู่ระบบ..."
+
+msgctxt "login-view"
+msgid "Login"
+msgstr "เข้าสู่ระบบ"
+
+msgctxt "login-view"
+msgid "Login failed"
+msgstr "การเข้าสู่ระบบล้มเหลว"
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+msgctxt "login-view"
+msgid "Our kill switch is currently blocking your connection."
+msgstr "คิลสวิตช์ของเราได้บล็อกการเชื่อมต่อของคุณอยู่ในขณะนี้"
+
+msgctxt "login-view"
+msgid "Please wait"
+msgstr "โปรดรอ"
+
+#. Error message shown above login input when trying to login to an account
+#. with too many registered devices.
+msgctxt "login-view"
+msgid "Too many devices"
+msgstr "มีอุปกรณ์มากเกินไป"
+
+msgctxt "login-view"
+msgid "Unknown error"
+msgstr "ข้อผิดพลาดที่ไม่รู้จัก"
+
+msgctxt "login-view"
+msgid "Upgrading..."
+msgstr "กำลังอัปเกรด…"
+
+msgctxt "login-view"
+msgid "Valid account number"
+msgstr "หมายเลขบัญชีที่ถูกต้อง"
+
+#. Title label in navigation bar
+msgctxt "navigation-bar"
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#. The system notification displayed to the user when the account credit is close to expiry.
+#. Available placeholder:
+#. %(duration)s - remaining time, e.g. "2 days"
+msgctxt "notifications"
+msgid "Account credit expires in %(duration)s. Buy more credit."
+msgstr "เครดิตบัญชีจะหมดอายุใน %(duration)s ซื้อเครดิตเพิ่ม"
+
+msgctxt "notifications"
+msgid "Account is out of time"
+msgstr "บัญชีหมดเวลาแล้ว"
+
+msgctxt "notifications"
+msgid "App is out of sync. Please quit and restart."
+msgstr "แอปไม่ได้รับการซิงค์ โปรดออกและเปิดแอปใหม่"
+
+#. The system notification that notifies the user when a beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "notifications"
+msgid "Beta update available. Try out the newest beta version (%(version)s)."
+msgstr "มีการอัปเดตเบต้าให้ใช้งาน ลองใช้เวอร์ชันเบต้าใหม่ล่าสุด (%(version)s)"
+
+msgctxt "notifications"
+msgid "Buy more"
+msgstr "ซื้อเพิ่ม"
+
+msgctxt "notifications"
+msgid "Connected"
+msgstr "เชื่อมต่อแล้ว"
+
+#. The message showed when a server has been connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connected to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connected to %(location)s"
+msgstr "เชื่อมต่อไปยัง %(location)s แล้ว"
+
+msgctxt "notifications"
+msgid "Connecting"
+msgstr "กำลังเชื่อมต่อ"
+
+#. The message showed when a server is being connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connecting to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connecting to %(location)s"
+msgstr "กำลังเชื่อมต่อไปยัง %(location)s"
+
+msgctxt "notifications"
+msgid "Could not configure IPv6. Disable it in the app or enable it on your device."
+msgstr "ไม่สามารถกำหนดค่า IPv6 ได้ โปรดปิดใช้งานรายการนี้ในแอป หรือเปิดใช้งานบนอุปกรณ์ของคุณ"
+
+msgctxt "notifications"
+msgid "Disconnected and unsecure"
+msgstr "ตัดการเชื่อมต่อและไม่ปลอดภัย"
+
+msgctxt "notifications"
+msgid "Lockdown mode active, connection blocked"
+msgstr "เปิดใช้โหมดล็อกดาวน์ ปิดกั้นการเชื่อมต่อแล้ว"
+
+msgctxt "notifications"
+msgid "No servers match your settings, try changing server or other settings."
+msgstr "ไม่มีเซิร์ฟเวอร์ที่ตรงกับการตั้งค่าของคุณ โปรดลองเปลี่ยนเซิร์ฟเวอร์ หรือการตั้งค่าอื่นๆ"
+
+msgctxt "notifications"
+msgid "Reconnecting"
+msgstr "กำลังเชื่อมต่อใหม่"
+
+msgctxt "notifications"
+msgid "The apps excluded with %(splitTunneling)s might not work properly right now."
+msgstr "แอปที่ไม่รวมอยู่ใน %(splitTunneling)s อาจทำงานผิดปกติอยู่ในขณะนี้"
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules."
+msgstr "ไม่สามารถใช้งานกฎไฟร์วอลล์ได้"
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try temporarily disabling any third-party antivirus or security software."
+msgstr "ไม่สามารถใช้งานกฎไฟร์วอลล์ได้ โปรดลองปิดใช้งานซอฟต์แวร์ป้องกันไวรัส หรือซอฟต์แวร์รักษาความปลอดภัยของบุคคลที่สามชั่วคราว"
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try updating your kernel."
+msgstr "ไม่สามารถใช้งานกฎไฟร์วอลล์ได้ โปรดลองอัปเดตเคอร์เนลของคุณ"
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Please troubleshoot or send a problem report."
+msgstr "ไม่สามารถบล็อกการรับส่งข้อมูลทางเครือข่ายทั้งหมดได้ โปรดแก้ไขปัญหาหรือส่งรายงานปัญหา"
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try temporarily disabling any third-party antivirus or security software or send a problem report."
+msgstr "ไม่สามารถบล็อกการรับส่งข้อมูลทางเครือข่ายทั้งหมดได้ โปรดลองปิดใช้งานซอฟต์แวร์ป้องกันไวรัส หรือซอฟต์แวร์รักษาความปลอดภัยของบุคคลที่สามชั่วคราว หรือส่งรายงานปัญหา"
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try updating your kernel or send a problem report."
+msgstr "ไม่สามารถบล็อกการรับส่งข้อมูลทางเครือข่ายทั้งหมดได้ โปรดลองอัปเดตเคอร์เนลของคุณ หรือส่งรายงานปัญหา"
+
+msgctxt "notifications"
+msgid "Unable to communicate with Mullvad kernel driver. Try reconnecting or send a problem report."
+msgstr "ไม่สามารถสื่อสารกับไดรเวอร์เคอร์เนลของ Mullvad ได้ โปรดลองเชื่อมต่อใหม่ หรือส่งรายงานปัญหา"
+
+msgctxt "notifications"
+msgid "Unable to resolve host of custom tunnel. Try changing your settings."
+msgstr "ไม่พบโฮสต์ของช่องทางแบบกำหนดเอง กรุณาลองเปลี่ยนการตั้งค่าของคุณ"
+
+msgctxt "notifications"
+msgid "Unable to set system DNS server. Please send a problem report."
+msgstr "ไม่สามารถตั้งค่าเซิร์ฟเวอร์ DNS ของระบบได้ โปรดส่งรายงานปัญหา"
+
+msgctxt "notifications"
+msgid "Unable to start tunnel connection. Please send a problem report."
+msgstr "ไม่สามารถเริ่มการเชื่อมต่ออุโมงค์ได้ โปรดส่งรายงานปัญหา"
+
+msgctxt "notifications"
+msgid "Update available. Install the latest app version to stay up to date"
+msgstr "มีอัปเดตพร้อมใช้งาน ติดตั้งแอปเวอร์ชันล่าสุดเพื่อรับข้อมูลการอัปเดตล่าสุด"
+
+msgctxt "notifications"
+msgid "Upgrade"
+msgstr "อัปเกรด"
+
+#. Available placeholders:
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "notifications"
+msgid "Valid %(wireguard)s key is missing. Manage keys under Advanced settings."
+msgstr "คีย์ %(wireguard)s ที่ใช้ได้ขาดหายไป จัดการคีย์ภายใต้การตั้งค่าขั้นสูง"
+
+msgctxt "notifications"
+msgid "Your device is offline. The tunnel will automatically connect once your device is back online."
+msgstr "อุปกรณ์ของคุณออฟไลน์อยู่ อุโมงค์จะเชื่อมต่อโดยอัตโนมัติ หลังจากที่อุปกรณ์ของคุณกลับมาออนไลน์"
+
+#. The in-app banner and system notification which are displayed to the user when the running app becomes unsupported.
+msgctxt "notifications"
+msgid "Your privacy might be at risk with this unsupported app version. Please update now."
+msgstr "ความเป็นส่วนตัวของคุณอาจมีความเสี่ยง ในขณะที่ใช้งานเวอร์ชันแอปที่ไม่ได้รับการสนับสนุนนี้ โปรดอัปเดตตอนนี้เลย"
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(openvpn)s - Will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-nav"
+msgid "%(openvpn)s settings"
+msgstr "การตั้งค่า %(openvpn)s"
+
+#. %(openvpn)s will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "การตั้งค่า %(openvpn)s"
+
+#. The title for the port selector section.
+#. Available placeholders:
+#. %(portType)s - a selected protocol (either TCP or UDP)
+msgctxt "openvpn-settings-view"
+msgid "%(portType)s port"
+msgstr "พอร์ต %(portType)s"
+
+#. The title for the shadowsocks bridge selector section.
+msgctxt "openvpn-settings-view"
+msgid "Bridge mode"
+msgstr "โหมดบริดจ์"
+
+#. This is used as a description for the bridge mode
+#. setting.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "Helps circumvent censorship, by routing your traffic through a bridge server before reaching an %(openvpn)s server. Obfuscation is added to make fingerprinting harder."
+msgstr "ช่วยหลบเลี่ยงการเซ็นเซอร์ โดยกำหนดเส้นทางการรับส่งข้อมูลของคุณผ่านเซิร์ฟเวอร์บริดจ์ ก่อนที่จะไปถึงเซิร์ฟเวอร์ %(openvpn)s โดยมีการเพิ่มการทำให้ข้อมูลยุ่งเหยิงเข้าไป เพื่อทำให้สร้างลายนิ้วมือได้ยากขึ้น"
+
+msgctxt "openvpn-settings-view"
+msgid "Mssfix"
+msgstr "Mssfix"
+
+#. The hint displayed below the Mssfix input field.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with "OpenVPN"
+#. %(max)d - the maximum possible mssfix value
+#. %(min)d - the minimum possible mssfix value
+msgctxt "openvpn-settings-view"
+msgid "Set %(openvpn)s MSS value. Valid range: %(min)d - %(max)d."
+msgstr "ตั้งค่า %(openvpn)s MSS ช่วงที่ใช้ได้: %(min)d - %(max)d"
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(transportProtocol)s - the name of the transport protocol setting
+#. %(automat)s - the translation of "Automatic"
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, change <b>%(transportProtocol)s</b> to <b>%(automatic)s</b> or <b>%(tcp)s</b>."
+msgstr "ในการเปิดใช้โหมด บริดจ์ ให้เปลี่ยน <b>%(transportProtocol)s</b> เป็น <b>%(automatic)s</b> หรือ <b>%(tcp)s</b>"
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, go back and change <b>%(tunnelProtocol)s</b> to <b>%(openvpn)s</b>."
+msgstr "ในการเปิดใช้โหมด บริดจ์ ให้กลับไปและเปลี่ยน <b>%(tunnelProtocol)s</b> เป็น <b>%(openvpn)s</b>"
+
+#. This is used to instruct users how to make UDP mode
+#. available.
+msgctxt "openvpn-settings-view"
+msgid "To activate UDP, change <b>Bridge mode</b> to <b>Automatic</b> or <b>Off</b>."
+msgstr "ในการเปิดใช้งาน UDP ให้เปลี่ยน <b>โหมดบริดจ์</b> เป็น <b>อัตโนมัติ</b> หรือ <b>ปิด</b>"
+
+msgctxt "openvpn-settings-view"
+msgid "Transport protocol"
+msgstr "โพรโทคอลการส่งข้อมูล"
+
+msgctxt "redeem-voucher-alert"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgctxt "redeem-voucher-alert"
+msgid "Enter voucher code"
+msgstr "ป้อนรหัสบัตรกำนัล"
+
+msgctxt "redeem-voucher-alert"
+msgid "Redeem voucher"
+msgstr "แลกบัตรกำนัล"
+
+msgctxt "redeem-voucher-view"
+msgid "An error occurred."
+msgstr "เกิดข้อผิดพลาดขึ้น"
+
+msgctxt "redeem-voucher-view"
+msgid "Redeem"
+msgstr "แลกรับ"
+
+msgctxt "redeem-voucher-view"
+msgid "Verifying voucher..."
+msgstr "กำลังตรวจสอบบัตรกำนัล..."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code has already been used."
+msgstr "รหัสบัตรกำนัลถูกใช้ไปแล้ว"
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code is invalid."
+msgstr "รหัสบัตรกำนัลไม่ถูกต้อง"
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher was successfully redeemed."
+msgstr "แลกบัตรกำนัลสำเร็จแล้ว"
+
+#. Title label in navigation bar
+msgctxt "select-language-nav"
+msgid "Select language"
+msgstr "เลือกภาษา"
+
+#. Title label in navigation bar
+msgctxt "select-location-nav"
+msgid "Select location"
+msgstr "เลือกตำแหน่งที่ตั้ง"
+
+#. This is used for appending information about a location.
+#. E.g. "Gothenburg (Entry)" if Gothenburg has been selected as the entrypoint.
+#. Available placeholders:
+#. %(location)s - Translated location name
+#. %(info)s - Information about the location
+msgctxt "select-location-view"
+msgid "%(location)s (%(info)s)"
+msgstr "%(location)s (%(info)s)"
+
+msgctxt "select-location-view"
+msgid "Entry"
+msgstr "เข้า"
+
+msgctxt "select-location-view"
+msgid "Exit"
+msgstr "ออก"
+
+msgctxt "select-location-view"
+msgid "Filtered:"
+msgstr "กรอง:"
+
+msgctxt "select-location-view"
+msgid "Providers: %(numberOfProviders)d"
+msgstr "ผู้ให้บริการ: %(numberOfProviders)d"
+
+msgctxt "select-location-view"
+msgid "The app selects a random bridge server, but servers have a higher probability the closer they are to you."
+msgstr "แอปจะเลือกเซิร์ฟเวอร์บริดจ์แบบสุ่ม แต่เซิร์ฟเวอร์จะยิ่งมีโอกาสถูกเลือกมากขึ้น หากเซิร์ฟเวอร์ยิ่งอยู่ใกล้คุณ"
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point (a bridge server) and the exit point (a VPN server)."
+msgstr "ในขณะที่เชื่อมต่อ การรับส่งข้อมูลของคุณจะได้รับการกำหนดเส้นทางไปยังตำแหน่งที่ตั้งที่ปลอดภัยสองแห่ง จุดทางเข้า (เซิร์ฟเวอร์บริดจ์) และจุดทางออก (เซิร์ฟเวอร์ VPN)"
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point and the exit point (needs to be two different VPN servers)."
+msgstr "ในขณะที่เชื่อมต่อ การรับส่งข้อมูลของคุณจะได้รับการกำหนดเส้นทางไปยังตำแหน่งที่ตั้งที่ปลอดภัยสองแห่ง จุดทางเข้าและจุดทางออก (ต้องเป็นเซิร์ฟเวอร์ VPN 2 เซิร์ฟเวอร์ที่แตกต่างกัน)"
+
+msgctxt "settings-view"
+msgid "App is out of sync. Please quit and restart."
+msgstr "แอปไม่ได้รับการซิงค์ โปรดออกและเปิดแอปใหม่"
+
+msgctxt "settings-view"
+msgid "App version"
+msgstr "เวอร์ชันแอป"
+
+#. Navigation button to the 'Split tunneling' view
+msgctxt "settings-view"
+msgid "Split tunneling"
+msgstr "การแยกอุโมงค์"
+
+msgctxt "settings-view"
+msgid "Support"
+msgstr "การสนับสนุน"
+
+msgctxt "settings-view"
+msgid "Update available. Install the latest app version to stay up to date."
+msgstr "มีอัปเดตพร้อมใช้งาน ติดตั้งแอปเวอร์ชันล่าสุด เพื่อรับข้อมูลการอัปเดตล่าสุด"
+
+#. Navigation button to the 'User interface settings' view
+msgctxt "settings-view"
+msgid "User interface settings"
+msgstr "การตั้งค่าอินเทอร์เฟซผู้ใช้"
+
+#. Navigation button to the 'VPN settings' view
+msgctxt "settings-view"
+msgid "VPN settings"
+msgstr "การตั้งค่า VPN"
+
+msgctxt "split-tunneling-view"
+msgid "%(applicationName)s is problematic and can’t be excluded from the VPN tunnel."
+msgstr "%(applicationName)s ได้ก่อให้เกิดปัญหาขึ้น และไม่สามารถแยกออกจากช่องทาง VPN ได้"
+
+msgctxt "split-tunneling-view"
+msgid "Add"
+msgstr "เพิ่ม"
+
+msgctxt "split-tunneling-view"
+msgid "All apps"
+msgstr "แอปทั้งหมด"
+
+msgctxt "split-tunneling-view"
+msgid "Choose the apps you want to exclude from the VPN tunnel."
+msgstr "เลือกแอปที่คุณต้องการแยกออกจากช่องทาง VPN"
+
+msgctxt "split-tunneling-view"
+msgid "Click on an app to launch it. Its traffic will bypass the VPN tunnel until you close it."
+msgstr "คลิกบนแอปเพื่อเปิด การรับส่งข้อมูลของแอปดังกล่าวจะบายพาสช่องทาง VPN จนกว่าคุณจะปิดแอป"
+
+msgctxt "split-tunneling-view"
+msgid "Excluded apps"
+msgstr "แอปที่ยกเว้น"
+
+msgctxt "split-tunneling-view"
+msgid "Find another app"
+msgstr "ค้นหาแอปอื่น"
+
+msgctxt "split-tunneling-view"
+msgid "If it’s already running, close %(applicationName)s before launching it from here. Otherwise it might not be excluded from the VPN tunnel."
+msgstr "ในกรณีที่แอปกำลังทำงานอยู่ ให้ปิด %(applicationName)s ก่อนที่จะเปิดแอปจากที่นี่ มิฉะนั้น แอปจะไม่ถูกแยกออกจากช่องทาง VPN"
+
+msgctxt "split-tunneling-view"
+msgid "Launch"
+msgstr "เปิด"
+
+#. This error message is shown if the user tries to launch a Linux desktop
+#. entry file that doesn't contain the required 'Exec' value.
+msgctxt "split-tunneling-view"
+msgid "Please send a problem report."
+msgstr "โปรดส่งรายงานปัญหา"
+
+#. This error message is shown if the user tries to launch an app that
+#. doesn't exist.
+#. This error message is shown if an application fails during startup.
+msgctxt "split-tunneling-view"
+msgid "Please try again or send a problem report."
+msgstr "โปรดลองใหม่อีกครั้ง หรือส่งรายงานปัญหา"
+
+#. Error message showed in a dialog when an application fails to launch.
+msgctxt "split-tunneling-view"
+msgid "Unable to launch selection. %(detailedErrorMessage)s"
+msgstr "ไม่สามารถเปิดรายการที่เลือกได้ %(detailedErrorMessage)s"
+
+msgctxt "support-view"
+msgid "Beta program"
+msgstr "โปรแกรมรุ่นเบต้า"
+
+msgctxt "support-view"
+msgid "Continue anyway"
+msgstr "ดำเนินการต่อไป"
+
+msgctxt "support-view"
+msgid "Edit message"
+msgstr "แก้ไขข้อความ"
+
+msgctxt "support-view"
+msgid "Enable to get notified when new beta versions of the app are released."
+msgstr "เปิดใช้งานเพื่อรับการแจ้งเตือน เมื่อมีการแผยแพร่แอปเวอร์ชันเบต้ารุ่นใหม่"
+
+msgctxt "support-view"
+msgid "Failed to send"
+msgstr "ไม่สามารถส่งได้"
+
+#. Link to the webpage
+msgctxt "support-view"
+msgid "FAQs & Guides"
+msgstr "คำถามที่พบบ่อยและคำแนะนำ"
+
+#. The message displayed to the user after submitting the problem report, given that the user left his or her email for us to reach back.
+#. Available placeholders:
+#. %(email)s
+msgctxt "support-view"
+msgid "If needed we will contact you at %(email)s"
+msgstr "เราจะติดต่อคุณไปทาง %(email)s ในกรณีจำเป็น"
+
+msgctxt "support-view"
+msgid "If you exit the form and try again later, the information you already entered will still be here."
+msgstr "หากคุณออกจากแบบฟอร์มแล้วเข้ามาใหม่ในภายหลัง ข้อมูลที่คุณกรอกไว้จะยังคงอยู่ที่นี่ดังเดิม"
+
+#. Title label in navigation bar
+#. Navigation button to the 'Report a problem' help view
+msgctxt "support-view"
+msgid "Report a problem"
+msgstr "รายงานปัญหา"
+
+msgctxt "support-view"
+msgid "Send"
+msgstr "ส่ง"
+
+msgctxt "support-view"
+msgid "Send anyway"
+msgstr "ส่งต่อไป"
+
+msgctxt "support-view"
+msgid "Sending..."
+msgstr "กำลังส่ง..."
+
+msgctxt "support-view"
+msgid "Sent"
+msgstr "ส่ง"
+
+#. Title label in navigation bar
+msgctxt "support-view"
+msgid "Support"
+msgstr "การสนับสนุน"
+
+msgctxt "support-view"
+msgid "Thanks!"
+msgstr "ขอบคุณ!"
+
+msgctxt "support-view"
+msgid "This option is unavailable while using a beta version."
+msgstr "ตัวเลือกนี้จะไม่พร้อมใช้งาน ในขณะที่ใช้งานแอปเวอร์ชันเบต้า"
+
+msgctxt "support-view"
+msgid "To assist you better, please write in English or Swedish and include which country you are connecting from."
+msgstr "โปรดเขียนเป็นภาษาอังกฤษหรือสวีเดน พร้อมระบุประเทศต้นทางที่คุณเชื่อมต่อ เพื่อให้รับความช่วยเหลือได้ดียิ่งขึ้น"
+
+msgctxt "support-view"
+msgid "To help you more effectively, your app’s log file will be attached to this message. Your data will remain secure and private, as it is anonymised before being sent over an encrypted channel."
+msgstr "ไฟล์บันทึกล็อกของแอปของคุณจะถูกแนบไปกับข้อความนี้ เพื่อที่เราจะช่วยเหลือคุณได้อย่างมีประสิทธิภาพมากขึ้น ข้อมูลของคุณจะยังคงมีความปลอดภัยและเป็นส่วนตัว เนื่องจากจะไม่มีการระบุตัวตนก่อนส่งข้อมูลผ่านช่องทางที่มีการเข้ารหัส"
+
+msgctxt "support-view"
+msgid "Try again"
+msgstr "ลองอีกครั้ง"
+
+msgctxt "support-view"
+msgid "Upgrade app"
+msgstr "อัปเกรดแอป"
+
+msgctxt "support-view"
+msgid "View app logs"
+msgstr "ดูบันทึกของแอป"
+
+msgctxt "support-view"
+msgid "We will look into this."
+msgstr "เราจะตรวจสอบปัญหานี้"
+
+msgctxt "support-view"
+msgid "You are about to send the problem report without a way for us to get back to you. If you want an answer to your report you will have to enter an email address."
+msgstr "คุณกำลังจะส่งรายงานปัญหา โดยไม่มีการระบุวิธีการติดต่อกลับให้กับเรา และคุณจำเป็นต้องป้อนที่อยู่อีเมลของคุณ หากคุณอยากให้เราตอบกลับการรายงานของคุณ"
+
+msgctxt "support-view"
+msgid "You are using an old version of the app. Please upgrade and see if the problem still exists before sending a report."
+msgstr "คุณกำลังใช้งานแอปเวอร์ชันเก่า โปรดอัปเกรดแอปและดูว่ายังคงมีปัญหาอยู่หรือไม่ ก่อนที่คุณจะส่งรายงาน"
+
+msgctxt "support-view"
+msgid "Your email (optional)"
+msgstr "อีเมลของคุณ (ไม่บังคับ)"
+
+msgctxt "tray-icon-context-menu"
+msgid "Disconnected from system service"
+msgstr "ตัดการเชื่อมต่อจากบริการระบบแล้ว"
+
+msgctxt "tray-icon-context-menu"
+msgid "Open %(mullvadVpn)s"
+msgstr "เปิด %(mullvadVpn)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "%(city)s, %(country)s"
+msgstr "%(city)s, %(country)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connected. %(location)s"
+msgstr "เชื่อมต่อแล้ว %(location)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connecting. %(location)s"
+msgstr "กำลังเชื่อมต่อ %(location)s"
+
+msgctxt "troubleshoot"
+msgid "If these steps do not work please send a problem report."
+msgstr "หากขั้นตอนเหล่านี้ใช้ไม่ได้ผล โปรดส่งรายงานปัญหา"
+
+msgctxt "troubleshoot"
+msgid "Make sure you have NF tables support."
+msgstr "โปรดตรวจสอบให้แน่ใจว่าคุณมีการรองรับตาราง NF"
+
+msgctxt "troubleshoot"
+msgid "This error can happen when something other than Mullvad is actively updating the DNS."
+msgstr "ข้อผิดพลาดนี้อาจเกิดขึ้น ในขณะที่อย่างอื่นนอกเหนือจาก Mullvad กำลังอัปเดต DNS อยู่"
+
+msgctxt "troubleshoot"
+msgid "This might be caused by an outdated kernel."
+msgstr "นี่อาจเกิดจากเคอร์เนลที่ล้าสมัย"
+
+msgctxt "troubleshoot"
+msgid "Try reconnecting."
+msgstr "ลองเชื่อมต่อใหม่"
+
+msgctxt "troubleshoot"
+msgid "Try restarting your device."
+msgstr "ลองรีสตาร์ตอุปกรณ์ของคุณ"
+
+msgctxt "troubleshoot"
+msgid "Try to turn Wi-Fi Calling off in the FaceTime app settings and restart the Mac."
+msgstr "ลองปิดการโทรผ่าน Wi-Fi ในการตั้งค่าแอป FaceTime แล้วจึงรีสตาร์ต Mac"
+
+msgctxt "troubleshoot"
+msgid "Unable to communicate with Mullvad kernel driver."
+msgstr "ไม่สามารถสื่อสารกับไดรเวอร์เคอร์เนล Mullvad ได้"
+
+msgctxt "troubleshoot"
+msgid "Uninstall or disable other DNS, networking and ads/website blocking apps."
+msgstr "ถอนการติดตั้ง หรือปิดใช้งานแอป DNS, เครือข่าย และแอปที่ปิดกั้นโฆษณา/เว็บไซต์อื่นๆ"
+
+msgctxt "troubleshoot"
+msgid "Update your kernel."
+msgstr "อัปเดตเคอร์เนลของคุณ"
+
+msgctxt "tunnel-control"
+msgid "Secure my connection"
+msgstr "รักษาความปลอดภัยในการเชื่อมต่อ"
+
+msgctxt "tunnel-control"
+msgid "Switch location"
+msgstr "สลับตำแหน่ง"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable or disable system notifications. The critical notifications will always be displayed."
+msgstr "เปิดใช้งานหรือปิดใช้งานการแจ้งเตือนระบบ การแจ้งเตือนที่สำคัญมากจะแสดงเสมอ"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable to move the app around as a free-standing window."
+msgstr "เปิดใช้งานเพื่อให้เคลื่อนย้ายแอปไปรอบๆ เหมือนเป็นหน้าต่างอิสระได้"
+
+#. Navigation button to the 'Language' settings view
+msgctxt "user-interface-settings-view"
+msgid "Language"
+msgstr "ภาษา"
+
+msgctxt "user-interface-settings-view"
+msgid "Monochromatic tray icon"
+msgstr "ไอคอนถาดแบบสีเดียว"
+
+msgctxt "user-interface-settings-view"
+msgid "Notifications"
+msgstr "การแจ้งเตือน"
+
+msgctxt "user-interface-settings-view"
+msgid "Show only the tray icon when the app starts."
+msgstr "แสดงเฉพาะไอคอนถาด เมื่อเริ่มใช้งานแอป"
+
+msgctxt "user-interface-settings-view"
+msgid "Start minimized"
+msgstr "เริ่มใช้งานในมุมมองแบบย่อ"
+
+msgctxt "user-interface-settings-view"
+msgid "Unpin app from taskbar"
+msgstr "ถอนหมุดแอปจากแถบงาน"
+
+msgctxt "user-interface-settings-view"
+msgid "Use a monochromatic tray icon instead of a colored one."
+msgstr "ใช้งานไอคอนถาดสีเดียว แทนถาดหลายสี"
+
+#. Title label in navigation bar
+msgctxt "user-interface-settings-view"
+msgid "User interface settings"
+msgstr "การตั้งค่าอินเทอร์เฟซผู้ใช้"
+
+#. %(openvpn)s will be replaced with the string "OpenVPN"
+msgctxt "vpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "การตั้งค่า %(openvpn)s"
+
+#. %(wireguard)s will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "การตั้งค่า %(wireguard)s"
+
+msgctxt "vpn-settings-view"
+msgid "Add a server"
+msgstr "เพิ่มเซิร์ฟเวอร์"
+
+msgctxt "vpn-settings-view"
+msgid "Add anyway"
+msgstr "เพิ่มต่อไป"
+
+#. Label for settings that enables ad blocking.
+msgctxt "vpn-settings-view"
+msgid "Ads"
+msgstr "โฆษณา"
+
+#. Label for settings that enables block of adult content.
+msgctxt "vpn-settings-view"
+msgid "Adult content"
+msgstr "เนื้อหาสำหรับผู้ใหญ่"
+
+msgctxt "vpn-settings-view"
+msgid "Attention: enabling this will always require a Mullvad VPN connection in order to reach the internet."
+msgstr "โปรดทราบ: การเปิดใช้งานสิ่งนี้จะทำให้คุณจำเป็นต้องเชื่อมต่อ Mullvad VPN ไว้ตลอดเวลา เพื่อที่จะเข้าถึงอินเทอร์เน็ต"
+
+msgctxt "vpn-settings-view"
+msgid "Auto-connect"
+msgstr "เชื่อมต่ออัตโนมัติ"
+
+msgctxt "vpn-settings-view"
+msgid "Automatically connect to a server when the app launches."
+msgstr "เชื่อมต่อเซิร์ฟเวอร์โดยอัตโนมัติทันทีที่เปิดแอป"
+
+#. This is displayed when the custom DNS setting is turned on which makes the block
+#. ads/trackers settings disabled. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(customDnsFeatureName)s - The name displayed next to the custom DNS toggle.
+msgctxt "vpn-settings-view"
+msgid "Disable <b>%(customDnsFeatureName)s</b> below to activate these settings."
+msgstr "ปิดใช้งาน <b>%(customDnsFeatureName)s</b> ด้านล่าง เพื่อเปิดใช้การตั้งค่าเหล่านี้"
+
+#. This is displayed when either or both of the block ads/trackers settings are
+#. turned on which makes the custom DNS setting disabled.
+#. Available placeholders:
+#. %(preferencesPageName)s - The page title showed on top in the preferences page.
+msgctxt "vpn-settings-view"
+msgid "Disable all <b>DNS content blockers</b> above to activate this setting."
+msgstr "ปิดใช้งาน<b>ตัวบล็อกเนื้อหา DNS</b> ทั้งหมดด้านบน เพื่อเปิดใช้งานการตั้งค่านี้"
+
+msgctxt "vpn-settings-view"
+msgid "DNS content blockers"
+msgstr "ตัวบล็อกเนื้อหา DNS"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6"
+msgstr "เปิดใช้งาน IPv6"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6 communication through the tunnel."
+msgstr "เปิดใช้งานการสื่อสาร IPv6 ผ่านอุโมงค์"
+
+#. The label next to the multihop settings toggle.
+msgctxt "vpn-settings-view"
+msgid "Enable multihop"
+msgstr "เปิดใช้ Multihop"
+
+msgctxt "vpn-settings-view"
+msgid "Enable to add at least one DNS server."
+msgstr "เปิดเพื่อเพิ่มเซิร์ฟเวอร์ DNS อย่างน้อยหนึ่งรายการ"
+
+msgctxt "vpn-settings-view"
+msgid "Enter IP"
+msgstr "ป้อน IP"
+
+#. Label for settings that enables block of gamling related websites.
+msgctxt "vpn-settings-view"
+msgid "Gambling"
+msgstr "การพนัน"
+
+#. Description for multihop settings toggle.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "Increases anonymity by routing your traffic into one %(wireguard)s server and out another, making it harder to trace."
+msgstr "ยกระดับการไม่ระบุตัวตน ด้วยการกำหนดเส้นทางการรับส่งข้อมูลของคุณไปยังเซิร์ฟเวอร์ %(wireguard)s เดียว และออกไปยังอีกเซิร์ฟเวอร์ เพื่อทำให้ติดตามได้ยากขึ้น"
+
+msgctxt "vpn-settings-view"
+msgid "It does this by allowing network communication outside the tunnel to local multicast and broadcast ranges as well as to and from these private IP ranges:"
+msgstr "ทำเช่นนี้ได้โดยการอนุญาตให้มีการสื่อสารเครือข่ายนอกอุโมงค์ ไปยังมัลติคาสต์และช่วงการเผยแพร่ในท้องถิ่น รวมถึงการสื่อสารไปมาในช่วง IP ส่วนตัวเหล่านี้:"
+
+msgctxt "vpn-settings-view"
+msgid "Kill switch"
+msgstr "คิลสวิตช์"
+
+msgctxt "vpn-settings-view"
+msgid "Launch app on start-up"
+msgstr "เปิดใช้แอปทันทีที่เปิดเครื่อง"
+
+msgctxt "vpn-settings-view"
+msgid "Local network sharing"
+msgstr "การแชร์ในเครือข่ายท้องถิ่น"
+
+msgctxt "vpn-settings-view"
+msgid "Lockdown mode"
+msgstr "โหมดล็อกดาวน์"
+
+#. Label for settings that enables malware blocking.
+msgctxt "vpn-settings-view"
+msgid "Malware"
+msgstr "มัลแวร์"
+
+msgctxt "vpn-settings-view"
+msgid "The app’s built-in kill switch is always on. This setting will additionally block the internet if clicking Disconnect or Quit."
+msgstr "คิลสวิตช์ภายในแอปจะเปิดใช้งานอยู่เสมอ การตั้งค่านี้จะบล็อกอินเทอร์เน็ตเพิ่มเติม หากมีการคลิก ตัดการเชื่อมต่อ หรือ ออก"
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents."
+msgstr "ความแตกต่างระหว่างคิลสวิตช์ และโหมดล็อกดาวน์ก็คือ คิลสวิตช์จะป้องกันไม่ให้มีข้อมูลรั่วไหว ในระหว่างการเชื่อมต่ออุโมงค์อัตโนมัติใหม่อีกครั้ง ซอฟต์แวร์ล้มเหลว และอุบัติเหตุที่คล้ายคลึงกัน"
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents. With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "ความแตกต่างระหว่างคิลสวิตช์ และโหมดล็อกดาวน์ก็คือ คิลสวิตช์จะป้องกันไม่ให้มีข้อมูลรั่วไหว ในระหว่างการเชื่อมต่ออุโมงค์อัตโนมัติใหม่อีกครั้ง ซอฟต์แวร์ล้มเหลว และอุบัติเหตุที่คล้ายคลึงกัน เมื่อเปิดใช้งานโหมดล็อกดาวน์ คุณจำเป็นต้องเชื่อมต่อเซิร์ฟเวอร์ Mullvad VPN เพื่อเข้าถึงอินเทอร์เน็ต ทั้งนี้การตัดการเชื่อมต่อด้วยตนเอง หรือออกจากแอป จะเป็นบล็อกการเชื่อมต่อของคุณ"
+
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is a private IP. You must ensure that your network interfaces are configured to use it."
+msgstr "เซิร์ฟเวอร์ DNS ที่คุณต้องการเพิ่มเป็น IP ส่วนตัว คุณต้องตรวจสอบให้แน่ใจว่า อินเทอร์เฟซเครือข่ายของคุณ ได้รับการกำหนดค่าให้ใช้เซิร์ฟเวอร์นี้"
+
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is public and will only work with %(wireguard)s. To ensure that it always works, set the \"%(tunnelProtocol)s\" (in Advanced settings) to %(wireguard)s."
+msgstr "เซิร์ฟเวอร์ DNS ที่คุณต้องการเพิ่มเป็นแบบสาธารณะ และจะใช้งานกับ %(wireguard)s ได้เท่านั้น ทั้งนี้เพื่อให้มั่นใจว่าเซิร์ฟเวอร์จะทำงานได้ตลอด โปรดตั้งค่า \"%(tunnelProtocol)s\" (ในการตั้งค่าขั้นสูง) เป็น %(wireguard)s"
+
+msgctxt "vpn-settings-view"
+msgid "This built-in feature prevents your traffic from leaking outside of the VPN tunnel if your network suddenly stops working or if the tunnel fails, it does this by blocking your traffic until your connection is reestablished."
+msgstr "คุณสมบัติในตัวนี้ จะป้องกันไม่ให้การรับส่งข้อมูลของคุณรั่วไหลออกจากอุโมงค์ VPN หากเครือข่ายของคุณหยุดทำงานกะทันหัน หรือหากอุโมงค์ทำงานผิดพลาด โดยคุณสมบัตินี้จะบล็อกการรับส่งข้อมูลของคุณ จนกว่าการเชื่อมต่อจะถูกสร้างขึ้นมาใหม่"
+
+msgctxt "vpn-settings-view"
+msgid "This feature allows access to other devices on the local network, such as for sharing, printing, streaming, etc."
+msgstr "คุณสมบัตินี้จะช่วยให้สามารถเข้าถึงอุปกรณ์อื่นๆ บนเครือข่ายท้องถิ่น เช่น การแชร์ การพิมพ์ การสตรีม ฯลฯ"
+
+msgctxt "vpn-settings-view"
+msgid "This might cause issues on certain websites, services, and programs."
+msgstr "นี่อาจก่อให้เกิดปัญหากับเว็บไซต์ บริการ และโปรแกรมบางอย่างได้"
+
+#. Label for settings that enables tracker blocking.
+msgctxt "vpn-settings-view"
+msgid "Trackers"
+msgstr "ตัวติดตาม"
+
+msgctxt "vpn-settings-view"
+msgid "Tunnel protocol"
+msgstr "โพรโทคอลอุโมงค์"
+
+msgctxt "vpn-settings-view"
+msgid "Use custom DNS server"
+msgstr "ใช้เซิร์ฟเวอร์ DNS แบบกำหนดเอง"
+
+#. Title label in navigation bar
+msgctxt "vpn-settings-view"
+msgid "VPN settings"
+msgstr "การตั้งค่า VPN"
+
+msgctxt "vpn-settings-view"
+msgid "Warning: The malware blocker is not an anti-virus and should not be treated as such, this is just an extra layer of protection."
+msgstr "คำเตือน: ตัวบล็อกมัลแวร์ไม่ใช่แอนตี้ไวรัส และไม่ควรนำมาใช้ในรูปแบบดังกล่าว นี่เป็นเพียงชั้นการป้องกันเพิ่มเติมเท่านั้น"
+
+msgctxt "vpn-settings-view"
+msgid "When this feature is enabled it stops the device from contacting certain domains or websites known for distributing ads, malware, trackers and more."
+msgstr "ในขณะที่เปิดใช้งานคุณสมบัตินี้ คุณสมบัตินี้จะหยุดไม่ให้อุปกรณ์ติดต่อโดเมน หรือเว็บไซต์ใดๆ ที่เป็นที่ทราบกันว่า ใช้ในการเผยแพร่โฆษณา มัลแวร์ ตัวติดตาม และอื่นๆ"
+
+msgctxt "vpn-settings-view"
+msgid "With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "เมื่อเปิดใช้งานโหมดล็อกดาวน์ คุณจำเป็นต้องเชื่อมต่อเซิร์ฟเวอร์ Mullvad VPN เพื่อเข้าถึงอินเทอร์เน็ต ทั้งนี้การตัดการเชื่อมต่อด้วยตนเอง หรือออกจากแอป จะเป็นบล็อกการเชื่อมต่อของคุณ"
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-nav"
+msgid "%(wireguard)s settings"
+msgstr "การตั้งค่า %(wireguard)s"
+
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "การตั้งค่า %(wireguard)s"
+
+msgctxt "wireguard-settings-view"
+msgid "IP version"
+msgstr "เวอร์ชัน IP"
+
+msgctxt "wireguard-settings-view"
+msgid "It does this by performing an extra key exchange using a quantum safe algorithm and mixing the result into WireGuard’s regular encryption. This extra step uses approximately 500 kiB of traffic every time a new tunnel is established."
+msgstr "ระบบจะดำเนินการสิ่งนี้ผ่านการแลกเปลี่ยนคีย์เพิ่มเติม โดยการใช้อัลกอริทึมแบบควอนตัมที่ปลอดภัย และผสมผลลัพธ์เข้ากับการเข้ารหัสตามปกติของ WireGuard และขั้นตอนพิเศษนี้ใช้การรับส่งข้อมูลประมาณ 500 kiB ในทุกครั้งที่สร้างช่องทางใหม่"
+
+msgctxt "wireguard-settings-view"
+msgid "MTU"
+msgstr "MTU"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation"
+msgstr "การทำให้ข้อมูลยุ่งเหยิง"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation hides the WireGuard traffic inside another protocol. It can be used to help circumvent censorship and other types of filtering, where a plain WireGuard connect would be blocked."
+msgstr "การทำให้ข้อมูลยุ่งเหยิง จะซ่อนการรับส่งข้อมูล WireGuard ภายในอีกโพรโทคอลหนึ่ง ซึ่งใช้เพื่อช่วยหลบเลี่ยงการเซ็นเซอร์ และการกรองประเภทอื่นๆ ที่การเชื่อมต่อ WireGuard แบบธรรมดาจะถูกบล็อกได้"
+
+msgctxt "wireguard-settings-view"
+msgid "On (UDP-over-TCP)"
+msgstr "เปิด (UDP-ผ่าน-TCP)"
+
+msgctxt "wireguard-settings-view"
+msgid "Port"
+msgstr "พอร์ต"
+
+#. The title for the WireGuard quantum resistance selector. This setting
+#. makes the cryptography resistant to the future abilities of quantum
+#. computers.
+msgctxt "wireguard-settings-view"
+msgid "Quantum-resistant tunnel"
+msgstr "ช่องทางการสกัดกั้นควอนตัม"
+
+#. The hint displayed below the WireGuard MTU input field.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+#. %(max)d - the maximum possible wireguard mtu value
+#. %(min)d - the minimum possible wireguard mtu value
+msgctxt "wireguard-settings-view"
+msgid "Set %(wireguard)s MTU value. Valid range: %(min)d - %(max)d."
+msgstr "ตั้งค่า %(wireguard)s MTU ช่วงที่ใช้ได้: %(min)d - %(max)d"
+
+msgctxt "wireguard-settings-view"
+msgid "The automatic setting will randomly choose from the valid port ranges shown below."
+msgstr "การตั้งค่าอัตโนมัติจะเป็นการสุ่มเลือกจากช่วงพอร์ตที่ใช้งานได้ต่างๆ ซึ่งแสดงอยู่ด้านล่าง"
+
+msgctxt "wireguard-settings-view"
+msgid "The custom port can be any value inside the valid ranges: %(portRanges)s."
+msgstr "พอร์ตแบบกำหนดเองอาจมีค่าใดๆ ก็ได้ ภายในช่วงที่ใช้งานได้: %(portRanges)s"
+
+#. The hint displayed below the WireGuard IP version selector.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "This allows access to %(wireguard)s for devices that only support IPv6."
+msgstr "นี่จะช่วยให้อุปกรณ์ที่รองรับเฉพาะ IPv6 สามารถเข้าถึง %(wireguard)s ได้"
+
+msgctxt "wireguard-settings-view"
+msgid "This feature makes the WireGuard tunnel resistant to potential attacks from quantum computers."
+msgstr "ฟีเจอร์นี้จะช่วยให้ช่องทาง WireGuard สามารถสกัดกั้นการโจมตีที่อาจมาจากคอมพิวเตอร์ควอนตัมได้"
+
+msgctxt "wireguard-settings-view"
+msgid "UDP-over-TCP port"
+msgstr "พอร์ต UDP-ผ่าน-TCP"
+
+msgctxt "wireguard-settings-view"
+msgid "Which TCP port the UDP-over-TCP obfuscation protocol should connect to on the VPN server."
+msgstr "พอร์ต TCP ใดที่โพรโทคอลการทำให้ข้อมูลยุ่งเหยิง UDP-ผ่าน-TCP ควรเชื่อมต่อบนเซิร์ฟเวอร์ VPN"
+
+msgid "Account credit expires in a few minutes"
+msgstr "เครดิตของบัญชีจะหมดอายุในอีกไม่กี่นาที"
+
+msgid "Account credit expires soon"
+msgstr "เครดิตของบัญชีจะหมดอายุในเร็วๆ นี้"
+
+msgid "Account time reminders"
+msgstr "การแจ้งเตือนเวลาบัญชี"
+
+msgid "Add DNS server"
+msgstr "เพิ่มเซิร์ฟเวอร์ DNS"
+
+msgid "Agree and continue"
+msgstr "ยอมรับและดำเนินการต่อ"
+
+msgid "All applications"
+msgstr "แอปพลิเคชันทั้งหมด"
+
+msgid "Allows access to other devices on the same network for sharing, printing etc."
+msgstr "อนุญาตให้เข้าถึงอุปกรณ์อื่นๆ บนเครือข่ายเดียวกัน เพื่อแชร์ พิมพ์ ฯลฯ"
+
+msgid "Always-on VPN assigned to other app"
+msgstr "Always-on VPN ได้รับการมอบหมายไปยังแอปอื่นแล้ว"
+
+msgid "Always-on VPN might be enabled for another app"
+msgstr "Always-on VPN อาจได้รับการเปิดใช้งานสำหรับแอปอื่น"
+
+msgid "Attention: this setting cannot be used in combination with <b>Use custom DNS server</b>."
+msgstr "โปรดทราบ: การตั้งค่านี้ไม่สามารถใช้ร่วมกับ<b>การใช้เซิร์ฟเวอร์ DNS แบบกำหนดเอง</b>ได้"
+
+msgid "Blocking internet (device offline)"
+msgstr "กำลังบล็อกอินเทอร์เน็ต (อุปกรณ์ออฟไลน์)"
+
+msgid "Changes to DNS related settings might not go into effect immediately due to cached results."
+msgstr "การเปลี่ยนแปลงการตั้งค่าที่เกี่ยวข้องกับ DNS อาจไม่มีผลทันที เนื่องจากผลลัพธ์ที่แคชไว้"
+
+msgid "Copied Mullvad account number to clipboard"
+msgstr "คัดลอกหมายเลขบัญชี Mullvad ไปยังคลิปบอร์ดแล้ว"
+
+msgid "Copied to clipboard"
+msgstr "คัดลอกไปยังคลิปบอร์ดแล้ว"
+
+msgid "Critical error (your attention is required)"
+msgstr "ข้อผิดพลาดร้ายแรง (คุณจำเป็นต้องตรวจสอบ)"
+
+msgid "Custom DNS server addresses %s are invalid"
+msgstr "ที่อยู่เซิร์ฟเวอร์ DNS %s ที่กำหนดเองไม่ถูกต้อง"
+
+msgid "DNS settings might not go into effect immediately"
+msgstr "การตั้งค่า DNS อาจไม่มีผลทันที"
+
+msgid "Disable all <b>%s</b> above to activate this setting."
+msgstr "ปิดใช้งาน <b>%s</b> ด้านบนทั้งหมด เพื่อเปิดใช้การตั้งค่านี้"
+
+msgid "Enable"
+msgstr "เปิดใช้งาน"
+
+msgid "Enter MTU"
+msgstr "ป้อน MTU"
+
+msgid "Excluded applications"
+msgstr "แอปพลิเคชันที่แยกออก"
+
+msgid "Going to login will unblock the internet on this device."
+msgstr "การไปที่ส่วนเข้าสู่ระบบจะปลดบล็อกอินเทอร์เน็ตบนอุปกรณ์เครื่องนี้"
+
+msgid "Install Mullvad VPN (%s) to stay up to date"
+msgstr "ติดตั้ง Mullvad VPN (%s) เพื่อรับอัปเดตล่าสุดอยู่เสมอ"
+
+msgid "Manage account"
+msgstr "จัดการบัญชี"
+
+msgid "Mullvad account number"
+msgstr "หมายเลขบัญชี Mullvad"
+
+msgid "Preferences"
+msgstr "การกำหนดค่า"
+
+msgid "Privacy"
+msgstr "ความเป็นส่วนตัว"
+
+msgid "Privacy policy"
+msgstr "นโยบายความเป็นส่วนตัว"
+
+msgid "Remove"
+msgstr "ลบ"
+
+msgid "Reset to default"
+msgstr "รีเซ็ตเป็นค่าเริ่มต้น"
+
+msgid "Secured"
+msgstr "ปลอดภัย"
+
+msgid "Set WireGuard MTU value. Valid range: %d - %d."
+msgstr "ตั้งค่า WireGuard MTU ช่วงที่ใช้ได้: %d - %d"
+
+msgid "Show system apps"
+msgstr "แสดงแอประบบ"
+
+msgid "Shows current VPN tunnel status"
+msgstr "แสดงสถานะอุโมงค์ VPN ในปัจจุบัน"
+
+msgid "Shows reminders when the account time is about to expire"
+msgstr "แสดงการแจ้งเตือน ในขณะที่เวลาบัญชีใกล้หมดอายุ"
+
+msgid "Split tunneling makes it possible to select which applications should not be routed through the VPN tunnel."
+msgstr "การแยกอุโมงค์ทำให้สามารถเลือกได้ว่า แอปพลิเคชันใดไม่ควรได้รับการกำหนดเส้นทางผ่านอุโมงค์ VPN"
+
+msgid "Submit"
+msgstr "ส่ง"
+
+msgid "The local DNS server will not work unless you enable \"Local Network Sharing\" under Preferences."
+msgstr "เซิร์ฟเวอร์ DNS ท้องถิ่นจะไม่ทำงาน เว้นแต่คุณจะเปิดใช้ \"การแชร์ในเครือข่ายท้องถิ่น\" ซึ่งอยู่ในส่วนการกำหนดค่า"
+
+msgid "This address has already been entered."
+msgstr "ที่อยู่นี้ได้รับการป้อนไปแล้ว"
+
+msgid "This might cause issues on certain websites, services, and apps."
+msgstr "นี่อาจก่อให้เกิดปัญหากับบางเว็บไซต์ บริการ และแอปได้"
+
+msgid "To make sure that you have the most secure version and to inform you of any issues with the current version that is running, the app performs version checks automatically. This sends the app version and Android system version to Mullvad servers. Mullvad keeps counters on number of used app versions and Android versions. The data is never stored or used in any way that can identify you.\\n\\nIf the split tunneling feature is used, then the app queries your system for a list of all installed applications. This list is only retrieved in the split tunneling view. The list of installed applications is never sent from the device."
+msgstr "แอปจะดำเนินการตรวจสอบเวอร์ชันโดยอัตโนมัติ เพื่อให้มั่นใจว่า คุณมีเวอร์ชันที่ปลอดภัยที่สุด และแจ้งปัญหาใดๆ เกี่ยวกับเวอร์ชันปัจจุบันที่ใช้อยู่ให้คุณทราบ การดำเนินการนี้จะส่งเวอร์ชันแอป และเวอร์ชันระบบ Android ไปยังเซิร์ฟเวอร์ Mullvad โดย Mullvad จะเก็บหมายเลขเวอร์ชันแอปที่ใช้ และเวอร์ชัน Andriod เอาไว้ และข้อมูลจะได้รับการจัดเก็บ หรือใช้ในรูปแบบที่ไม่สามารถระบุตัวตนของคุณได้\\n\\nหากมีการใช้งานคุณสมบัติการแยกอุโมงค์อยู่ แอปจะสอบถามระบบของคุณ เพื่อดูรายการแอปพลิเคชันที่ติดตั้งทั้งหมด รายการนี้จะได้รับข้อมูลที่อยู่ในมุมมองการแยกอุโมงค์เท่านั้น โดยจะไม่มีการส่งรายการแอปพลิเคชันที่ติดตั้งออกไปจากอุปกรณ์"
+
+msgid "Toggle VPN"
+msgstr "เปิด/ปิด VPN"
+
+msgid "Unable to apply firewall rules. Please troubleshoot or send a problem report."
+msgstr "ไม่สามารถใช้กฎไฟร์วอลล์ได้ โปรดแก้ไขปัญหา หรือส่งรายงานปัญหา"
+
+msgid "Unable to start tunnel connection. Please disable Always-on VPN for <b>%s</b> before using Mullvad VPN."
+msgstr "ไม่สามารถเริ่มการเชื่อมต่ออุโมงค์ได้ โปรดปิดใช้งาน Always-on VPN เป็นเวลา <b>%s</b> ก่อนที่จะใช้งาน Mullvad VPN"
+
+msgid "Unsecured"
+msgstr "ไม่ปลอดภัย"
+
+msgid "Update DNS server"
+msgstr "อัปเดตเซิร์ฟเวอร์ DNS"
+
+msgid "Update available, download to remain safe."
+msgstr "มีอัปเดตพร้อมใช้งาน ดาวน์โหลดเพื่อคงความปลอดภัยไว้"
+
+msgid "VPN permission error"
+msgstr "เกิดข้อผิดพลาดในการอนุญาต VPN"
+
+msgid "VPN permission was denied when creating the tunnel. Please try connecting again."
+msgstr "การให้สิทธิ์ VPN ถูกปฏิเสธ ในขณะที่สร้างอุโมงค์ โปรดลองเชื่อมต่อใหม่อีกครั้ง"
+
+msgid "VPN tunnel status"
+msgstr "สถานะอุโมงค์ VPN"
+
+msgid "Valid WireGuard key is missing. Manage keys under Advanced settings."
+msgstr "คีย์ WireGuard ที่ใช้ได้ขาดหายไป จัดการคีย์ภายใต้การตั้งค่าขั้นสูง"
+
+msgid "Virtual adapter error"
+msgstr "ข้อผิดพลาดของอะแดปเตอร์เสมือน"
+
+msgid "While connected, your real location is masked with a private and secure location in the selected region."
+msgstr "ในขณะที่เชื่อมต่อ ตำแหน่งที่ตั้งจริงของคุณจะถูกปิดบัง ด้วยตำแหน่งที่ตั้งที่เป็นส่วนตัวและปลอดภัย ในภูมิภาคที่เลือก"
+
+msgid "WireGuard MTU"
+msgstr "WireGuard MTU"
+
+msgid "WireGuard obfuscation"
+msgstr "การทำให้ข้อมูลยุ่งเหยิงของ WireGuard"
+
+msgid "YOU MIGHT BE LEAKING NETWORK TRAFFIC"
+msgstr "คุณอาจมีการรับส่งข้อมูลทางเครือข่ายที่รั่วไหลอยู่"
+
+msgid "You are running an unsupported app version."
+msgstr "คุณกำลังใช้งานเวอร์ชันแอปที่ไม่ได้รับการสนับสนุน"
+
+msgid "less than a minute ago"
+msgstr "น้อยกว่าหนึ่งนาทีก่อน"
+
+msgid "Account credit expires in a day"
+msgid_plural "Account credit expires in %d days"
+msgstr[0] "เครดิตของบัญชีจะหมดอายุใน %d วัน"
+
+msgid "Account credit expires in an hour"
+msgid_plural "Account credit expires in %d hours"
+msgstr[0] "เครดิตของบัญชีจะหมดอายุใน %d ชั่วโมง"
+
+msgid "a day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d วันก่อน"
+
+msgid "a minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d นาทีก่อน"
+
+msgid "a month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d เดือนก่อน"
+
+msgid "a year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d ปีก่อน"
+
+msgid "an hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d ชั่วโมงก่อน"
+

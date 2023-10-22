@@ -1,0 +1,97 @@
+[package]
+name = "talpid-core"
+description = "Privacy preserving and secure VPN client library"
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+err-derive = { workspace = true }
+futures = "0.3.15"
+ipnetwork = "0.16"
+once_cell = { workspace = true }
+libc = "0.2"
+log = { workspace = true }
+parking_lot = "0.12.0"
+talpid-routing = { path = "../talpid-routing" }
+talpid-types = { path = "../talpid-types" }
+talpid-time = { path = "../talpid-time" }
+talpid-tunnel-config-client = { path = "../talpid-tunnel-config-client" }
+talpid-tunnel = { path = "../talpid-tunnel" }
+talpid-wireguard = { path = "../talpid-wireguard" }
+chrono = { workspace = true, features = ["clock"] }
+tokio = { workspace = true, features = ["process", "rt-multi-thread", "fs"] }
+rand = "0.8.5"
+
+[target.'cfg(not(target_os="android"))'.dependencies]
+talpid-openvpn = { path = "../talpid-openvpn" }
+triggered = "0.1.1"
+
+[target.'cfg(target_os = "android")'.dependencies]
+jnix = { version = "0.5", features = ["derive"] }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+nix = "0.23"
+inotify = "0.10"
+resolv-conf = "0.7"
+nftnl = { version = "0.6.2", features = ["nftnl-1-1-0"] }
+mnl = { version = "0.2.2", features = ["mnl-1-0-4"] }
+which = { version = "4.0", default-features = false }
+talpid-dbus = { path = "../talpid-dbus" }
+duct = "0.13"
+
+
+[target.'cfg(target_os = "macos")'.dependencies]
+pfctl = "0.4.4"
+system-configuration = "0.5.1"
+trust-dns-server = { version = "0.23.0", features = ["resolver"] }
+trust-dns-proto = "0.23.0"
+subslice = "0.2"
+async-trait = "0.1"
+duct = "0.13"
+
+
+[target.'cfg(windows)'.dependencies]
+bitflags = "1.2"
+widestring = "1.0"
+winreg = { version = "0.51", features = ["transactions"] }
+memoffset = "0.6"
+windows-service = "0.6.0"
+talpid-windows = { path = "../talpid-windows" }
+
+[target.'cfg(windows)'.dependencies.windows-sys]
+workspace = true
+features = [
+    "Win32_Foundation",
+    "Win32_Globalization",
+    "Win32_Security",
+    "Win32_Storage_FileSystem",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_System_Ioctl",
+    "Win32_System_IO",
+    "Win32_System_LibraryLoader",
+    "Win32_System_ProcessStatus",
+    "Win32_System_Registry",
+    "Win32_System_Rpc",
+    "Win32_System_Services",
+    "Win32_System_SystemServices",
+    "Win32_System_Threading",
+    "Win32_System_WindowsProgramming",
+    "Win32_Networking_WinSock",
+    "Win32_NetworkManagement_IpHelper",
+    "Win32_NetworkManagement_Ndis",
+    "Win32_UI_Shell",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_System_SystemInformation",
+]
+
+[build-dependencies]
+tonic-build = { workspace = true, default-features = false, features = ["transport", "prost"] }
+
+[dev-dependencies]
+quickcheck = { version = "1.0", default-features = false }
+quickcheck_macros = "1.0"
+tokio = { workspace = true, features = [ "test-util" ] }

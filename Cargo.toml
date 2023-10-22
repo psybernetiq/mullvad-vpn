@@ -1,0 +1,73 @@
+[workspace.package]
+version = "0.0.0"
+authors = ["Mullvad VPN"]
+repository = "https://github.com/mullvad/mullvadvpn-app/"
+license = "GPL-3.0"
+edition = "2021"
+publish = false
+
+[workspace]
+resolver = "2"
+members = [
+    "android/translations-converter",
+    "ios/MullvadTransport/shadowsocks-proxy",
+    "ios/TunnelObfuscation/tunnel-obfuscator-proxy",
+    "mullvad-daemon",
+    "mullvad-cli",
+    "mullvad-fs",
+    "mullvad-setup",
+    "mullvad-problem-report",
+    "mullvad-jni",
+    "mullvad-paths",
+    "mullvad-relay-selector",
+    "mullvad-types",
+    "mullvad-api",
+    "mullvad-exclude",
+    "mullvad-version",
+    "mullvad-nsis",
+    "talpid-openvpn-plugin",
+    "talpid-core",
+    "talpid-dbus",
+    "talpid-openvpn",
+    "talpid-platform-metadata",
+    "talpid-routing",
+    "talpid-time",
+    "talpid-tunnel",
+    "talpid-tunnel-config-client",
+    "talpid-windows",
+    "talpid-wireguard",
+    "mullvad-management-interface",
+    "tunnel-obfuscation",
+]
+
+[workspace.dependencies]
+tokio = { version = "1.8" }
+# Tonic and related crates
+tonic = "0.10.0"
+tonic-build = { version = "0.10.0", default-features = false }
+tower = "0.4"
+prost = "0.12.0"
+prost-types = "0.12.0"
+
+env_logger = "0.10.0"
+err-derive = "0.3.1"
+log = "0.4"
+
+shadowsocks = { version = "1.16" }
+shadowsocks-service = { version = "1.16" }
+
+windows-sys = "0.48.0"
+
+chrono = { version = "0.4.26", default-features = false}
+clap = { version = "4.2.7", features = ["cargo", "derive"] }
+once_cell = "1.13"
+
+
+[profile.release]
+opt-level = 3
+lto = true
+
+# Key generation may take over one minute without optimizations
+# enabled.
+[profile.dev.package."classic-mceliece-rust"]
+opt-level = 3

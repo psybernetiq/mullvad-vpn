@@ -1,0 +1,50 @@
+[package]
+name = "talpid-routing"
+description = "Library for managing routing tables"
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+
+[dependencies]
+err-derive = { workspace = true }
+futures = "0.3.15"
+ipnetwork = "0.16"
+log = { workspace = true }
+tokio = { workspace = true, features = ["process", "rt-multi-thread", "net", "io-util", "time"] }
+
+[target.'cfg(not(target_os="android"))'.dependencies]
+talpid-types = { path = "../talpid-types" }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+libc = "0.2"
+once_cell = { workspace = true }
+rtnetlink = "0.11"
+netlink-packet-route = "0.13"
+netlink-sys = "0.8.3"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+# TODO: The PF socket type isn't released yet
+nix = { git = "https://github.com/nix-rust/nix", rev = "b13b7d18e0d2f4a8c05e41576c7ebf26d6dbfb28", features = ["socket"] }
+libc = "0.2"
+bitflags = "1.2"
+system-configuration = "0.5.1"
+
+
+[target.'cfg(windows)'.dependencies]
+libc = "0.2"
+talpid-windows = { path = "../talpid-windows" }
+widestring = "1.0"
+
+[target.'cfg(windows)'.dependencies.windows-sys]
+workspace = true
+features = [
+    "Win32_NetworkManagement_Ndis",
+    "Win32_Globalization"
+]
+
+[dev-dependencies]
+tokio = { workspace = true, features = [ "test-util" ] }

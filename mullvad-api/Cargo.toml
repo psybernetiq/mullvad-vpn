@@ -1,0 +1,36 @@
+[package]
+name = "mullvad-api"
+description = "Mullvad VPN API clients. Providing an interface to query our infrastructure for information."
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[features]
+# Allow the API server to use to be configured via MULLVAD_API_HOST and MULLVAD_API_ADDR.
+api-override = []
+
+[dependencies]
+chrono = { workspace = true }
+err-derive = { workspace = true }
+futures = "0.3"
+http = "0.2"
+hyper = { version = "0.14", features = ["client", "stream", "http1", "tcp" ] }
+ipnetwork = "0.16"
+log = { workspace = true }
+serde = "1"
+serde_json = "1.0"
+tokio = { workspace = true, features = ["macros", "time", "rt-multi-thread", "net", "io-std", "io-util", "fs"] }
+tokio-rustls = "0.24.1"
+tokio-socks = "0.5.1"
+rustls-pemfile = "1.0.3"
+once_cell = { workspace = true }
+
+mullvad-fs = { path = "../mullvad-fs" }
+mullvad-types = { path = "../mullvad-types" }
+talpid-types = { path = "../talpid-types" }
+talpid-time = { path = "../talpid-time" }
+
+shadowsocks = { workspace = true,  features = [ "stream-cipher" ] }

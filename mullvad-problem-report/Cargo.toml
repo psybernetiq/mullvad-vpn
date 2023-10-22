@@ -1,0 +1,49 @@
+[package]
+name = "mullvad-problem-report"
+description = "Collect Mullvad VPN logs into a report and send it to support"
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+dirs = "5.0.1"
+err-derive = { workspace = true }
+once_cell = { workspace = true }
+log = { workspace = true }
+regex = "1.0"
+uuid = { version = "1.4.1", features = ["v4"] }
+tokio = { workspace = true, features = ["rt"] }
+
+mullvad-paths = { path = "../mullvad-paths" }
+mullvad-api = { path = "../mullvad-api" }
+mullvad-version = { path = "../mullvad-version" }
+talpid-types = { path = "../talpid-types" }
+talpid-platform-metadata = { path = "../talpid-platform-metadata" }
+
+[target.'cfg(not(target_os="android"))'.dependencies]
+clap = { workspace = true }
+env_logger = { workspace = true }
+
+[target.'cfg(target_os = "android")'.dependencies]
+duct = "0.13"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
+mullvad-version = { path = "../mullvad-version" }
+
+[target.'cfg(windows)'.build-dependencies.windows-sys]
+workspace = true
+features = [
+    "Win32_System_SystemServices",
+]
+
+
+[package.metadata.winres]
+ProductName = "Mullvad VPN"
+CompanyName = "Mullvad VPN AB"
+LegalCopyright = "(c) 2023 Mullvad VPN AB"
+InternalName = "mullvad-problem-report"
+OriginalFilename = "mullvad-problem-report.exe"

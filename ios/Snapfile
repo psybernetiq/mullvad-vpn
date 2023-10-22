@@ -1,0 +1,54 @@
+# A list of devices you want to take the screenshots from
+devices([
+  "iPhone 8 Plus", # 5.5"
+  "iPhone 11 Pro Max", # 6.5"
+  "iPhone 14 Pro Max", # 6.7"
+  "iPad Pro (12.9-inch) (2nd generation)",
+  "iPad Pro (12.9-inch) (6th generation)"
+])
+
+languages([
+  "en-US"
+  # "de-DE",
+  # "it-IT",
+  # ["pt", "pt_BR"] # Portuguese with Brazilian locale
+])
+
+# The name of the scheme which contains the UI Tests
+scheme("MullvadVPNScreenshots")
+
+# The name of the test plan which contains the UI Tests
+testplan("MullvadVPNScreenshots")
+
+# Where should the resulting screenshots be stored?
+output_directory("./Screenshots")
+
+# Clear old screenshots
+clear_previous_screenshots(true)
+
+# Erase simulator before running
+erase_simulator(true)
+
+# Disable concurrent simulators to prevent too many WireGuard public keys error
+concurrent_simulators(false)
+
+# Stop right away on first error.
+stop_after_first_error(true)
+
+# Hide simulator window
+headless(true)
+
+# Disable xcodebuild output to console
+suppress_xcode_output(true)
+
+# Prevent opening HTML summary
+skip_open_summary(true)
+
+# Clean the device statusbar
+override_status_bar(true)
+
+# Arguments to pass to the app on launch. See https://docs.fastlane.tools/actions/snapshot/#launch-arguments
+# launch_arguments(["-favColor red"])
+
+# For more information about all available options run
+# fastlane action snapshot

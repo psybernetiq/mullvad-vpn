@@ -1,0 +1,50 @@
+[package]
+name = "mullvad-cli"
+description = "Manage the Mullvad VPN daemon via a convenient CLI"
+version.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+
+[[bin]]
+name = "mullvad"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+chrono = { workspace = true }
+clap = { workspace = true }
+env_logger = { workspace = true }
+futures = "0.3"
+natord = "1.0.9"
+itertools = "0.10"
+
+mullvad-types = { path = "../mullvad-types", features = ["clap"] }
+mullvad-version = { path = "../mullvad-version" }
+talpid-types = { path = "../talpid-types" }
+
+mullvad-management-interface = { path = "../mullvad-management-interface" }
+tokio = { workspace = true, features =  [ "rt-multi-thread" ] }
+
+[target.'cfg(all(unix, not(target_os = "android")))'.dependencies]
+clap_complete = { version = "4.2.1" }
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
+mullvad-version = { path = "../mullvad-version" }
+
+[target.'cfg(windows)'.build-dependencies.windows-sys]
+workspace = true
+features = [
+    "Win32_System_SystemServices",
+]
+
+[package.metadata.winres]
+ProductName = "Mullvad VPN"
+CompanyName = "Mullvad VPN AB"
+LegalCopyright = "(c) 2023 Mullvad VPN AB"
+InternalName = "mullvad-cli"
+OriginalFilename = "mullvad.exe"

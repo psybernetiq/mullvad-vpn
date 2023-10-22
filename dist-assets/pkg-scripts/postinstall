@@ -1,0 +1,97 @@
+#!/usr/bin/env bash
+
+set -eu
+
+LOG_DIR=/var/log/mullvad-vpn
+
+mkdir -p $LOG_DIR
+exec 2>&1 > $LOG_DIR/postinstall.log
+
+echo "Running postinstall at $(date)"
+
+INSTALL_DIR=$2
+
+# Run CLI to force macOS to check the certificate, and shut down the already running daemon, if one
+# exists.
+# This is a temporary workaround. After 2023.3, we switched from signing with Amagicom AB to
+# Mullvad VPN AB certificates. This could potentially be removed when older versions are no longer
+# supported.
+"$INSTALL_DIR/Mullvad VPN.app/Contents/Resources/mullvad" || true
+"$TMPDIR/mullvad-setup" prepare-restart || \
+    echo "Failed to send 'prepare-restart' command to old mullvad-daemon"
+
+# NOTE: This path must be kept in sync with the path defined
+# in mullvad-daemon/src/macos_launch_daemon.rs
+DAEMON_PLIST_PATH="/Library/LaunchDaemons/net.mullvad.daemon.plist"
+
+DAEMON_PLIST=$(cat <<-EOM
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+        <dict>
+                <key>Label</key>
+                <string>net.mullvad.daemon</string>
+
+                <key>ProgramArguments</key>
+                <array>
+                        <string>$INSTALL_DIR/Mullvad VPN.app/Contents/Resources/mullvad-daemon</string>
+                        <string>-v</string>
+                </array>
+
+                <key>UserName</key>
+                <string>root</string>
+
+                <key>RunAtLoad</key>
+                <true/>
+
+                <key>KeepAlive</key>
+                <true/>
+
+                <key>SoftResourceLimits</key>
+                <dict>
+                        <key>NumberOfFiles</key>
+                        <integer>1024</integer>
+                </dict>
+
+                <key>AssociatedBundleIdentifiers</key>
+                <string>net.mullvad.vpn</string>
+
+                <key>StandardErrorPath</key>
+                <string>$LOG_DIR/stderr.log</string>
+        </dict>
+</plist>
+EOM
+)
+
+ZSH_COMPLETIONS_DIR="/usr/local/share/zsh/site-functions/"
+
+if [[ -d "/opt/homebrew/share/fish/vendor_completions.d/" ]]; then
+    FISH_COMPLETIONS_DIR="/opt/homebrew/share/fish/vendor_completions.d/"
+else
+    FISH_COMPLETIONS_DIR="/usr/local/share/fish/vendor_completions.d/"
+fi
+
+launchctl unload -w $DAEMON_PLIST_PATH
+cp "$LOG_DIR/daemon.log" "$LOG_DIR/old-install-daemon.log" \
+  || echo "Failed to copy old daemon log"
+
+# For compatibility with versions older than 2022.5, kill the GUI after the
+# upgrade. We now do this in preinstall instead. This code can be removed when
+# we drop support for app versions older than 2022.5.
+pkill -x "Mullvad VPN" || true
+sleep 1
+
+echo "$DAEMON_PLIST" > $DAEMON_PLIST_PATH
+chmod 644 $DAEMON_PLIST_PATH
+launchctl load -w $DAEMON_PLIST_PATH
+
+mkdir -p /usr/local/bin
+ln -sf "$INSTALL_DIR/Mullvad VPN.app/Contents/Resources/mullvad" /usr/local/bin/mullvad
+ln -sf "$INSTALL_DIR/Mullvad VPN.app/Contents/Resources/mullvad-problem-report" /usr/local/bin/mullvad-problem-report
+
+mkdir -p "$ZSH_COMPLETIONS_DIR"
+ln -sf "$INSTALL_DIR/Mullvad VPN.app/Contents/Resources/_mullvad" "$ZSH_COMPLETIONS_DIR/_mullvad"
+
+if [[ -d "$FISH_COMPLETIONS_DIR" ]]; then
+    ln -sf "$INSTALL_DIR/Mullvad VPN.app/Contents/Resources/mullvad.fish" "$FISH_COMPLETIONS_DIR/mullvad.fish"
+fi

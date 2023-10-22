@@ -1,0 +1,1838 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: mullvad-app\n"
+"X-Crowdin-Project-ID: 350815\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Project-Id-Version: mullvad-app\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"PO-Revision-Date: 2023-09-05 14:16\n"
+
+msgid "%(duration)s was added, account paid until %(expiry)s."
+msgstr "%(duration)s har lagts till. Kontot är betalt till och med %(expiry)s."
+
+msgid "1 day"
+msgid_plural "%d days"
+msgstr[0] "1 dag"
+msgstr[1] "%d dagar"
+
+msgid "1 day left"
+msgid_plural "%d days left"
+msgstr[0] "1 dag kvar"
+msgstr[1] "%d dagar kvar"
+
+msgid "1 month"
+msgid_plural "%d months"
+msgstr[0] "1 månad"
+msgstr[1] "%d månader"
+
+msgid "1 month left"
+msgid_plural "%d months left"
+msgstr[0] "1 månad kvar"
+msgstr[1] "%d månader kvar"
+
+msgid "1 year"
+msgid_plural "%d years"
+msgstr[0] "1 år"
+msgstr[1] "%d år"
+
+msgid "1 year left"
+msgid_plural "%d years left"
+msgstr[0] "1 år kvar"
+msgstr[1] "%d år kvar"
+
+msgid "Account paid until %(expiry)s."
+msgstr "Kontot är betalt till och med %(expiry)s."
+
+msgid "Account settings"
+msgstr "Kontoinställningar"
+
+msgid "Any"
+msgstr "Valfri"
+
+msgid "Apply"
+msgstr "Använd"
+
+msgid "Automatic"
+msgstr "Automatisk"
+
+msgid "Back"
+msgstr "Tillbaka"
+
+msgid "BETA"
+msgstr "BETA"
+
+msgid "BLOCKED CONNECTION"
+msgstr "ANSLUTNINGEN BLOCKERAD"
+
+msgid "Blocking internet"
+msgstr "Blockerar internet"
+
+msgid "Buy credit"
+msgstr "Köp kredit"
+
+msgid "Buy more credit"
+msgstr "Köp mer kredit"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Clear"
+msgstr "Rensa"
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Connect"
+msgstr "Anslut"
+
+msgid "Connected"
+msgstr "Ansluten"
+
+msgid "Connecting"
+msgstr "Ansluter"
+
+#. Creating a secure connection that isn't breakable by quantum computers.
+msgid "CREATING QUANTUM SECURE CONNECTION"
+msgstr "SKAPAR KVANTSÄKER ANSLUTNING"
+
+msgid "CREATING SECURE CONNECTION"
+msgstr "SKAPAR SÄKER ANSLUTNING"
+
+msgid "Custom"
+msgstr "Anpassad"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Disable"
+msgstr "Inaktivera"
+
+msgid "Disconnect"
+msgstr "Koppla från"
+
+msgid "Disconnect & quit"
+msgstr "Koppla från och avsluta"
+
+msgid "Disconnected"
+msgstr "Frånkopplad"
+
+msgid "Disconnecting"
+msgstr "Kopplar från"
+
+msgid "Dismiss"
+msgstr "Ignorera"
+
+msgid "Enable anyway"
+msgstr "Aktivera ändå"
+
+msgid "FAILED TO SECURE CONNECTION"
+msgstr "DET GICK INTE ATT SÄKRA ANSLUTNINGEN"
+
+msgid "Filter"
+msgstr "Filtrera"
+
+msgid "Go to System Settings"
+msgstr "Gå till systeminställningarna"
+
+#. This is a button which closes a dialog.
+msgid "Got it!"
+msgstr "Jag förstår!"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "less than a day"
+msgstr "mindre än en dag"
+
+msgid "less than a day left"
+msgstr "mindre än en dag kvar"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "No result for <b>%(searchTerm)s</b>."
+msgstr "Inga resultat för <b>%(searchTerm)s</b>."
+
+msgid "Off"
+msgstr "Av"
+
+msgid "On"
+msgstr "På"
+
+msgid "Open URL"
+msgstr "Öppna URL"
+
+#. The connection is secure and isn't breakable by quantum computers.
+msgid "QUANTUM SECURE CONNECTION"
+msgstr "KVANTSÄKER ANSLUTNING"
+
+msgid "Quit"
+msgstr "Avsluta"
+
+msgid "Reconnect"
+msgstr "Återanslut"
+
+msgid "Search for..."
+msgstr "Sök efter …"
+
+msgid "SECURE CONNECTION"
+msgstr "SÄKER ANSLUTNING"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "System default"
+msgstr "Systemstandard"
+
+msgid "TCP"
+msgstr "TCP"
+
+#. Warning text in a dialog that is displayed after a setting is toggled.
+msgid "This setting increases latency. Use only if needed."
+msgstr "Den här inställningen ökar fördröjningen. Använd bara vid behov."
+
+msgid "Troubleshoot"
+msgstr "Felsök"
+
+msgid "Try a different search."
+msgstr "Testa en annan sökning."
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "Unblock"
+msgstr "Avblockera"
+
+msgid "UNSECURED CONNECTION"
+msgstr "OSÄKER ANSLUTNING"
+
+msgctxt "accessibility"
+msgid "%(title)s, View loaded"
+msgstr "%(title)s, visa laddad"
+
+msgctxt "accessibility"
+msgid "Close notification"
+msgstr "Stäng avisering"
+
+msgctxt "accessibility"
+msgid "Collapse %(location)s"
+msgstr "Dölj %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe a button
+#. which copies the account number to the clipboard.
+msgctxt "accessibility"
+msgid "Copy account number"
+msgstr "Kopiera kontonummer"
+
+msgctxt "accessibility"
+msgid "Expand %(location)s"
+msgstr "Visa %(location)s"
+
+msgctxt "accessibility"
+msgid "Forget %(accountToken)s"
+msgstr "Glöm %(accountToken)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which obscures the account number.
+msgctxt "accessibility"
+msgid "Hide account number"
+msgstr "Dölj kontonummer"
+
+msgctxt "accessibility"
+msgid "info"
+msgstr "info"
+
+#. This is used by screenreaders to communicate the login button.
+msgctxt "accessibility"
+msgid "Login"
+msgstr "Logga in"
+
+msgctxt "accessibility"
+msgid "More information"
+msgstr "Mer information"
+
+msgctxt "accessibility"
+msgid "Opens externally"
+msgstr "Öppnar externt"
+
+#. Button action description provided to accessibility tools such as screen
+#. readers.
+#. Available placeholders:
+#. %(deviceName)s - The device name to remove.
+msgctxt "accessibility"
+msgid "Remove device named %(deviceName)s"
+msgstr "Ta bort enheten med namnet %(deviceName)s"
+
+msgctxt "accessibility"
+msgid "Remove item"
+msgstr "Ta bort föremål"
+
+msgctxt "accessibility"
+msgid "Select location. Current location is %(location)s"
+msgstr "Välj plats. Nuvarande plats är %(location)s"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which unobscures the account number.
+msgctxt "accessibility"
+msgid "Show account number"
+msgstr "Visa kontonummer"
+
+#. Title label in navigation bar
+msgctxt "account-view"
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "account-view"
+msgid "Account number"
+msgstr "Kontonummer"
+
+msgctxt "account-view"
+msgid "Currently unavailable"
+msgstr "Inte tillgänglig för närvarande"
+
+msgctxt "account-view"
+msgid "Log out"
+msgstr "Logga ut"
+
+msgctxt "account-view"
+msgid "OUT OF TIME"
+msgstr "INGEN TID KVAR"
+
+msgctxt "account-view"
+msgid "Paid until"
+msgstr "Betalat till"
+
+msgctxt "auth-failure"
+msgid "Blocking internet: account is out of time"
+msgstr "Blockerar internet: kontots tidsgräns har uppnåtts"
+
+msgctxt "auth-failure"
+msgid "Too many simultaneous connections on this account. Disconnect another device or try connecting again shortly."
+msgstr "Det här kontot har för många samtidiga anslutningar. Koppla från en annan enhet eller försök att ansluta igen inom kort."
+
+msgctxt "auth-failure"
+msgid "Unable to authenticate account. Please send a problem report."
+msgstr "Det går inte att autentisera kontot. Skicka en problemrapport."
+
+msgctxt "auth-failure"
+msgid "You are logged in with an invalid account number. Please log out and try another one."
+msgstr "Du är inloggad med ett ogiltigt kontonummer. Logga ut och försök med ett annat."
+
+msgctxt "changelog"
+msgid "Changes in this version:"
+msgstr "Ändringar i den här versionen:"
+
+#. The selected location label displayed on the main view, when a user selected a specific host to connect to.
+#. Example: Malmö (se-mma-001)
+#. Available placeholders:
+#. %(city)s - a city name
+#. %(hostname)s - a hostname
+msgctxt "connect-container"
+msgid "%(city)s (%(hostname)s)"
+msgstr "%(city)s (%(hostname)s)"
+
+msgctxt "connect-view"
+msgid "Congrats!"
+msgstr "Grattis!"
+
+msgctxt "connect-view"
+msgid "Disconnect"
+msgstr "Koppla från"
+
+msgctxt "connect-view"
+msgid "Either buy credit on our website or redeem a voucher."
+msgstr "Du kan antingen köpa kredit på vår webbplats eller lösa in en kupong."
+
+msgctxt "connect-view"
+msgid "Enter voucher code"
+msgstr "Ange kupongkod"
+
+msgctxt "connect-view"
+msgid "Go ahead and start using the app to begin reclaiming your online privacy."
+msgstr "Sätt igång och börja använda appen för att ta tillbaka din onlinesekretess."
+
+msgctxt "connect-view"
+msgid "Here’s your account number. Save it!"
+msgstr "Här är ditt kontonummer. Spara det!"
+
+msgctxt "connect-view"
+msgid "Learn about privacy"
+msgstr "Läs mer om sekretess"
+
+msgctxt "connect-view"
+msgid "Out of time"
+msgstr "Ingen tid kvar"
+
+msgctxt "connect-view"
+msgid "Redeem voucher"
+msgstr "Lös in kupong"
+
+msgctxt "connect-view"
+msgid "Remember, turning it off will allow network traffic while the VPN is disconnected until you turn it back on under Advanced settings."
+msgstr "Om du stänger av den tillåts nätverkstrafik medan VPN-tjänsten är frånkopplad tills du slår på den igen i Avancerade inställningar."
+
+msgctxt "connect-view"
+msgid "Start using the app"
+msgstr "Börja använda appen"
+
+msgctxt "connect-view"
+msgid "Time was successfully added"
+msgstr "Tid har lagts till"
+
+msgctxt "connect-view"
+msgid "To add more, you will need to disconnect and access the Internet with an unsecure connection."
+msgstr "Om du vill lägga till mer måste du koppla från och öppna internet med en oskyddad anslutning."
+
+msgctxt "connect-view"
+msgid "To continue your journey as a privacy ninja, visit our website to pick up other privacy-friendly habits and tools."
+msgstr "Om du vill fortsätta din resa som sekretessninja kan du gå till vår webbplats för att lära dig sekretessvänliga vanor och verktyg."
+
+msgctxt "connect-view"
+msgid "To start using the app, you first need to add time to your account."
+msgstr "Om du vill börja använda appen måste du först lägga till tid i ditt konto."
+
+msgctxt "connect-view"
+msgid "Voucher was successfully redeemed"
+msgstr "Kupongen har lösts in"
+
+msgctxt "connect-view"
+msgid "You have no more VPN time left on this account."
+msgstr "Du har ingen VPN-tid kvar på det här kontot."
+
+msgctxt "connect-view"
+msgid "You need to disable \"Lockdown mode\" in order to access the Internet to add time."
+msgstr "Du måste inaktivera \"Låsningsläge\" för att öppna internet och lägga till tid."
+
+msgctxt "connect-view"
+msgid "You’re all set!"
+msgstr "Du är klar!"
+
+#. The hostname line displayed below the country on the main screen
+#. Available placeholders:
+#. %(relay)s - the relay hostname
+#. %(entry)s - the entry relay hostname
+msgctxt "connection-info"
+msgid "%(relay)s via %(entry)s"
+msgstr "%(relay)s via %(entry)s"
+
+#. The tunnel type line displayed below the hostname line on the main screen
+#. Available placeholders:
+#. %(tunnelType)s - the tunnel type, i.e OpenVPN
+#. %(bridgeType)s - the bridge type, i.e Shadowsocks
+msgctxt "connection-info"
+msgid "%(tunnelType)s via %(bridgeType)s"
+msgstr "%(tunnelType)s via %(bridgeType)s"
+
+msgctxt "connection-info"
+msgid "In"
+msgstr "In"
+
+msgctxt "connection-info"
+msgid "Out"
+msgstr "Ut"
+
+#. Text displayed above button which logs out another device.
+#. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(deviceName)s - The name of the device to log out.
+msgctxt "device-management"
+msgid "Are you sure you want to log <b>%(deviceName)s</b> out?"
+msgstr "Vill du verkligen logga ut <b>%(deviceName)s</b>?"
+
+#. Button for continuing login process.
+msgctxt "device-management"
+msgid "Continue with login"
+msgstr "Fortsätt med inloggning"
+
+#. Label informing the user when a device was created.
+#. Available placeholders:
+#. %(createdDate)s - The creation date of the device.
+msgctxt "device-management"
+msgid "Created: %(createdDate)s"
+msgstr "Skapades: %(createdDate)s"
+
+msgctxt "device-management"
+msgid "Device is inactive"
+msgstr "Enheten är inaktiv"
+
+msgctxt "device-management"
+msgid "Device name"
+msgstr "Enhetens namn"
+
+#. A label that will display the newly created device name to inform the user
+#. about it.
+#. Available placeholders:
+#. %(deviceName)s - The name of the current device
+msgctxt "device-management"
+msgid "Device name: %(deviceName)s"
+msgstr "Enhetsnamn: %(deviceName)s"
+
+msgctxt "device-management"
+msgid "Failed to remove device"
+msgstr "Det gick inte att ta bort enheten"
+
+msgctxt "device-management"
+msgid "Go to login"
+msgstr "Gå till inloggning"
+
+msgctxt "device-management"
+msgid "Going to login will unblock the Internet on this device."
+msgstr "Om du loggar in avblockeras internet på den här enheten."
+
+msgctxt "device-management"
+msgid "If you log out, the device and the device name is removed. When you log back in again, the device will get a new name."
+msgstr "Om du loggar ut tas enheten och enhetsnamnet bort. När du loggar in igen får enheten ett nytt namn."
+
+#. Confirmation button when logging out
+msgctxt "device-management"
+msgid "Log out anyway"
+msgstr "Logga ut ändå"
+
+msgctxt "device-management"
+msgid "Please log out of at least one by removing it from the list below. You can find the corresponding device name under the device’s Account settings."
+msgstr "Logga ut på minst en enhet genom att ta bort den från listan nedan. Du hittar motsvarande enhetsnamn i enhetens kontoinställningar."
+
+#. Page title informing user that enough devices has been removed to continue
+#. login process.
+msgctxt "device-management"
+msgid "Super!"
+msgstr "Super!"
+
+#. This is is a further explanation of what happens when logging out.
+msgctxt "device-management"
+msgid "The ports forwarded to this device will be deleted if you log out."
+msgstr "Portarna som vidarebefordrats till den här enheten tas bort om du loggar ut."
+
+msgctxt "device-management"
+msgid "This is the name assigned to the device. Each device logged in on a Mullvad account gets a unique name that helps you identify it when you manage your devices in the app or on the website."
+msgstr "Det här är namnet som tilldelas enheten. Varje enhet som är inloggad på ett Mullvad-konto får ett unikt namn som hjälper dig att identifiera den när du hanterar dina enheter i appen eller på webbplatsen."
+
+#. Further information about consequences of logging out device.
+msgctxt "device-management"
+msgid "This will delete all forwarded ports. Local settings will be saved."
+msgstr "Detta tar bort alla vidarebefordrade portar. Lokala inställningar sparas."
+
+msgctxt "device-management"
+msgid "Time left: %(timeLeft)s"
+msgstr "Tid kvar: %(timeLeft)s"
+
+#. Page title informing user that the login failed due to too many registered
+#. devices on account.
+msgctxt "device-management"
+msgid "Too many devices"
+msgstr "För många enheter"
+
+#. Confirmation button when logging out other device.
+msgctxt "device-management"
+msgid "Yes, log out device"
+msgstr "Ja, logga ut enheten"
+
+msgctxt "device-management"
+msgid "You can have up to 5 devices logged in on one Mullvad account."
+msgstr "Upp till fem enheter kan vara inloggade på ett Mullvad-konto."
+
+msgctxt "device-management"
+msgid "You can now continue logging in on this device."
+msgstr "Du kan nu fortsätta med att logga in på den här enheten."
+
+msgctxt "device-management"
+msgid "You have removed this device. To connect again, you will need to log back in."
+msgstr "Du har tagit bort den här enheten. Du måste logga in igen för att återansluta."
+
+#. The message displayed to the user in case of critical error in the GUI
+#. Available placeholders:
+#. %(email)s - support email
+msgctxt "error-boundary-view"
+msgid "Something went wrong. Please contact us at %(email)s"
+msgstr "Ett fel har inträffat. Kontakta oss på %(email)s"
+
+#. Title label in navigation bar
+msgctxt "filter-nav"
+msgid "Filter"
+msgstr "Filtrera"
+
+msgctxt "filter-view"
+msgid "All providers"
+msgstr "Alla leverantörer"
+
+msgctxt "filter-view"
+msgid "Mullvad owned only"
+msgstr "Endast Mullvad-ägd"
+
+msgctxt "filter-view"
+msgid "Owned"
+msgstr "Ägd"
+
+msgctxt "filter-view"
+msgid "Ownership"
+msgstr "Ägarskap"
+
+msgctxt "filter-view"
+msgid "Providers"
+msgstr "Leverantörer"
+
+msgctxt "filter-view"
+msgid "Rented"
+msgstr "Hyrd"
+
+msgctxt "filter-view"
+msgid "Rented only"
+msgstr "Endast hyrd"
+
+msgctxt "in-app-notifications"
+msgid "\"%(lockdownModeSettingName)s\" is enabled."
+msgstr "\"%(lockdownModeSettingName)s\" är aktiverat."
+
+msgctxt "in-app-notifications"
+msgid "%(duration)s. Buy more credit."
+msgstr "%(duration)s. Köp mer kredit."
+
+msgctxt "in-app-notifications"
+msgid "ACCOUNT CREDIT EXPIRES SOON"
+msgstr "KONTOKREDITEN GÅR SNART UT"
+
+msgctxt "in-app-notifications"
+msgid "APP IS OUT OF SYNC"
+msgstr "APPEN ÄR INTE SYNKRONISERAD"
+
+msgctxt "in-app-notifications"
+msgid "BETA UPDATE AVAILABLE"
+msgstr "BETAUPPDATERING TILLGÄNGLIG"
+
+msgctxt "in-app-notifications"
+msgid "BLOCKING INTERNET"
+msgstr "BLOCKERAR INTERNET"
+
+#. The in-app banner displayed to the user when the app update is available.
+msgctxt "in-app-notifications"
+msgid "Install the latest app version to stay up to date."
+msgstr "Installera den senaste appversionen för att hålla dig uppdaterad."
+
+msgctxt "in-app-notifications"
+msgid "NETWORK TRAFFIC MIGHT BE LEAKING"
+msgstr "NÄTVERKSTRAFIKEN KANSKE LÄCKER"
+
+msgctxt "in-app-notifications"
+msgid "NEW DEVICE CREATED"
+msgstr "NY ENHET HAR SKAPATS"
+
+msgctxt "in-app-notifications"
+msgid "Please quit and restart the app."
+msgstr "Avsluta och starta om appen."
+
+msgctxt "in-app-notifications"
+msgid "Send problem report"
+msgstr "Skicka problemrapport"
+
+#. The in-app banner displayed to the user when the app beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "in-app-notifications"
+msgid "Try out the newest beta version (%(version)s)."
+msgstr "Testa den senaste betaversionen (%(version)s)."
+
+msgctxt "in-app-notifications"
+msgid "UNSUPPORTED VERSION"
+msgstr "VERSION UTAN STÖD"
+
+msgctxt "in-app-notifications"
+msgid "UPDATE AVAILABLE"
+msgstr "UPPDATERING TILLGÄNGLIG"
+
+msgctxt "in-app-notifications"
+msgid "Welcome, this device is now called <b>%(deviceName)s</b>. For more details see the info button in Account."
+msgstr "Välkommen! Den här enheten heter nu <b>%(deviceName)s</b>. Använd informationsknappen i Konto för mer information."
+
+msgctxt "launch-view"
+msgid "Connecting to Mullvad system service..."
+msgstr "Ansluter till Mullvads systemtjänst..."
+
+msgctxt "launch-view"
+msgid "Permission for the Mullvad VPN service has been revoked. Please go to System Settings and allow Mullvad VPN under the “Allow in the Background” setting."
+msgstr "Behörighet för Mullvad VPN-tjänsten har återkallats. Gå till systeminställningarna och tillåt Mullvad VPN under inställningen \"Tillåt i bakgrunden\"."
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+#. Available placeholder:
+#. %(lockdownModeSettingName)s - The translation of "Lockdown mode"
+msgctxt "login-view"
+msgid "<b>%(lockdownModeSettingName)s</b> is enabled. Disable it to unblock your connection."
+msgstr "<b>%(lockdownModeSettingName)s</b> är aktiverat. Inaktivera för att sluta blockera din anslutning."
+
+msgctxt "login-view"
+msgid "Account created"
+msgstr "Kontot har skapats"
+
+msgctxt "login-view"
+msgid "Checking account number"
+msgstr "Kontrollerar kontonummer"
+
+msgctxt "login-view"
+msgid "Create account"
+msgstr "Skapa konto"
+
+msgctxt "login-view"
+msgid "Creating account..."
+msgstr "Skapar konto..."
+
+msgctxt "login-view"
+msgid "Don’t have an account number?"
+msgstr "Har du inget kontonummer?"
+
+msgctxt "login-view"
+msgid "Enter your account number"
+msgstr "Ange ditt kontonummer"
+
+msgctxt "login-view"
+msgid "Error"
+msgstr "Fel"
+
+msgctxt "login-view"
+msgid "Failed to create account"
+msgstr "Det gick inte att skapa konto"
+
+#. Error message shown above login input when trying to login but the app fails
+#. to fetch the list of registered devices.
+msgctxt "login-view"
+msgid "Failed to fetch list of devices"
+msgstr "Det gick inte att hämta lista med enheter"
+
+msgctxt "login-view"
+msgid "Finishing upgrade."
+msgstr "Slutför uppgradering."
+
+#. Error message shown above login input when trying to login with a
+#. non-existent account number.
+msgctxt "login-view"
+msgid "Invalid account number"
+msgstr "Ogiltigt kontonummer"
+
+msgctxt "login-view"
+msgid "Logged in"
+msgstr "Inloggad"
+
+msgctxt "login-view"
+msgid "Logging in..."
+msgstr "Loggar in..."
+
+msgctxt "login-view"
+msgid "Login"
+msgstr "Logga in"
+
+msgctxt "login-view"
+msgid "Login failed"
+msgstr "Inloggningen misslyckades"
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+msgctxt "login-view"
+msgid "Our kill switch is currently blocking your connection."
+msgstr "Vår Kill Switch blockerar din anslutning just nu."
+
+msgctxt "login-view"
+msgid "Please wait"
+msgstr "Vänta"
+
+#. Error message shown above login input when trying to login to an account
+#. with too many registered devices.
+msgctxt "login-view"
+msgid "Too many devices"
+msgstr "För många enheter"
+
+msgctxt "login-view"
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+msgctxt "login-view"
+msgid "Upgrading..."
+msgstr "Uppgraderar ..."
+
+msgctxt "login-view"
+msgid "Valid account number"
+msgstr "Giltigt kontonummer"
+
+#. Title label in navigation bar
+msgctxt "navigation-bar"
+msgid "Settings"
+msgstr "Inställningar"
+
+#. The system notification displayed to the user when the account credit is close to expiry.
+#. Available placeholder:
+#. %(duration)s - remaining time, e.g. "2 days"
+msgctxt "notifications"
+msgid "Account credit expires in %(duration)s. Buy more credit."
+msgstr "Kontokrediten slutar gälla om %(duration)s. Köp mer kredit."
+
+msgctxt "notifications"
+msgid "Account is out of time"
+msgstr "Kontots tidsgräns har uppnåtts"
+
+msgctxt "notifications"
+msgid "App is out of sync. Please quit and restart."
+msgstr "Appen är inte synkroniserad. Avsluta och starta om."
+
+#. The system notification that notifies the user when a beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "notifications"
+msgid "Beta update available. Try out the newest beta version (%(version)s)."
+msgstr "Betauppdatering tillgänglig. Testa den senaste betaversionen (%(version)s)."
+
+msgctxt "notifications"
+msgid "Buy more"
+msgstr "Köp mer"
+
+msgctxt "notifications"
+msgid "Connected"
+msgstr "Ansluten"
+
+#. The message showed when a server has been connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connected to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connected to %(location)s"
+msgstr "Ansluten till %(location)s"
+
+msgctxt "notifications"
+msgid "Connecting"
+msgstr "Ansluter"
+
+#. The message showed when a server is being connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connecting to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connecting to %(location)s"
+msgstr "Ansluter till %(location)s"
+
+msgctxt "notifications"
+msgid "Could not configure IPv6. Disable it in the app or enable it on your device."
+msgstr "Det gick inte att konfigurera IPv6. Inaktivera det i appen eller aktivera det på din enhet."
+
+msgctxt "notifications"
+msgid "Disconnected and unsecure"
+msgstr "Frånkopplad och osäker"
+
+msgctxt "notifications"
+msgid "Lockdown mode active, connection blocked"
+msgstr "Låsningsläget är aktivt, anslutning blockerad"
+
+msgctxt "notifications"
+msgid "No servers match your settings, try changing server or other settings."
+msgstr "Inga servrar matchar dina inställningar. Försök att byta server eller ändra inställningarna."
+
+msgctxt "notifications"
+msgid "Reconnecting"
+msgstr "Återansluter"
+
+msgctxt "notifications"
+msgid "The apps excluded with %(splitTunneling)s might not work properly right now."
+msgstr "Appar som exkluderas med %(splitTunneling)s kanske inte fungerar korrekt just nu."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules."
+msgstr "Det går inte att använda brandväggsregler."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try temporarily disabling any third-party antivirus or security software."
+msgstr "Det går inte att använda brandväggsregler. Försök att tillfälligt inaktivera antivirus- eller säkerhetsprogram från tredje part."
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try updating your kernel."
+msgstr "Det går inte att använda brandväggsregler. Testa att uppdatera din operativsystemkärna."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Please troubleshoot or send a problem report."
+msgstr "Det går inte att blockera all nätverkstrafik. Felsök eller skicka en problemrapport."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try temporarily disabling any third-party antivirus or security software or send a problem report."
+msgstr "Det går inte att blockera all nätverkstrafik. Försök att tillfälligt inaktivera antivirus- eller säkerhetsprogram från tredje part eller skicka en problemrapport."
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try updating your kernel or send a problem report."
+msgstr "Det går inte att blockera all nätverkstrafik. Testa att uppdatera din kernel eller skicka en problemrapport."
+
+msgctxt "notifications"
+msgid "Unable to communicate with Mullvad kernel driver. Try reconnecting or send a problem report."
+msgstr "Det går inte att kommunicera med Mullvads kerneldrivrutin. Testa att ansluta igen eller skicka en problemrapport."
+
+msgctxt "notifications"
+msgid "Unable to resolve host of custom tunnel. Try changing your settings."
+msgstr "Det går inte att lösa värd för anpassad tunnel. Försök att ändra inställningarna."
+
+msgctxt "notifications"
+msgid "Unable to set system DNS server. Please send a problem report."
+msgstr "Det går inte att konfigurera DNS-server. Skicka en problemrapport."
+
+msgctxt "notifications"
+msgid "Unable to start tunnel connection. Please send a problem report."
+msgstr "Det går inte att starta tunnelanslutning. Skicka en problemrapport."
+
+msgctxt "notifications"
+msgid "Update available. Install the latest app version to stay up to date"
+msgstr "Uppdatering tillgänglig. Installera den senaste appversionen för att hålla dig uppdaterad"
+
+msgctxt "notifications"
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#. Available placeholders:
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "notifications"
+msgid "Valid %(wireguard)s key is missing. Manage keys under Advanced settings."
+msgstr "Giltig %(wireguard)s-nyckel saknas. Hantera nycklar i Avancerade inställningar."
+
+msgctxt "notifications"
+msgid "Your device is offline. The tunnel will automatically connect once your device is back online."
+msgstr "Din enhet är offline. Tunneln ansluts automatiskt när din enhet är online igen."
+
+#. The in-app banner and system notification which are displayed to the user when the running app becomes unsupported.
+msgctxt "notifications"
+msgid "Your privacy might be at risk with this unsupported app version. Please update now."
+msgstr "Din sekretess kan vara utsatt för risk med den här appversionen som inte stöds. Uppdatera nu."
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(openvpn)s - Will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-nav"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)s-inställningar"
+
+#. %(openvpn)s will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)s-inställningar"
+
+#. The title for the port selector section.
+#. Available placeholders:
+#. %(portType)s - a selected protocol (either TCP or UDP)
+msgctxt "openvpn-settings-view"
+msgid "%(portType)s port"
+msgstr "%(portType)s-port"
+
+#. The title for the shadowsocks bridge selector section.
+msgctxt "openvpn-settings-view"
+msgid "Bridge mode"
+msgstr "Broläge"
+
+#. This is used as a description for the bridge mode
+#. setting.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "Helps circumvent censorship, by routing your traffic through a bridge server before reaching an %(openvpn)s server. Obfuscation is added to make fingerprinting harder."
+msgstr "Hjälper till att kringgå censur genom att dirigera din trafik genom en bryggserver innan den når en %(openvpn)s-server. Obfuskering läggs till för att göra det svårare att ta fingeravtryck."
+
+msgctxt "openvpn-settings-view"
+msgid "Mssfix"
+msgstr "Mssfix"
+
+#. The hint displayed below the Mssfix input field.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with "OpenVPN"
+#. %(max)d - the maximum possible mssfix value
+#. %(min)d - the minimum possible mssfix value
+msgctxt "openvpn-settings-view"
+msgid "Set %(openvpn)s MSS value. Valid range: %(min)d - %(max)d."
+msgstr "Ange värde för %(openvpn)s MSS. Giltigt intervall: %(min)d–%(max)d."
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(transportProtocol)s - the name of the transport protocol setting
+#. %(automat)s - the translation of "Automatic"
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, change <b>%(transportProtocol)s</b> to <b>%(automatic)s</b> or <b>%(tcp)s</b>."
+msgstr "För att aktivera Bryggläge ska du ändra <b>%(transportProtocol)s</b> till <b>%(automatic)s</b> eller <b>%(tcp)s</b>."
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, go back and change <b>%(tunnelProtocol)s</b> to <b>%(openvpn)s</b>."
+msgstr "För att aktivera Bryggläge ska du gå tillbaka och ändra <b>%(tunnelProtocol)s</b> till <b>%(openvpn)s</b>."
+
+#. This is used to instruct users how to make UDP mode
+#. available.
+msgctxt "openvpn-settings-view"
+msgid "To activate UDP, change <b>Bridge mode</b> to <b>Automatic</b> or <b>Off</b>."
+msgstr "För att aktivera UDP ska du ändra <b>Bryggläge</b> till <b>Automatisk</b> eller <b>Av</b>."
+
+msgctxt "openvpn-settings-view"
+msgid "Transport protocol"
+msgstr "Transportprotokoll"
+
+msgctxt "redeem-voucher-alert"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "redeem-voucher-alert"
+msgid "Enter voucher code"
+msgstr "Ange kupongkod"
+
+msgctxt "redeem-voucher-alert"
+msgid "Redeem voucher"
+msgstr "Lös in kupong"
+
+msgctxt "redeem-voucher-view"
+msgid "An error occurred."
+msgstr "Ett fel har inträffat."
+
+msgctxt "redeem-voucher-view"
+msgid "Redeem"
+msgstr "Lös in"
+
+msgctxt "redeem-voucher-view"
+msgid "Verifying voucher..."
+msgstr "Verifierar kupong ..."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code has already been used."
+msgstr "Kupongkoden har redan använts."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code is invalid."
+msgstr "Kupongkoden är ogiltig."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher was successfully redeemed."
+msgstr "Kupongen har lösts in."
+
+#. Title label in navigation bar
+msgctxt "select-language-nav"
+msgid "Select language"
+msgstr "Välj språk"
+
+#. Title label in navigation bar
+msgctxt "select-location-nav"
+msgid "Select location"
+msgstr "Välj plats"
+
+#. This is used for appending information about a location.
+#. E.g. "Gothenburg (Entry)" if Gothenburg has been selected as the entrypoint.
+#. Available placeholders:
+#. %(location)s - Translated location name
+#. %(info)s - Information about the location
+msgctxt "select-location-view"
+msgid "%(location)s (%(info)s)"
+msgstr "%(location)s (%(info)s)"
+
+msgctxt "select-location-view"
+msgid "Entry"
+msgstr "Ingång"
+
+msgctxt "select-location-view"
+msgid "Exit"
+msgstr "Utgång"
+
+msgctxt "select-location-view"
+msgid "Filtered:"
+msgstr "Filtrerat:"
+
+msgctxt "select-location-view"
+msgid "Providers: %(numberOfProviders)d"
+msgstr "Leverantörer: %(numberOfProviders)d"
+
+msgctxt "select-location-view"
+msgid "The app selects a random bridge server, but servers have a higher probability the closer they are to you."
+msgstr "Appen väljer en slumpmässig bryggserver, men ju närmare servrarna ligger desto större sannolikhet är det att de väljs."
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point (a bridge server) and the exit point (a VPN server)."
+msgstr "Medan du är ansluten kommer din trafik att dirigeras genom två säkra platser: startpunkten (en broserver) och slutpunkten (en VPN-server)."
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point and the exit point (needs to be two different VPN servers)."
+msgstr "Medan du är ansluten kommer din trafik att dirigeras genom två säkra platser: startpunkten och slutpunkten (måste vara två olika VPN-servrar)."
+
+msgctxt "settings-view"
+msgid "App is out of sync. Please quit and restart."
+msgstr "Appen är inte synkroniserad. Avsluta och starta om."
+
+msgctxt "settings-view"
+msgid "App version"
+msgstr "Appversion"
+
+#. Navigation button to the 'Split tunneling' view
+msgctxt "settings-view"
+msgid "Split tunneling"
+msgstr "Delade tunnlar"
+
+msgctxt "settings-view"
+msgid "Support"
+msgstr "Support"
+
+msgctxt "settings-view"
+msgid "Update available. Install the latest app version to stay up to date."
+msgstr "Uppdatering tillgänglig. Installera den senaste appversionen för att hålla dig uppdaterad."
+
+#. Navigation button to the 'User interface settings' view
+msgctxt "settings-view"
+msgid "User interface settings"
+msgstr "Inställningar för användargränssnitt"
+
+#. Navigation button to the 'VPN settings' view
+msgctxt "settings-view"
+msgid "VPN settings"
+msgstr "VPN-inställningar"
+
+msgctxt "split-tunneling-view"
+msgid "%(applicationName)s is problematic and can’t be excluded from the VPN tunnel."
+msgstr "%(applicationName)s är problematiskt och kan inte exkluderas från VPN-tunneln."
+
+msgctxt "split-tunneling-view"
+msgid "Add"
+msgstr "Lägg till"
+
+msgctxt "split-tunneling-view"
+msgid "All apps"
+msgstr "Alla appar"
+
+msgctxt "split-tunneling-view"
+msgid "Choose the apps you want to exclude from the VPN tunnel."
+msgstr "Välj de appar du vill exkludera från VPN-tunneln."
+
+msgctxt "split-tunneling-view"
+msgid "Click on an app to launch it. Its traffic will bypass the VPN tunnel until you close it."
+msgstr "Klicka på ett program för att starta det. Dess trafik förbigår VPN-tunneln tills du stänger det."
+
+msgctxt "split-tunneling-view"
+msgid "Excluded apps"
+msgstr "Exkluderade appar"
+
+msgctxt "split-tunneling-view"
+msgid "Find another app"
+msgstr "Hitta en annan app"
+
+msgctxt "split-tunneling-view"
+msgid "If it’s already running, close %(applicationName)s before launching it from here. Otherwise it might not be excluded from the VPN tunnel."
+msgstr "Om det redan körs ska du stänga %(applicationName)s innan du startar det härifrån. Annars kanske det inte exkluderas från VPN-tunneln."
+
+msgctxt "split-tunneling-view"
+msgid "Launch"
+msgstr "Starta"
+
+#. This error message is shown if the user tries to launch a Linux desktop
+#. entry file that doesn't contain the required 'Exec' value.
+msgctxt "split-tunneling-view"
+msgid "Please send a problem report."
+msgstr "Skicka en problemrapport."
+
+#. This error message is shown if the user tries to launch an app that
+#. doesn't exist.
+#. This error message is shown if an application fails during startup.
+msgctxt "split-tunneling-view"
+msgid "Please try again or send a problem report."
+msgstr "Försök igen eller skicka en problemrapport."
+
+#. Error message showed in a dialog when an application fails to launch.
+msgctxt "split-tunneling-view"
+msgid "Unable to launch selection. %(detailedErrorMessage)s"
+msgstr "Det gick inte att starta valet. %(detailedErrorMessage)s"
+
+msgctxt "support-view"
+msgid "Beta program"
+msgstr "Betaprogram"
+
+msgctxt "support-view"
+msgid "Continue anyway"
+msgstr "Fortsätt ändå"
+
+msgctxt "support-view"
+msgid "Edit message"
+msgstr "Redigera meddelande"
+
+msgctxt "support-view"
+msgid "Enable to get notified when new beta versions of the app are released."
+msgstr "Aktivera för att få en avisering när nya betaversioner av appen släpps."
+
+msgctxt "support-view"
+msgid "Failed to send"
+msgstr "Det gick inte att skicka"
+
+#. Link to the webpage
+msgctxt "support-view"
+msgid "FAQs & Guides"
+msgstr "Vanliga frågor och guider"
+
+#. The message displayed to the user after submitting the problem report, given that the user left his or her email for us to reach back.
+#. Available placeholders:
+#. %(email)s
+msgctxt "support-view"
+msgid "If needed we will contact you at %(email)s"
+msgstr "Om det behövs kontaktar vi dig på %(email)s"
+
+msgctxt "support-view"
+msgid "If you exit the form and try again later, the information you already entered will still be here."
+msgstr "Om du lämnar formuläret och försöker igen senare kommer informationen du anger att finnas kvar."
+
+#. Title label in navigation bar
+#. Navigation button to the 'Report a problem' help view
+msgctxt "support-view"
+msgid "Report a problem"
+msgstr "Rapportera ett problem"
+
+msgctxt "support-view"
+msgid "Send"
+msgstr "Skicka"
+
+msgctxt "support-view"
+msgid "Send anyway"
+msgstr "Skicka ändå"
+
+msgctxt "support-view"
+msgid "Sending..."
+msgstr "Skicka..."
+
+msgctxt "support-view"
+msgid "Sent"
+msgstr "Skickat"
+
+#. Title label in navigation bar
+msgctxt "support-view"
+msgid "Support"
+msgstr "Support"
+
+msgctxt "support-view"
+msgid "Thanks!"
+msgstr "Tack!"
+
+msgctxt "support-view"
+msgid "This option is unavailable while using a beta version."
+msgstr "Det här alternativet är inte tillgängligt när du använder en betaversion."
+
+msgctxt "support-view"
+msgid "To assist you better, please write in English or Swedish and include which country you are connecting from."
+msgstr "Skriv på engelska eller svenska och ange från vilket land du är ansluten så att vi kan hjälpa dig bättre."
+
+msgctxt "support-view"
+msgid "To help you more effectively, your app’s log file will be attached to this message. Your data will remain secure and private, as it is anonymised before being sent over an encrypted channel."
+msgstr "För att hjälpa dig mer effektivt kommer appens loggfil att bifogas i detta meddelande. Dina uppgifter förblir säkra och privata, eftersom de anonymiseras innan de skickas över en krypterad kanal."
+
+msgctxt "support-view"
+msgid "Try again"
+msgstr "Försök igen"
+
+msgctxt "support-view"
+msgid "Upgrade app"
+msgstr "Uppgradera appen"
+
+msgctxt "support-view"
+msgid "View app logs"
+msgstr "Visa appens loggar"
+
+msgctxt "support-view"
+msgid "We will look into this."
+msgstr "Vi kommer att undersöka detta."
+
+msgctxt "support-view"
+msgid "You are about to send the problem report without a way for us to get back to you. If you want an answer to your report you will have to enter an email address."
+msgstr "Du är på väg att skicka problemrapporten utan att vi har möjlighet att besvara dig. Om du vill ha svar på din rapport måste du ange en e-postadress."
+
+msgctxt "support-view"
+msgid "You are using an old version of the app. Please upgrade and see if the problem still exists before sending a report."
+msgstr "Du använder en gammal version av appen. Uppgradera och se om problemet kvarstår innan du skickar en rapport."
+
+msgctxt "support-view"
+msgid "Your email (optional)"
+msgstr "Din e-postadress (valfritt)"
+
+msgctxt "tray-icon-context-menu"
+msgid "Disconnected from system service"
+msgstr "Frånkopplad från systemtjänst"
+
+msgctxt "tray-icon-context-menu"
+msgid "Open %(mullvadVpn)s"
+msgstr "Öppna %(mullvadVpn)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "%(city)s, %(country)s"
+msgstr "%(city)s, %(country)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connected. %(location)s"
+msgstr "Ansluten. %(location)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connecting. %(location)s"
+msgstr "Ansluter. %(location)s"
+
+msgctxt "troubleshoot"
+msgid "If these steps do not work please send a problem report."
+msgstr "Om dessa steg inte fungerar kan du skicka en problemrapport."
+
+msgctxt "troubleshoot"
+msgid "Make sure you have NF tables support."
+msgstr "Se till att du har stöd för Nftables."
+
+msgctxt "troubleshoot"
+msgid "This error can happen when something other than Mullvad is actively updating the DNS."
+msgstr "Det här felet kan inträffa när något annat än Mullvad aktivt uppdaterar DNS."
+
+msgctxt "troubleshoot"
+msgid "This might be caused by an outdated kernel."
+msgstr "Det kan ha orsakats av en utgången kernel."
+
+msgctxt "troubleshoot"
+msgid "Try reconnecting."
+msgstr "Försök att återansluta."
+
+msgctxt "troubleshoot"
+msgid "Try restarting your device."
+msgstr "Försök att återansluta din enhet."
+
+msgctxt "troubleshoot"
+msgid "Try to turn Wi-Fi Calling off in the FaceTime app settings and restart the Mac."
+msgstr "Försök att inaktivera wifi-samtal i inställningarna i appen FaceTime och starta om din Mac."
+
+msgctxt "troubleshoot"
+msgid "Unable to communicate with Mullvad kernel driver."
+msgstr "Det går inte att kommunicera med Mullvads kerneldrivrutin."
+
+msgctxt "troubleshoot"
+msgid "Uninstall or disable other DNS, networking and ads/website blocking apps."
+msgstr "Avinstallera eller inaktivera andra appar som blockerar DNS, nätverk, annonser och webbplatser."
+
+msgctxt "troubleshoot"
+msgid "Update your kernel."
+msgstr "Uppdatera din kernel."
+
+msgctxt "tunnel-control"
+msgid "Secure my connection"
+msgstr "Skydda min anslutning"
+
+msgctxt "tunnel-control"
+msgid "Switch location"
+msgstr "Växla plats"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable or disable system notifications. The critical notifications will always be displayed."
+msgstr "Aktivera eller inaktivera systemmeddelanden. De kritiska meddelandena kommer alltid att visas."
+
+msgctxt "user-interface-settings-view"
+msgid "Enable to move the app around as a free-standing window."
+msgstr "Aktivera för att flytta runt appen som ett fristående fönster."
+
+#. Navigation button to the 'Language' settings view
+msgctxt "user-interface-settings-view"
+msgid "Language"
+msgstr "Språk"
+
+msgctxt "user-interface-settings-view"
+msgid "Monochromatic tray icon"
+msgstr "Enfärgad systemfältsikon"
+
+msgctxt "user-interface-settings-view"
+msgid "Notifications"
+msgstr "Meddelanden"
+
+msgctxt "user-interface-settings-view"
+msgid "Show only the tray icon when the app starts."
+msgstr "Visa endast systemfältsikonen när appen startas."
+
+msgctxt "user-interface-settings-view"
+msgid "Start minimized"
+msgstr "Starta minimerat"
+
+msgctxt "user-interface-settings-view"
+msgid "Unpin app from taskbar"
+msgstr "Lossa appen från aktivitetsfältet"
+
+msgctxt "user-interface-settings-view"
+msgid "Use a monochromatic tray icon instead of a colored one."
+msgstr "Använd en enfärgad systemfältsikon i stället för en flerfärgad."
+
+#. Title label in navigation bar
+msgctxt "user-interface-settings-view"
+msgid "User interface settings"
+msgstr "Inställningar för användargränssnitt"
+
+#. %(openvpn)s will be replaced with the string "OpenVPN"
+msgctxt "vpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)s-inställningar"
+
+#. %(wireguard)s will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)s-inställningar"
+
+msgctxt "vpn-settings-view"
+msgid "Add a server"
+msgstr "Lägg till en server"
+
+msgctxt "vpn-settings-view"
+msgid "Add anyway"
+msgstr "Lägg till ändå"
+
+#. Label for settings that enables ad blocking.
+msgctxt "vpn-settings-view"
+msgid "Ads"
+msgstr "Annonser"
+
+#. Label for settings that enables block of adult content.
+msgctxt "vpn-settings-view"
+msgid "Adult content"
+msgstr "Vuxet innehåll"
+
+msgctxt "vpn-settings-view"
+msgid "Attention: enabling this will always require a Mullvad VPN connection in order to reach the internet."
+msgstr "Obs! Om du aktiverar detta behöver du alltid en Mullvad VPN-anslutning för att nå internet."
+
+msgctxt "vpn-settings-view"
+msgid "Auto-connect"
+msgstr "Anslut automatiskt"
+
+msgctxt "vpn-settings-view"
+msgid "Automatically connect to a server when the app launches."
+msgstr "Anslut automatiskt till en server när appen startas."
+
+#. This is displayed when the custom DNS setting is turned on which makes the block
+#. ads/trackers settings disabled. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(customDnsFeatureName)s - The name displayed next to the custom DNS toggle.
+msgctxt "vpn-settings-view"
+msgid "Disable <b>%(customDnsFeatureName)s</b> below to activate these settings."
+msgstr "Inaktivera <b>%(customDnsFeatureName)s</b> nedan för att aktivera dessa inställningar."
+
+#. This is displayed when either or both of the block ads/trackers settings are
+#. turned on which makes the custom DNS setting disabled.
+#. Available placeholders:
+#. %(preferencesPageName)s - The page title showed on top in the preferences page.
+msgctxt "vpn-settings-view"
+msgid "Disable all <b>DNS content blockers</b> above to activate this setting."
+msgstr "Inaktivera alla <b>DNS-innehållsblockerare</b> ovan för att aktivera den här inställningen."
+
+msgctxt "vpn-settings-view"
+msgid "DNS content blockers"
+msgstr "DNS-innehållsblockerare"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6"
+msgstr "Aktivera IPv6"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6 communication through the tunnel."
+msgstr "Aktivera IPv6-kommunikation genom tunneln."
+
+#. The label next to the multihop settings toggle.
+msgctxt "vpn-settings-view"
+msgid "Enable multihop"
+msgstr "Aktivera multihopp"
+
+msgctxt "vpn-settings-view"
+msgid "Enable to add at least one DNS server."
+msgstr "Aktivera för att lägga till minst en DNS-server."
+
+msgctxt "vpn-settings-view"
+msgid "Enter IP"
+msgstr "Ange IP"
+
+#. Label for settings that enables block of gamling related websites.
+msgctxt "vpn-settings-view"
+msgid "Gambling"
+msgstr "Hasardspel"
+
+#. Description for multihop settings toggle.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "Increases anonymity by routing your traffic into one %(wireguard)s server and out another, making it harder to trace."
+msgstr "Förbättrar anonymiteten genom att dirigera trafiken till en %(wireguard)s-server och ut genom en annan, vilket gör det svårare att spåra."
+
+msgctxt "vpn-settings-view"
+msgid "It does this by allowing network communication outside the tunnel to local multicast and broadcast ranges as well as to and from these private IP ranges:"
+msgstr "Den gör det genom att tillåta nätverkskommunikation utanför tunneln till lokala multicast- och sändningsintervall, samt till och från dessa privata IP-intervall:"
+
+msgctxt "vpn-settings-view"
+msgid "Kill switch"
+msgstr "Kill Switch"
+
+msgctxt "vpn-settings-view"
+msgid "Launch app on start-up"
+msgstr "Starta appen vid uppstart"
+
+msgctxt "vpn-settings-view"
+msgid "Local network sharing"
+msgstr "Lokal nätverksdelning"
+
+msgctxt "vpn-settings-view"
+msgid "Lockdown mode"
+msgstr "Låsningsläge"
+
+#. Label for settings that enables malware blocking.
+msgctxt "vpn-settings-view"
+msgid "Malware"
+msgstr "Skadlig kod"
+
+msgctxt "vpn-settings-view"
+msgid "The app’s built-in kill switch is always on. This setting will additionally block the internet if clicking Disconnect or Quit."
+msgstr "Appens inbyggda Kill Switch är alltid på. Den här inställningen kommer dessutom att blockera internet när du klickar på Koppla från eller Avsluta."
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents."
+msgstr "Skillnaden mellan Kill Switch och Låsningsläge är att Kill Switch förhindrar att läckor inträffar vid automatisk återanslutning av tunnlar, programkraschar och liknande olyckor."
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents. With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "Skillnaden mellan Kill Switch och Låsningsläge är att Kill Switch förhindrar att läckor inträffar vid automatisk återanslutning av tunnlar, programkraschar och liknande olyckor. När Låsningsläge är aktiverat måste du vara ansluten till en Mullvad VPN-server för att kunna nå internet. Om du kopplar från automatiskt eller avslutar appen blockeras din anslutning."
+
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is a private IP. You must ensure that your network interfaces are configured to use it."
+msgstr "DNS-servern du vill lägga till är en privat IP. Se till att dina nätverksgränssnitt är konfigurerade för att använda den."
+
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is public and will only work with %(wireguard)s. To ensure that it always works, set the \"%(tunnelProtocol)s\" (in Advanced settings) to %(wireguard)s."
+msgstr "DNS-servern du vill lägga till är offentlig och fungerar bara med %(wireguard)s. Ställ in \"%(tunnelProtocol)s\" (i Avancerade inställningar) som %(wireguard)s så att det alltid fungerar."
+
+msgctxt "vpn-settings-view"
+msgid "This built-in feature prevents your traffic from leaking outside of the VPN tunnel if your network suddenly stops working or if the tunnel fails, it does this by blocking your traffic until your connection is reestablished."
+msgstr "Den här inbyggda funktionen hindrar din trafik från att läcka utanför VPN-tunneln om ditt nätverk plötsligt slutar fungera eller om tunneln misslyckas. Den gör detta genom att blockera din trafik tills anslutningen återupprättats."
+
+msgctxt "vpn-settings-view"
+msgid "This feature allows access to other devices on the local network, such as for sharing, printing, streaming, etc."
+msgstr "Funktionen tillåter åtkomst till andra enheter på det lokala nätverket, t.ex. för att dela, skriva ut, streama osv."
+
+msgctxt "vpn-settings-view"
+msgid "This might cause issues on certain websites, services, and programs."
+msgstr "Detta kan orsaka problem på vissa webbplatser, tjänster och program."
+
+#. Label for settings that enables tracker blocking.
+msgctxt "vpn-settings-view"
+msgid "Trackers"
+msgstr "Spårare"
+
+msgctxt "vpn-settings-view"
+msgid "Tunnel protocol"
+msgstr "Tunnelprotokoll"
+
+msgctxt "vpn-settings-view"
+msgid "Use custom DNS server"
+msgstr "Använd anpassad DNS-server"
+
+#. Title label in navigation bar
+msgctxt "vpn-settings-view"
+msgid "VPN settings"
+msgstr "VPN-inställningar"
+
+msgctxt "vpn-settings-view"
+msgid "Warning: The malware blocker is not an anti-virus and should not be treated as such, this is just an extra layer of protection."
+msgstr "Varning! Blockering av skadlig kod är inte ett antivirusprogram och bör inte behandlas som ett. Det här är bara ett extra skyddslager."
+
+msgctxt "vpn-settings-view"
+msgid "When this feature is enabled it stops the device from contacting certain domains or websites known for distributing ads, malware, trackers and more."
+msgstr "När den här funktionen är aktiverad stoppas enheten från att kontakta vissa domäner eller webbplatser som är kända för att sprida annonser, skadlig kod, spårare med mera."
+
+msgctxt "vpn-settings-view"
+msgid "With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "När Låsningsläge är aktiverat måste du vara ansluten till en Mullvad VPN-server för att kunna nå internet. Om du kopplar från automatiskt eller avslutar appen blockeras din anslutning."
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-nav"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)s-inställningar"
+
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)s-inställningar"
+
+msgctxt "wireguard-settings-view"
+msgid "IP version"
+msgstr "IP-version"
+
+msgctxt "wireguard-settings-view"
+msgid "It does this by performing an extra key exchange using a quantum safe algorithm and mixing the result into WireGuard’s regular encryption. This extra step uses approximately 500 kiB of traffic every time a new tunnel is established."
+msgstr "Den gör det genom att göra ett extra nyckelutbyte med en kvantsäker algoritm och kombinera resultatet med WireGuards vanliga kryptering. Det här extra steget använder ungefär 500 KiB i trafik varje gång en ny tunnel upprättas."
+
+msgctxt "wireguard-settings-view"
+msgid "MTU"
+msgstr "MTU"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation"
+msgstr "Obfuskering"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation hides the WireGuard traffic inside another protocol. It can be used to help circumvent censorship and other types of filtering, where a plain WireGuard connect would be blocked."
+msgstr "Obfuskering döljer WireGuard-trafik inne i ett annat protokoll. Det kan användas för att kringgå censur och andra filtertyper där en vanlig WireGuard-anslutning skulle blockeras."
+
+msgctxt "wireguard-settings-view"
+msgid "On (UDP-over-TCP)"
+msgstr "På (UDP över TCP)"
+
+msgctxt "wireguard-settings-view"
+msgid "Port"
+msgstr "Port"
+
+#. The title for the WireGuard quantum resistance selector. This setting
+#. makes the cryptography resistant to the future abilities of quantum
+#. computers.
+msgctxt "wireguard-settings-view"
+msgid "Quantum-resistant tunnel"
+msgstr "Kvantresistent tunnel"
+
+#. The hint displayed below the WireGuard MTU input field.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+#. %(max)d - the maximum possible wireguard mtu value
+#. %(min)d - the minimum possible wireguard mtu value
+msgctxt "wireguard-settings-view"
+msgid "Set %(wireguard)s MTU value. Valid range: %(min)d - %(max)d."
+msgstr "Ange värde för %(wireguard)s MTU. Giltigt intervall: %(min)d–%(max)d."
+
+msgctxt "wireguard-settings-view"
+msgid "The automatic setting will randomly choose from the valid port ranges shown below."
+msgstr "Den automatiska inställningen väljer slumpmässigt från giltiga portintervall som visas nedan."
+
+msgctxt "wireguard-settings-view"
+msgid "The custom port can be any value inside the valid ranges: %(portRanges)s."
+msgstr "Den anpassade porten kan vara ett värde inom de giltiga intervallen: %(portRanges)s."
+
+#. The hint displayed below the WireGuard IP version selector.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "This allows access to %(wireguard)s for devices that only support IPv6."
+msgstr "Detta ger %(wireguard)s åtkomst till enheter som bara stöder IPv6."
+
+msgctxt "wireguard-settings-view"
+msgid "This feature makes the WireGuard tunnel resistant to potential attacks from quantum computers."
+msgstr "Den här funktionen gör WireGuard-tunneln resistent mot potentiella attacker från kvantdatorer."
+
+msgctxt "wireguard-settings-view"
+msgid "UDP-over-TCP port"
+msgstr "UDP-över-TCP-port"
+
+msgctxt "wireguard-settings-view"
+msgid "Which TCP port the UDP-over-TCP obfuscation protocol should connect to on the VPN server."
+msgstr "Vilken TCP-port som UDP-över-TCP-obfuskeringsprotokoll bör ansluta till på VPN-servern."
+
+msgid "Account credit expires in a few minutes"
+msgstr "Kontokrediten slutar gälla om några minuter"
+
+msgid "Account credit expires soon"
+msgstr "Kontokrediten slutar snart gälla"
+
+msgid "Account time reminders"
+msgstr "Påminnelser om kontotid"
+
+msgid "Add DNS server"
+msgstr "Lägg till DNS-server"
+
+msgid "Agree and continue"
+msgstr "Godkänn och fortsätt"
+
+msgid "All applications"
+msgstr "Alla applikationer"
+
+msgid "Allows access to other devices on the same network for sharing, printing etc."
+msgstr "Tillåter åtkomst till andra enheter på samma nätverk för delning, utskrift osv."
+
+msgid "Always-on VPN assigned to other app"
+msgstr "VPN som alltid är på har tilldelats till annan app"
+
+msgid "Always-on VPN might be enabled for another app"
+msgstr "VPN som alltid är på kan ha aktiverats för annan app"
+
+msgid "Attention: this setting cannot be used in combination with <b>Use custom DNS server</b>."
+msgstr "Obs! Den här inställningen kan inte användas tillsammans med <b>Använd anpassad DNS-server</b>."
+
+msgid "Blocking internet (device offline)"
+msgstr "Blockerar internet (enheten är offline)"
+
+msgid "Changes to DNS related settings might not go into effect immediately due to cached results."
+msgstr "Ändringar i DNS-relaterade inställningar kanske inte börjar gälla direkt på grund av cachade resultat."
+
+msgid "Copied Mullvad account number to clipboard"
+msgstr "Kopierade Mullvad-kontonummer till urklipp"
+
+msgid "Copied to clipboard"
+msgstr "Kopierat till urklipp"
+
+msgid "Critical error (your attention is required)"
+msgstr "Kritiskt fel (kräver din uppmärksamhet)"
+
+msgid "Custom DNS server addresses %s are invalid"
+msgstr "Anpassade DNS-serveradresser %s är ogiltiga"
+
+msgid "DNS settings might not go into effect immediately"
+msgstr "DNS-inställningarna kanske inte börjar gälla direkt"
+
+msgid "Disable all <b>%s</b> above to activate this setting."
+msgstr "Inaktivera alla <b>%s</b> ovan för att aktivera inställningen."
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "Enter MTU"
+msgstr "Ange MTU"
+
+msgid "Excluded applications"
+msgstr "Exkluderade applikationer"
+
+msgid "Going to login will unblock the internet on this device."
+msgstr "Om du loggar in tas blockering av internet bort på den här enheten."
+
+msgid "Install Mullvad VPN (%s) to stay up to date"
+msgstr "Installera Mullvad VPN (%s) för att hålla dig uppdaterad"
+
+msgid "Manage account"
+msgstr "Hantera konto"
+
+msgid "Mullvad account number"
+msgstr "Mullvad-kontonummer"
+
+msgid "Preferences"
+msgstr "Inställningar"
+
+msgid "Privacy"
+msgstr "Sekretess"
+
+msgid "Privacy policy"
+msgstr "Sekretesspolicy"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Reset to default"
+msgstr "Återställ till standard"
+
+msgid "Secured"
+msgstr "Skyddad"
+
+msgid "Set WireGuard MTU value. Valid range: %d - %d."
+msgstr "Ange WireGuard MTU-värde. Giltigt intervall: %d–%d."
+
+msgid "Show system apps"
+msgstr "Visa systemappar"
+
+msgid "Shows current VPN tunnel status"
+msgstr "Visar nuvarande status för VPN-tunnel"
+
+msgid "Shows reminders when the account time is about to expire"
+msgstr "Visar påminnelser när kontots tidsgräns uppnås"
+
+msgid "Split tunneling makes it possible to select which applications should not be routed through the VPN tunnel."
+msgstr "Delade tunnlar gör det möjligt att välja vilka applikationer som inte ska dirigeras genom VPN-tunneln."
+
+msgid "Submit"
+msgstr "Skicka"
+
+msgid "The local DNS server will not work unless you enable \"Local Network Sharing\" under Preferences."
+msgstr "Den lokala DNS-servern fungerar inte om du inte aktiverar \"Lokal nätverksdelning\" under Inställningar."
+
+msgid "This address has already been entered."
+msgstr "Adressen har redan angetts."
+
+msgid "This might cause issues on certain websites, services, and apps."
+msgstr "Detta kan orsaka problem på vissa webbplatser, tjänster och appar."
+
+msgid "To make sure that you have the most secure version and to inform you of any issues with the current version that is running, the app performs version checks automatically. This sends the app version and Android system version to Mullvad servers. Mullvad keeps counters on number of used app versions and Android versions. The data is never stored or used in any way that can identify you.\\n\\nIf the split tunneling feature is used, then the app queries your system for a list of all installed applications. This list is only retrieved in the split tunneling view. The list of installed applications is never sent from the device."
+msgstr "Appen genomför automatiska versionskontroller för att se till att du har den säkraste versionen och för att informera dig om problem med den nuvarande versionen. Appversionen och Android-systemversionen skickas till Mullvad-servrarna. Mullvad registrerar antalet använda appversioner och Android-versioner. Dessa data lagras aldrig och används inte på något sätt som kan identifiera dig.\\n\\nOm delade tunnlar används, ber appen ditt system om en lista med alla installerade applikationer. Listan hämtas bara i vyn för delade tunnlar. Listan med installerade applikationer skickas aldrig från enheten."
+
+msgid "Toggle VPN"
+msgstr "Växla VPN"
+
+msgid "Unable to apply firewall rules. Please troubleshoot or send a problem report."
+msgstr "Det går inte att tillämpa brandväggsregler. Felsök eller skicka en problemrapport."
+
+msgid "Unable to start tunnel connection. Please disable Always-on VPN for <b>%s</b> before using Mullvad VPN."
+msgstr "Det går inte att starta tunnelanslutning. Aktivera VPN som alltid är på för <b>%s</b> innan du använder Mullvad VPN."
+
+msgid "Unsecured"
+msgstr "Oskyddad"
+
+msgid "Update DNS server"
+msgstr "Uppdatera DNS-server"
+
+msgid "Update available, download to remain safe."
+msgstr "Uppdatering tillgänglig. Ladda ned för att vara säker."
+
+msgid "VPN permission error"
+msgstr "Behörighetsfel med VPN"
+
+msgid "VPN permission was denied when creating the tunnel. Please try connecting again."
+msgstr "VPN-behörighet nekades när tunneln skapades. Försök att ansluta igen."
+
+msgid "VPN tunnel status"
+msgstr "VPN-tunnelstatus"
+
+msgid "Valid WireGuard key is missing. Manage keys under Advanced settings."
+msgstr "Giltig WireGuard-nyckel saknas. Hantera nycklar i Avancerade inställningar."
+
+msgid "Virtual adapter error"
+msgstr "Fel med virtuell adapter"
+
+msgid "While connected, your real location is masked with a private and secure location in the selected region."
+msgstr "Medan du är ansluten maskeras din riktiga plats med en privat och säker plats i den valda regionen."
+
+msgid "WireGuard MTU"
+msgstr "WireGuard MTU"
+
+msgid "WireGuard obfuscation"
+msgstr "WireGuard-obfuskering"
+
+msgid "YOU MIGHT BE LEAKING NETWORK TRAFFIC"
+msgstr "DU KANSKE HAR LÄCKAGE I NÄTVERKSTRAFIKEN"
+
+msgid "You are running an unsupported app version."
+msgstr "Du kör en appversion som inte stöds."
+
+msgid "less than a minute ago"
+msgstr "mindre än en minut sedan"
+
+msgid "Account credit expires in a day"
+msgid_plural "Account credit expires in %d days"
+msgstr[0] "Kontokrediten slutar gälla om en dag"
+msgstr[1] "Kontokrediten slutar gälla om %d dagar"
+
+msgid "Account credit expires in an hour"
+msgid_plural "Account credit expires in %d hours"
+msgstr[0] "Kontokrediten slutar gälla om en timme"
+msgstr[1] "Kontokrediten slutar gälla om %d timmar"
+
+msgid "a day ago"
+msgid_plural "%d days ago"
+msgstr[0] "en dag sedan"
+msgstr[1] "%d dagar sedan"
+
+msgid "a minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "en minut sedan"
+msgstr[1] "%d minuter sedan"
+
+msgid "a month ago"
+msgid_plural "%d months ago"
+msgstr[0] "en månad sedan"
+msgstr[1] "%d månader sedan"
+
+msgid "a year ago"
+msgid_plural "%d years ago"
+msgstr[0] "ett år sedan"
+msgstr[1] "%d år sedan"
+
+msgid "an hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "en timme sedan"
+msgstr[1] "%d timmar sedan"
+

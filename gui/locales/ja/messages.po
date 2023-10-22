@@ -1,0 +1,1825 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: mullvad-app\n"
+"X-Crowdin-Project-ID: 350815\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 12\n"
+"Project-Id-Version: mullvad-app\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"PO-Revision-Date: 2023-09-05 14:16\n"
+
+msgid "%(duration)s was added, account paid until %(expiry)s."
+msgstr "%(duration)sが追加され、アカウントは%(expiry)sまでに支払われます。"
+
+msgid "1 day"
+msgid_plural "%d days"
+msgstr[0] "%d 日"
+
+msgid "1 day left"
+msgid_plural "%d days left"
+msgstr[0] "残り%d日"
+
+msgid "1 month"
+msgid_plural "%d months"
+msgstr[0] "%d ヶ月"
+
+msgid "1 month left"
+msgid_plural "%d months left"
+msgstr[0] "残り%d ヶ月"
+
+msgid "1 year"
+msgid_plural "%d years"
+msgstr[0] "%d 年"
+
+msgid "1 year left"
+msgid_plural "%d years left"
+msgstr[0] "残り%d 年"
+
+msgid "Account paid until %(expiry)s."
+msgstr "アカウントは%(expiry)sまでに支払われます。"
+
+msgid "Account settings"
+msgstr "アカウント設定"
+
+msgid "Any"
+msgstr "すべて"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Automatic"
+msgstr "自動"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "BETA"
+msgstr "ベータ版"
+
+msgid "BLOCKED CONNECTION"
+msgstr "ブロックされた接続"
+
+msgid "Blocking internet"
+msgstr "インターネットをブロック中"
+
+msgid "Buy credit"
+msgstr "クレジットを購入"
+
+msgid "Buy more credit"
+msgstr "追加クレジットを購入"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Clear"
+msgstr "クリア"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Connect"
+msgstr "接続"
+
+msgid "Connected"
+msgstr "接続済み"
+
+msgid "Connecting"
+msgstr "接続中"
+
+#. Creating a secure connection that isn't breakable by quantum computers.
+msgid "CREATING QUANTUM SECURE CONNECTION"
+msgstr "量子セキュア保護接続を確立中"
+
+msgid "CREATING SECURE CONNECTION"
+msgstr "セキュリティ保護接続を確立中"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Disable"
+msgstr "無効にする"
+
+msgid "Disconnect"
+msgstr "接続解除"
+
+msgid "Disconnect & quit"
+msgstr "切断して終了"
+
+msgid "Disconnected"
+msgstr "未接続"
+
+msgid "Disconnecting"
+msgstr "接続解除中"
+
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgid "Enable anyway"
+msgstr "それでも有効化する"
+
+msgid "FAILED TO SECURE CONNECTION"
+msgstr "セキュリティ保護接続を確立できませんでした"
+
+msgid "Filter"
+msgstr "絞り込み"
+
+msgid "Go to System Settings"
+msgstr "システム設定に移動"
+
+#. This is a button which closes a dialog.
+msgid "Got it!"
+msgstr "了解"
+
+msgid "IPv4"
+msgstr "IPv4"
+
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "less than a day"
+msgstr "1 日未満"
+
+msgid "less than a day left"
+msgstr "残り1日未満"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "No result for <b>%(searchTerm)s</b>."
+msgstr "<b>%(searchTerm)s</b>に該当する検索結果はありません。"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "On"
+msgstr "オン"
+
+msgid "Open URL"
+msgstr "URLを開く"
+
+#. The connection is secure and isn't breakable by quantum computers.
+msgid "QUANTUM SECURE CONNECTION"
+msgstr "量子セキュア保護接続"
+
+msgid "Quit"
+msgstr "終了"
+
+msgid "Reconnect"
+msgstr "再接続"
+
+msgid "Search for..."
+msgstr "検索..."
+
+msgid "SECURE CONNECTION"
+msgstr "セキュリティ保護された接続"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "System default"
+msgstr "システムデフォルト"
+
+msgid "TCP"
+msgstr "TCP"
+
+#. Warning text in a dialog that is displayed after a setting is toggled.
+msgid "This setting increases latency. Use only if needed."
+msgstr "この設定を有効にすると、遅延が増加します。必要な場合にのみご利用ください。"
+
+msgid "Troubleshoot"
+msgstr "トラブルシューティング"
+
+msgid "Try a different search."
+msgstr "別の検索をお試しください。"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "Unblock"
+msgstr "ブロックを解除"
+
+msgid "UNSECURED CONNECTION"
+msgstr "セキュリティ保護されていない接続"
+
+msgctxt "accessibility"
+msgid "%(title)s, View loaded"
+msgstr "%(title)s、ビューが読み込まれました"
+
+msgctxt "accessibility"
+msgid "Close notification"
+msgstr "通知を閉じる"
+
+msgctxt "accessibility"
+msgid "Collapse %(location)s"
+msgstr "%(location)sを折りたたむ"
+
+#. Provided to accessibility tools such as screenreaders to describe a button
+#. which copies the account number to the clipboard.
+msgctxt "accessibility"
+msgid "Copy account number"
+msgstr "アカウント番号のコピー"
+
+msgctxt "accessibility"
+msgid "Expand %(location)s"
+msgstr "%(location)sを展開する"
+
+msgctxt "accessibility"
+msgid "Forget %(accountToken)s"
+msgstr "%(accountToken)sを忘れる"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which obscures the account number.
+msgctxt "accessibility"
+msgid "Hide account number"
+msgstr "アカウント番号の非表示"
+
+msgctxt "accessibility"
+msgid "info"
+msgstr "情報"
+
+#. This is used by screenreaders to communicate the login button.
+msgctxt "accessibility"
+msgid "Login"
+msgstr "ログイン"
+
+msgctxt "accessibility"
+msgid "More information"
+msgstr "詳細情報"
+
+msgctxt "accessibility"
+msgid "Opens externally"
+msgstr "外部ブラウザで開く"
+
+#. Button action description provided to accessibility tools such as screen
+#. readers.
+#. Available placeholders:
+#. %(deviceName)s - The device name to remove.
+msgctxt "accessibility"
+msgid "Remove device named %(deviceName)s"
+msgstr "%(deviceName)sという名前のデバイスを削除"
+
+msgctxt "accessibility"
+msgid "Remove item"
+msgstr "アイテムを削除する"
+
+msgctxt "accessibility"
+msgid "Select location. Current location is %(location)s"
+msgstr "場所を選択します。現在の場所は%(location)sです"
+
+#. Provided to accessibility tools such as screenreaders to describe
+#. the button which unobscures the account number.
+msgctxt "accessibility"
+msgid "Show account number"
+msgstr "アカウント番号の表示"
+
+#. Title label in navigation bar
+msgctxt "account-view"
+msgid "Account"
+msgstr "アカウント"
+
+msgctxt "account-view"
+msgid "Account number"
+msgstr "アカウント番号"
+
+msgctxt "account-view"
+msgid "Currently unavailable"
+msgstr "現在使用不可"
+
+msgctxt "account-view"
+msgid "Log out"
+msgstr "ログアウト"
+
+msgctxt "account-view"
+msgid "OUT OF TIME"
+msgstr "時間切れ"
+
+msgctxt "account-view"
+msgid "Paid until"
+msgstr "次の日時まで支払い済み"
+
+msgctxt "auth-failure"
+msgid "Blocking internet: account is out of time"
+msgstr "インターネットのブロック：アカウントが時間切れです"
+
+msgctxt "auth-failure"
+msgid "Too many simultaneous connections on this account. Disconnect another device or try connecting again shortly."
+msgstr "このアカウントの同時接続が多すぎます。他のデバイスを切断するか、少し待ってから再接続してみてください。"
+
+msgctxt "auth-failure"
+msgid "Unable to authenticate account. Please send a problem report."
+msgstr "アカウントを認証できません。問題の報告を送信してください。"
+
+msgctxt "auth-failure"
+msgid "You are logged in with an invalid account number. Please log out and try another one."
+msgstr "無効なアカウント番号でログインしています。いったんログアウトして、別のアカウント番号を試してください。"
+
+msgctxt "changelog"
+msgid "Changes in this version:"
+msgstr "このバージョンでの変更内容:"
+
+#. The selected location label displayed on the main view, when a user selected a specific host to connect to.
+#. Example: Malmö (se-mma-001)
+#. Available placeholders:
+#. %(city)s - a city name
+#. %(hostname)s - a hostname
+msgctxt "connect-container"
+msgid "%(city)s (%(hostname)s)"
+msgstr "%(city)s (%(hostname)s)"
+
+msgctxt "connect-view"
+msgid "Congrats!"
+msgstr "おめでとうございます！"
+
+msgctxt "connect-view"
+msgid "Disconnect"
+msgstr "接続解除"
+
+msgctxt "connect-view"
+msgid "Either buy credit on our website or redeem a voucher."
+msgstr "当社ウェブサイトでクレジットを購入するか、バウチャーを使用してください。"
+
+msgctxt "connect-view"
+msgid "Enter voucher code"
+msgstr "バウチャーコードを入力"
+
+msgctxt "connect-view"
+msgid "Go ahead and start using the app to begin reclaiming your online privacy."
+msgstr "続行してこのアプリの使用を開始し、オンラインプライバシーを取り戻しましょう。"
+
+msgctxt "connect-view"
+msgid "Here’s your account number. Save it!"
+msgstr "これがあなたのアカウント番号です。保存してください！"
+
+msgctxt "connect-view"
+msgid "Learn about privacy"
+msgstr "プライバシーに関する詳細"
+
+msgctxt "connect-view"
+msgid "Out of time"
+msgstr "時間切れ"
+
+msgctxt "connect-view"
+msgid "Redeem voucher"
+msgstr "バウチャーを使用する"
+
+msgctxt "connect-view"
+msgid "Remember, turning it off will allow network traffic while the VPN is disconnected until you turn it back on under Advanced settings."
+msgstr "この設定をオフにすると、\"詳細\" 設定で再びオンに戻すまで、VPN接続が解除されている間もネットワーク通信が許可されます。"
+
+msgctxt "connect-view"
+msgid "Start using the app"
+msgstr "アプリの使用を開始"
+
+msgctxt "connect-view"
+msgid "Time was successfully added"
+msgstr "時間を正常に追加しました"
+
+msgctxt "connect-view"
+msgid "To add more, you will need to disconnect and access the Internet with an unsecure connection."
+msgstr "時間を追加するには、いったん接続を解除し、セキュリティ保護されていない接続でインターネットにアクセスする必要があります。"
+
+msgctxt "connect-view"
+msgid "To continue your journey as a privacy ninja, visit our website to pick up other privacy-friendly habits and tools."
+msgstr "プライバシー忍者であり続けるため、当社ウェブサイトにアクセスしてプライバシーに配慮したその他の習慣やツールをご覧ください。"
+
+msgctxt "connect-view"
+msgid "To start using the app, you first need to add time to your account."
+msgstr "アプリを使い始めるには、まずはアカウントに時間を追加する必要があります。"
+
+msgctxt "connect-view"
+msgid "Voucher was successfully redeemed"
+msgstr "バウチャーを正常に使用しました"
+
+msgctxt "connect-view"
+msgid "You have no more VPN time left on this account."
+msgstr "このアカウントには、もう残っているVPN時間がありません。"
+
+msgctxt "connect-view"
+msgid "You need to disable \"Lockdown mode\" in order to access the Internet to add time."
+msgstr "インターネットにアクセスして時間を追加するには \"ロックダウンモード\" を無効にする必要があります。"
+
+msgctxt "connect-view"
+msgid "You’re all set!"
+msgstr "準備完了！"
+
+#. The hostname line displayed below the country on the main screen
+#. Available placeholders:
+#. %(relay)s - the relay hostname
+#. %(entry)s - the entry relay hostname
+msgctxt "connection-info"
+msgid "%(relay)s via %(entry)s"
+msgstr "%(relay)s (%(entry)s経由)"
+
+#. The tunnel type line displayed below the hostname line on the main screen
+#. Available placeholders:
+#. %(tunnelType)s - the tunnel type, i.e OpenVPN
+#. %(bridgeType)s - the bridge type, i.e Shadowsocks
+msgctxt "connection-info"
+msgid "%(tunnelType)s via %(bridgeType)s"
+msgstr "%(bridgeType)s経由で%(tunnelType)s"
+
+msgctxt "connection-info"
+msgid "In"
+msgstr "内側"
+
+msgctxt "connection-info"
+msgid "Out"
+msgstr "外側"
+
+#. Text displayed above button which logs out another device.
+#. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(deviceName)s - The name of the device to log out.
+msgctxt "device-management"
+msgid "Are you sure you want to log <b>%(deviceName)s</b> out?"
+msgstr "本当に<b>%(deviceName)s</b>をログアウトしますか？"
+
+#. Button for continuing login process.
+msgctxt "device-management"
+msgid "Continue with login"
+msgstr "ログインを続ける"
+
+#. Label informing the user when a device was created.
+#. Available placeholders:
+#. %(createdDate)s - The creation date of the device.
+msgctxt "device-management"
+msgid "Created: %(createdDate)s"
+msgstr "作成日: %(createdDate)s"
+
+msgctxt "device-management"
+msgid "Device is inactive"
+msgstr "デバイスが無効です"
+
+msgctxt "device-management"
+msgid "Device name"
+msgstr "デバイス名"
+
+#. A label that will display the newly created device name to inform the user
+#. about it.
+#. Available placeholders:
+#. %(deviceName)s - The name of the current device
+msgctxt "device-management"
+msgid "Device name: %(deviceName)s"
+msgstr "デバイス名: %(deviceName)s"
+
+msgctxt "device-management"
+msgid "Failed to remove device"
+msgstr "デバイスを削除できませんでした"
+
+msgctxt "device-management"
+msgid "Go to login"
+msgstr "ログインに進む"
+
+msgctxt "device-management"
+msgid "Going to login will unblock the Internet on this device."
+msgstr "ログインに進むと、このデバイスのインターネットのブロックが解除されます。"
+
+msgctxt "device-management"
+msgid "If you log out, the device and the device name is removed. When you log back in again, the device will get a new name."
+msgstr "ログアウトすると、デバイスとデバイス名が削除されます。もう一度ログインすると、デバイスに新しい名前が付けられます。"
+
+#. Confirmation button when logging out
+msgctxt "device-management"
+msgid "Log out anyway"
+msgstr "ログアウトする"
+
+msgctxt "device-management"
+msgid "Please log out of at least one by removing it from the list below. You can find the corresponding device name under the device’s Account settings."
+msgstr "以下のリストから少なくとも1つを削除してログアウトしてください。対応するデバイス名はデバイスのアカウント設定で確認できます。"
+
+#. Page title informing user that enough devices has been removed to continue
+#. login process.
+msgctxt "device-management"
+msgid "Super!"
+msgstr "素晴らしい！"
+
+#. This is is a further explanation of what happens when logging out.
+msgctxt "device-management"
+msgid "The ports forwarded to this device will be deleted if you log out."
+msgstr "ログアウトするとこのデバイスに転送されたポートが削除されます。"
+
+msgctxt "device-management"
+msgid "This is the name assigned to the device. Each device logged in on a Mullvad account gets a unique name that helps you identify it when you manage your devices in the app or on the website."
+msgstr "これはデバイスに割り当てられる名前です。Mullvadアカウントにログインするデバイスごとに一意の名前が付けられるため、アプリまたはウェブサイトでデバイスを管理する際にデバイスを区別しやすくなります。"
+
+#. Further information about consequences of logging out device.
+msgctxt "device-management"
+msgid "This will delete all forwarded ports. Local settings will be saved."
+msgstr "これにより、転送されたポートがすべて削除されます。ローカル設定は保存されます。"
+
+msgctxt "device-management"
+msgid "Time left: %(timeLeft)s"
+msgstr "残り時間: %(timeLeft)s"
+
+#. Page title informing user that the login failed due to too many registered
+#. devices on account.
+msgctxt "device-management"
+msgid "Too many devices"
+msgstr "デバイスが多すぎます"
+
+#. Confirmation button when logging out other device.
+msgctxt "device-management"
+msgid "Yes, log out device"
+msgstr "はい。デバイスをログアウトさせます"
+
+msgctxt "device-management"
+msgid "You can have up to 5 devices logged in on one Mullvad account."
+msgstr "1つのMullvadアカウントで最大5台のデバイスにログインできます。"
+
+msgctxt "device-management"
+msgid "You can now continue logging in on this device."
+msgstr "このデバイスでログインを続けられるようになりました。"
+
+msgctxt "device-management"
+msgid "You have removed this device. To connect again, you will need to log back in."
+msgstr "このデバイスを削除しました。再度接続するには、ログインし直す必要があります。"
+
+#. The message displayed to the user in case of critical error in the GUI
+#. Available placeholders:
+#. %(email)s - support email
+msgctxt "error-boundary-view"
+msgid "Something went wrong. Please contact us at %(email)s"
+msgstr "何か問題が生じたようです。 %(email)s までご連絡ください。"
+
+#. Title label in navigation bar
+msgctxt "filter-nav"
+msgid "Filter"
+msgstr "絞り込み"
+
+msgctxt "filter-view"
+msgid "All providers"
+msgstr "すべてのプロバイダ"
+
+msgctxt "filter-view"
+msgid "Mullvad owned only"
+msgstr "Mullvad 所有サーバーのみ"
+
+msgctxt "filter-view"
+msgid "Owned"
+msgstr "自社サーバー"
+
+msgctxt "filter-view"
+msgid "Ownership"
+msgstr "所有権"
+
+msgctxt "filter-view"
+msgid "Providers"
+msgstr "プロバイダ"
+
+msgctxt "filter-view"
+msgid "Rented"
+msgstr "レンタルサーバー"
+
+msgctxt "filter-view"
+msgid "Rented only"
+msgstr "レンタルサーバーのみ"
+
+msgctxt "in-app-notifications"
+msgid "\"%(lockdownModeSettingName)s\" is enabled."
+msgstr "\"%(lockdownModeSettingName)s\" が有効になっています。"
+
+msgctxt "in-app-notifications"
+msgid "%(duration)s. Buy more credit."
+msgstr "%(duration)s。追加クレジットを購入してください。"
+
+msgctxt "in-app-notifications"
+msgid "ACCOUNT CREDIT EXPIRES SOON"
+msgstr "アカウントのクレジットがもうすぐ無効になります。"
+
+msgctxt "in-app-notifications"
+msgid "APP IS OUT OF SYNC"
+msgstr "アプリが同期していません"
+
+msgctxt "in-app-notifications"
+msgid "BETA UPDATE AVAILABLE"
+msgstr "ベータ版のアップデートを入手できます"
+
+msgctxt "in-app-notifications"
+msgid "BLOCKING INTERNET"
+msgstr "インターネットをブロック中"
+
+#. The in-app banner displayed to the user when the app update is available.
+msgctxt "in-app-notifications"
+msgid "Install the latest app version to stay up to date."
+msgstr "アプリの最新バージョンをインストールして、最新の状態を維持してください。"
+
+msgctxt "in-app-notifications"
+msgid "NETWORK TRAFFIC MIGHT BE LEAKING"
+msgstr "ネットワークトラフィックが漏れている可能性があります"
+
+msgctxt "in-app-notifications"
+msgid "NEW DEVICE CREATED"
+msgstr "新しいデバイスが作成されました"
+
+msgctxt "in-app-notifications"
+msgid "Please quit and restart the app."
+msgstr "アプリをいったん終了して、再起動してください。"
+
+msgctxt "in-app-notifications"
+msgid "Send problem report"
+msgstr "問題の報告を送信"
+
+#. The in-app banner displayed to the user when the app beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "in-app-notifications"
+msgid "Try out the newest beta version (%(version)s)."
+msgstr "最新のベータ版 (%(version)s) をお試しください。"
+
+msgctxt "in-app-notifications"
+msgid "UNSUPPORTED VERSION"
+msgstr "未対応のバージョン"
+
+msgctxt "in-app-notifications"
+msgid "UPDATE AVAILABLE"
+msgstr "アップデート可"
+
+msgctxt "in-app-notifications"
+msgid "Welcome, this device is now called <b>%(deviceName)s</b>. For more details see the info button in Account."
+msgstr "ようこそ。このデバイスの名前は<b>%(deviceName)s</b>です。詳細はアカウントの情報ボタンで確認してください。"
+
+msgctxt "launch-view"
+msgid "Connecting to Mullvad system service..."
+msgstr "Mullvad システムサービスに接続中..."
+
+msgctxt "launch-view"
+msgid "Permission for the Mullvad VPN service has been revoked. Please go to System Settings and allow Mullvad VPN under the “Allow in the Background” setting."
+msgstr "Mullvad VPNサービスの許可が無効化されました。システム設定に移動して、「バックグラウンドでの実行を許可」設定でMullvad VPNを許可してください。"
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+#. Available placeholder:
+#. %(lockdownModeSettingName)s - The translation of "Lockdown mode"
+msgctxt "login-view"
+msgid "<b>%(lockdownModeSettingName)s</b> is enabled. Disable it to unblock your connection."
+msgstr "<b>%(lockdownModeSettingName)s</b>が有効になっています。接続のブロックを解除するには無効にしてください。"
+
+msgctxt "login-view"
+msgid "Account created"
+msgstr "アカウントを作成しました"
+
+msgctxt "login-view"
+msgid "Checking account number"
+msgstr "アカウント番号を確認中"
+
+msgctxt "login-view"
+msgid "Create account"
+msgstr "アカウントを作成する"
+
+msgctxt "login-view"
+msgid "Creating account..."
+msgstr "アカウントを作成中..."
+
+msgctxt "login-view"
+msgid "Don’t have an account number?"
+msgstr "アカウント番号を持っていませんか？"
+
+msgctxt "login-view"
+msgid "Enter your account number"
+msgstr "アカウント番号を入力してください"
+
+msgctxt "login-view"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "login-view"
+msgid "Failed to create account"
+msgstr "アカウントを作成できませんでした"
+
+#. Error message shown above login input when trying to login but the app fails
+#. to fetch the list of registered devices.
+msgctxt "login-view"
+msgid "Failed to fetch list of devices"
+msgstr "デバイスのリストを取得できませんでした"
+
+msgctxt "login-view"
+msgid "Finishing upgrade."
+msgstr "アップグレードを終了しています。"
+
+#. Error message shown above login input when trying to login with a
+#. non-existent account number.
+msgctxt "login-view"
+msgid "Invalid account number"
+msgstr "アカウント番号が無効です"
+
+msgctxt "login-view"
+msgid "Logged in"
+msgstr "ログインしました"
+
+msgctxt "login-view"
+msgid "Logging in..."
+msgstr "ログイン中..."
+
+msgctxt "login-view"
+msgid "Login"
+msgstr "ログイン"
+
+msgctxt "login-view"
+msgid "Login failed"
+msgstr "ログインに失敗しました"
+
+#. This is a warning message shown when the app is blocking the users
+#. internet connection while logged out.
+msgctxt "login-view"
+msgid "Our kill switch is currently blocking your connection."
+msgstr "現在、キルスイッチが接続をブロックしています。"
+
+msgctxt "login-view"
+msgid "Please wait"
+msgstr "お待ちください"
+
+#. Error message shown above login input when trying to login to an account
+#. with too many registered devices.
+msgctxt "login-view"
+msgid "Too many devices"
+msgstr "デバイスが多すぎます"
+
+msgctxt "login-view"
+msgid "Unknown error"
+msgstr "不明なエラー"
+
+msgctxt "login-view"
+msgid "Upgrading..."
+msgstr "アップグレード中..."
+
+msgctxt "login-view"
+msgid "Valid account number"
+msgstr "有効なアカウント番号"
+
+#. Title label in navigation bar
+msgctxt "navigation-bar"
+msgid "Settings"
+msgstr "設定"
+
+#. The system notification displayed to the user when the account credit is close to expiry.
+#. Available placeholder:
+#. %(duration)s - remaining time, e.g. "2 days"
+msgctxt "notifications"
+msgid "Account credit expires in %(duration)s. Buy more credit."
+msgstr "アカウントクレジットは %(duration)sで期限切れになります。追加クレジットを購入。"
+
+msgctxt "notifications"
+msgid "Account is out of time"
+msgstr "アカウントが時間切れです"
+
+msgctxt "notifications"
+msgid "App is out of sync. Please quit and restart."
+msgstr "アプリが同期していません。いったん終了して、再起動してください。"
+
+#. The system notification that notifies the user when a beta update is
+#. available.
+#. Available placeholders:
+#. %(version)s - The version number of the new beta version.
+msgctxt "notifications"
+msgid "Beta update available. Try out the newest beta version (%(version)s)."
+msgstr "ベータ版のアップデートを入手できます。最新のベータ版 (%(version)s) をお試しください。"
+
+msgctxt "notifications"
+msgid "Buy more"
+msgstr "さらに購入する"
+
+msgctxt "notifications"
+msgid "Connected"
+msgstr "接続済み"
+
+#. The message showed when a server has been connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connected to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connected to %(location)s"
+msgstr "%(location)sに接続しました"
+
+msgctxt "notifications"
+msgid "Connecting"
+msgstr "接続中"
+
+#. The message showed when a server is being connected to.
+#. Available placeholder:
+#. %(location) - name of the server location we're connecting to (e.g. "se-got-003")
+msgctxt "notifications"
+msgid "Connecting to %(location)s"
+msgstr "%(location)sに接続中"
+
+msgctxt "notifications"
+msgid "Could not configure IPv6. Disable it in the app or enable it on your device."
+msgstr "IPv6を設定できませんでした。アプリで無効にするか、デバイスで有効にしてください。"
+
+msgctxt "notifications"
+msgid "Disconnected and unsecure"
+msgstr "接続が解除され、セキュリティ保護されていません"
+
+msgctxt "notifications"
+msgid "Lockdown mode active, connection blocked"
+msgstr "ロックダウンモードがアクティブです。接続はブロックされています"
+
+msgctxt "notifications"
+msgid "No servers match your settings, try changing server or other settings."
+msgstr "設定に一致するサーバーはありません。サーバーまたは他の設定を変更してみてください。"
+
+msgctxt "notifications"
+msgid "Reconnecting"
+msgstr "再接続中"
+
+msgctxt "notifications"
+msgid "The apps excluded with %(splitTunneling)s might not work properly right now."
+msgstr "%(splitTunneling)sを使用して除外されているアプリについては、現在正常に動作しない可能性があります。"
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules."
+msgstr "ファイアウォール規則を適用できません。"
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try temporarily disabling any third-party antivirus or security software."
+msgstr "ファイアウォール規則を適用できません。サードパーティのウイルス対策ソフトウェアか、セキュリティソフトウェアを一時的に無効にしてみてください。"
+
+msgctxt "notifications"
+msgid "Unable to apply firewall rules. Try updating your kernel."
+msgstr "ファイアウォール規則を適用できません。カーネルを更新してみてください。"
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Please troubleshoot or send a problem report."
+msgstr "すべてのネットワークトラフィックをブロックできません。問題に対処するか、問題の報告を送信してください。"
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try temporarily disabling any third-party antivirus or security software or send a problem report."
+msgstr "すべてのネットワークトラフィックをブロックできません。サードパーティのウイルス対策ソフトウェアまたはセキュリティソフトウェアを一時的に無効にするか、問題の報告を送信してください。"
+
+msgctxt "notifications"
+msgid "Unable to block all network traffic. Try updating your kernel or send a problem report."
+msgstr "すべてのネットワークトラフィックをブロックできません。カーネルを更新するか、問題の報告を送信してください。"
+
+msgctxt "notifications"
+msgid "Unable to communicate with Mullvad kernel driver. Try reconnecting or send a problem report."
+msgstr "Mullvadカーネルドライバーと通信できません。再接続を試すか、問題の報告を送信してください。"
+
+msgctxt "notifications"
+msgid "Unable to resolve host of custom tunnel. Try changing your settings."
+msgstr "カスタムトンネルのホストを解決できません。設定を変更してみてください。"
+
+msgctxt "notifications"
+msgid "Unable to set system DNS server. Please send a problem report."
+msgstr "システムのDNSサーバーを設定できません。問題の報告を送信してください。"
+
+msgctxt "notifications"
+msgid "Unable to start tunnel connection. Please send a problem report."
+msgstr "トンネル接続を開始できません。問題の報告を送信してください。"
+
+msgctxt "notifications"
+msgid "Update available. Install the latest app version to stay up to date"
+msgstr "アップデートできます。アプリの最新バージョンをインストールして、最新の状態を維持してください"
+
+msgctxt "notifications"
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#. Available placeholders:
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "notifications"
+msgid "Valid %(wireguard)s key is missing. Manage keys under Advanced settings."
+msgstr "有効な%(wireguard)s鍵が見つかりません。詳細設定で鍵を管理してください。"
+
+msgctxt "notifications"
+msgid "Your device is offline. The tunnel will automatically connect once your device is back online."
+msgstr "デバイスがオフラインになっています。トンネルはデバイスがオンラインに戻ると自動的に接続されます。"
+
+#. The in-app banner and system notification which are displayed to the user when the running app becomes unsupported.
+msgctxt "notifications"
+msgid "Your privacy might be at risk with this unsupported app version. Please update now."
+msgstr "このアプリバージョンはサポートされていないため、プライバシーが危険にさらされる可能性があります。今すぐアップデートしてください。"
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(openvpn)s - Will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-nav"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)sの設定"
+
+#. %(openvpn)s will be replaced with "OpenVPN"
+msgctxt "openvpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)sの設定"
+
+#. The title for the port selector section.
+#. Available placeholders:
+#. %(portType)s - a selected protocol (either TCP or UDP)
+msgctxt "openvpn-settings-view"
+msgid "%(portType)s port"
+msgstr "%(portType)sポート"
+
+#. The title for the shadowsocks bridge selector section.
+msgctxt "openvpn-settings-view"
+msgid "Bridge mode"
+msgstr "ブリッジモード"
+
+#. This is used as a description for the bridge mode
+#. setting.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "Helps circumvent censorship, by routing your traffic through a bridge server before reaching an %(openvpn)s server. Obfuscation is added to make fingerprinting harder."
+msgstr "%(openvpn)sサーバーへ到達する前にブリッジサーバー経由でトラフィックをルーティングすることにより、検閲を回避できるようにします。アクセス元の特定を困難にするために、難読化が施されます。"
+
+msgctxt "openvpn-settings-view"
+msgid "Mssfix"
+msgstr "Mssfix"
+
+#. The hint displayed below the Mssfix input field.
+#. Available placeholders:
+#. %(openvpn)s - will be replaced with "OpenVPN"
+#. %(max)d - the maximum possible mssfix value
+#. %(min)d - the minimum possible mssfix value
+msgctxt "openvpn-settings-view"
+msgid "Set %(openvpn)s MSS value. Valid range: %(min)d - %(max)d."
+msgstr "%(openvpn)s MSSの値を設定します。有効範囲: %(min)d ～ %(max)d。"
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(transportProtocol)s - the name of the transport protocol setting
+#. %(automat)s - the translation of "Automatic"
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, change <b>%(transportProtocol)s</b> to <b>%(automatic)s</b> or <b>%(tcp)s</b>."
+msgstr "ブリッジモードを有効にするには、<b>%(transportProtocol)s</b>を<b>%(automatic)s</b>または<b>%(tcp)s</b>に変更してください。"
+
+#. This is used to instruct users how to make the bridge mode setting
+#. available.
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(openvpn)s - will be replaced with OpenVPN
+msgctxt "openvpn-settings-view"
+msgid "To activate Bridge mode, go back and change <b>%(tunnelProtocol)s</b> to <b>%(openvpn)s</b>."
+msgstr "ブリッジモードを有効にするには、戻ってから<b>%(tunnelProtocol)s</b>を<b>%(openvpn)s</b>に変更してください。"
+
+#. This is used to instruct users how to make UDP mode
+#. available.
+msgctxt "openvpn-settings-view"
+msgid "To activate UDP, change <b>Bridge mode</b> to <b>Automatic</b> or <b>Off</b>."
+msgstr "UDPを有効にするには、<b>ブリッジモード</b>を<b>自動</b>または<b>オフ</b>に変更してください。"
+
+msgctxt "openvpn-settings-view"
+msgid "Transport protocol"
+msgstr "転送プロトコル"
+
+msgctxt "redeem-voucher-alert"
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgctxt "redeem-voucher-alert"
+msgid "Enter voucher code"
+msgstr "バウチャーコードを入力"
+
+msgctxt "redeem-voucher-alert"
+msgid "Redeem voucher"
+msgstr "バウチャーを使用する"
+
+msgctxt "redeem-voucher-view"
+msgid "An error occurred."
+msgstr "エラー発生。"
+
+msgctxt "redeem-voucher-view"
+msgid "Redeem"
+msgstr "使用する"
+
+msgctxt "redeem-voucher-view"
+msgid "Verifying voucher..."
+msgstr "バウチャーを検証しています..."
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code has already been used."
+msgstr "バウチャーコードはすでに使用されています。"
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher code is invalid."
+msgstr "バウチャーコードが無効です。"
+
+msgctxt "redeem-voucher-view"
+msgid "Voucher was successfully redeemed."
+msgstr "バウチャーを正常に使用しました。"
+
+#. Title label in navigation bar
+msgctxt "select-language-nav"
+msgid "Select language"
+msgstr "言語を選択"
+
+#. Title label in navigation bar
+msgctxt "select-location-nav"
+msgid "Select location"
+msgstr "場所を選択する"
+
+#. This is used for appending information about a location.
+#. E.g. "Gothenburg (Entry)" if Gothenburg has been selected as the entrypoint.
+#. Available placeholders:
+#. %(location)s - Translated location name
+#. %(info)s - Information about the location
+msgctxt "select-location-view"
+msgid "%(location)s (%(info)s)"
+msgstr "%(location)s (%(info)s)"
+
+msgctxt "select-location-view"
+msgid "Entry"
+msgstr "入口"
+
+msgctxt "select-location-view"
+msgid "Exit"
+msgstr "出口"
+
+msgctxt "select-location-view"
+msgid "Filtered:"
+msgstr "絞り込み結果:"
+
+msgctxt "select-location-view"
+msgid "Providers: %(numberOfProviders)d"
+msgstr "プロバイダ数: %(numberOfProviders)d"
+
+msgctxt "select-location-view"
+msgid "The app selects a random bridge server, but servers have a higher probability the closer they are to you."
+msgstr "ブリッジサーバーはアプリによってランダムに選択されますが、現在地に近いサーバーほど高い確率で選択されます。"
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point (a bridge server) and the exit point (a VPN server)."
+msgstr "接続中、あなたのトラフィックはセキュリティで保護された2つの場所、入口 (ブリッジサーバー) および出口 (VPNサーバー) 経由で転送されます。"
+
+msgctxt "select-location-view"
+msgid "While connected, your traffic will be routed through two secure locations, the entry point and the exit point (needs to be two different VPN servers)."
+msgstr "接続中のトラフィックは、セキュリティで保護された入口ポイントと出口ポイント (これらのポイントは2つの異なるVPNサーバーである必要があります) の2箇所を経由して転送されます。"
+
+msgctxt "settings-view"
+msgid "App is out of sync. Please quit and restart."
+msgstr "アプリが同期していません。いったん終了して、再起動してください。"
+
+msgctxt "settings-view"
+msgid "App version"
+msgstr "アプリのバージョン"
+
+#. Navigation button to the 'Split tunneling' view
+msgctxt "settings-view"
+msgid "Split tunneling"
+msgstr "スプリットトンネリング"
+
+msgctxt "settings-view"
+msgid "Support"
+msgstr "サポート"
+
+msgctxt "settings-view"
+msgid "Update available. Install the latest app version to stay up to date."
+msgstr "アップデートできます。アプリの最新バージョンをインストールして、最新の状態を維持してください。"
+
+#. Navigation button to the 'User interface settings' view
+msgctxt "settings-view"
+msgid "User interface settings"
+msgstr "ユーザーインターフェイス設定"
+
+#. Navigation button to the 'VPN settings' view
+msgctxt "settings-view"
+msgid "VPN settings"
+msgstr "VPN設定"
+
+msgctxt "split-tunneling-view"
+msgid "%(applicationName)s is problematic and can’t be excluded from the VPN tunnel."
+msgstr "%(applicationName)sには問題があるため、VPNトンネルから除外できません。"
+
+msgctxt "split-tunneling-view"
+msgid "Add"
+msgstr "追加"
+
+msgctxt "split-tunneling-view"
+msgid "All apps"
+msgstr "すべてのアプリ"
+
+msgctxt "split-tunneling-view"
+msgid "Choose the apps you want to exclude from the VPN tunnel."
+msgstr "VPNトンネルから除外するアプリを選択してください。"
+
+msgctxt "split-tunneling-view"
+msgid "Click on an app to launch it. Its traffic will bypass the VPN tunnel until you close it."
+msgstr "アプリをクリックして起動します。そのトラフィックは、アプリを閉じるまでVPNトンネルをバイパスします。"
+
+msgctxt "split-tunneling-view"
+msgid "Excluded apps"
+msgstr "除外対象アプリ"
+
+msgctxt "split-tunneling-view"
+msgid "Find another app"
+msgstr "その他のアプリを探す"
+
+msgctxt "split-tunneling-view"
+msgid "If it’s already running, close %(applicationName)s before launching it from here. Otherwise it might not be excluded from the VPN tunnel."
+msgstr "すでに実行中の場合は、ここから起動する前に %(applicationName)sを閉じてください。そうしないと、VPNトンネルから除外されない可能性があります。"
+
+msgctxt "split-tunneling-view"
+msgid "Launch"
+msgstr "起動する"
+
+#. This error message is shown if the user tries to launch a Linux desktop
+#. entry file that doesn't contain the required 'Exec' value.
+msgctxt "split-tunneling-view"
+msgid "Please send a problem report."
+msgstr "問題の報告を送信してください。"
+
+#. This error message is shown if the user tries to launch an app that
+#. doesn't exist.
+#. This error message is shown if an application fails during startup.
+msgctxt "split-tunneling-view"
+msgid "Please try again or send a problem report."
+msgstr "再試行するか、問題の報告を送信してください。"
+
+#. Error message showed in a dialog when an application fails to launch.
+msgctxt "split-tunneling-view"
+msgid "Unable to launch selection. %(detailedErrorMessage)s"
+msgstr "選択を開始できません。%(detailedErrorMessage)s"
+
+msgctxt "support-view"
+msgid "Beta program"
+msgstr "ベータプログラム"
+
+msgctxt "support-view"
+msgid "Continue anyway"
+msgstr "それでも続ける"
+
+msgctxt "support-view"
+msgid "Edit message"
+msgstr "メッセージを編集する"
+
+msgctxt "support-view"
+msgid "Enable to get notified when new beta versions of the app are released."
+msgstr "有効にすると、アプリの新しいベータ版がリリースされた際に通知が届きます。"
+
+msgctxt "support-view"
+msgid "Failed to send"
+msgstr "送信に失敗しました"
+
+#. Link to the webpage
+msgctxt "support-view"
+msgid "FAQs & Guides"
+msgstr "よくある質問とガイド"
+
+#. The message displayed to the user after submitting the problem report, given that the user left his or her email for us to reach back.
+#. Available placeholders:
+#. %(email)s
+msgctxt "support-view"
+msgid "If needed we will contact you at %(email)s"
+msgstr "必要に応じて %(email)s 宛にご連絡します　"
+
+msgctxt "support-view"
+msgid "If you exit the form and try again later, the information you already entered will still be here."
+msgstr "フォームを終了して後で再試行しても、入力済みの情報は引き続きここに表示されます。"
+
+#. Title label in navigation bar
+#. Navigation button to the 'Report a problem' help view
+msgctxt "support-view"
+msgid "Report a problem"
+msgstr "問題を報告する"
+
+msgctxt "support-view"
+msgid "Send"
+msgstr "送信"
+
+msgctxt "support-view"
+msgid "Send anyway"
+msgstr "とにかく送信する"
+
+msgctxt "support-view"
+msgid "Sending..."
+msgstr "送信中..."
+
+msgctxt "support-view"
+msgid "Sent"
+msgstr "送信済み"
+
+#. Title label in navigation bar
+msgctxt "support-view"
+msgid "Support"
+msgstr "サポート"
+
+msgctxt "support-view"
+msgid "Thanks!"
+msgstr "ありがとうございます！"
+
+msgctxt "support-view"
+msgid "This option is unavailable while using a beta version."
+msgstr "ベータ版を使用中はこのオプションを利用できません。"
+
+msgctxt "support-view"
+msgid "To assist you better, please write in English or Swedish and include which country you are connecting from."
+msgstr "最適なサポートを提供するため、英語またはスウェーデン語でご入力ください。また、接続元の国をお知らせください。"
+
+msgctxt "support-view"
+msgid "To help you more effectively, your app’s log file will be attached to this message. Your data will remain secure and private, as it is anonymised before being sent over an encrypted channel."
+msgstr "さらに効率よく問題解決できるよう、お使いのアプリのログファイルがこのメッセージに添付されます。個人データは匿名化された後に暗号化されたチャネルで送信されるため、その安全は確保され、公開されることはありません。"
+
+msgctxt "support-view"
+msgid "Try again"
+msgstr "再試行"
+
+msgctxt "support-view"
+msgid "Upgrade app"
+msgstr "アプリを更新する"
+
+msgctxt "support-view"
+msgid "View app logs"
+msgstr "アプリのログを表示"
+
+msgctxt "support-view"
+msgid "We will look into this."
+msgstr "この問題を調査いたします。"
+
+msgctxt "support-view"
+msgid "You are about to send the problem report without a way for us to get back to you. If you want an answer to your report you will have to enter an email address."
+msgstr "お客様への返信先を入力せずに問題の報告を送信しようとしています。ご報告に対する返信が必要な場合は、返信先のメールアドレスを入力する必要があります。"
+
+msgctxt "support-view"
+msgid "You are using an old version of the app. Please upgrade and see if the problem still exists before sending a report."
+msgstr "旧バージョンのアプリを使用中です。報告を送信する前にアプリを更新し、問題が引き続き発生するかどうかを確認してください。"
+
+msgctxt "support-view"
+msgid "Your email (optional)"
+msgstr "あなたのメールアドレス (任意)"
+
+msgctxt "tray-icon-context-menu"
+msgid "Disconnected from system service"
+msgstr "システムサービスから接続が解除されました"
+
+msgctxt "tray-icon-context-menu"
+msgid "Open %(mullvadVpn)s"
+msgstr "%(mullvadVpn)sを開く"
+
+msgctxt "tray-icon-tooltip"
+msgid "%(city)s, %(country)s"
+msgstr "%(city)s、%(country)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connected. %(location)s"
+msgstr "接続しました。%(location)s"
+
+msgctxt "tray-icon-tooltip"
+msgid "Connecting. %(location)s"
+msgstr "接続中です。%(location)s"
+
+msgctxt "troubleshoot"
+msgid "If these steps do not work please send a problem report."
+msgstr "これらの手順で解決できない場合は、問題の報告を送信してください。"
+
+msgctxt "troubleshoot"
+msgid "Make sure you have NF tables support."
+msgstr "nftablesがサポートされていることを確認します。"
+
+msgctxt "troubleshoot"
+msgid "This error can happen when something other than Mullvad is actively updating the DNS."
+msgstr "このエラーは、Mullvad以外の何かがDNSを積極的に更新している場合に起こることがあります。"
+
+msgctxt "troubleshoot"
+msgid "This might be caused by an outdated kernel."
+msgstr "カーネルが古いことが原因である可能性があります。"
+
+msgctxt "troubleshoot"
+msgid "Try reconnecting."
+msgstr "再接続してください。"
+
+msgctxt "troubleshoot"
+msgid "Try restarting your device."
+msgstr "デバイスを再起動してください。"
+
+msgctxt "troubleshoot"
+msgid "Try to turn Wi-Fi Calling off in the FaceTime app settings and restart the Mac."
+msgstr "FaceTimeアプリの設定でWi-Fi通話をオフにしてからMacを再起動してください。"
+
+msgctxt "troubleshoot"
+msgid "Unable to communicate with Mullvad kernel driver."
+msgstr "Mullvadカーネルドライバーと通信できません。"
+
+msgctxt "troubleshoot"
+msgid "Uninstall or disable other DNS, networking and ads/website blocking apps."
+msgstr "他のDNS、ネットワーク、および広告/Webサイトブロックアプリをアンインストールまたは無効にします。"
+
+msgctxt "troubleshoot"
+msgid "Update your kernel."
+msgstr "カーネルを更新します。"
+
+msgctxt "tunnel-control"
+msgid "Secure my connection"
+msgstr "接続を保護する"
+
+msgctxt "tunnel-control"
+msgid "Switch location"
+msgstr "場所を切り替える"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable or disable system notifications. The critical notifications will always be displayed."
+msgstr "システム通知を有効または無効にします。重要な通知は必ず表示されます。"
+
+msgctxt "user-interface-settings-view"
+msgid "Enable to move the app around as a free-standing window."
+msgstr "アプリを独立したウィンドウとして移動できるようにします。"
+
+#. Navigation button to the 'Language' settings view
+msgctxt "user-interface-settings-view"
+msgid "Language"
+msgstr "言語"
+
+msgctxt "user-interface-settings-view"
+msgid "Monochromatic tray icon"
+msgstr "モノクロのトレイアイコン"
+
+msgctxt "user-interface-settings-view"
+msgid "Notifications"
+msgstr "通知"
+
+msgctxt "user-interface-settings-view"
+msgid "Show only the tray icon when the app starts."
+msgstr "アプリ起動時にトレイアイコンのみを表示します。"
+
+msgctxt "user-interface-settings-view"
+msgid "Start minimized"
+msgstr "最小化状態で起動"
+
+msgctxt "user-interface-settings-view"
+msgid "Unpin app from taskbar"
+msgstr "タスクバーからアプリのピン留めを外す"
+
+msgctxt "user-interface-settings-view"
+msgid "Use a monochromatic tray icon instead of a colored one."
+msgstr "カラーではなくモノクロのトレイアイコンを使います。"
+
+#. Title label in navigation bar
+msgctxt "user-interface-settings-view"
+msgid "User interface settings"
+msgstr "ユーザーインターフェイス設定"
+
+#. %(openvpn)s will be replaced with the string "OpenVPN"
+msgctxt "vpn-settings-view"
+msgid "%(openvpn)s settings"
+msgstr "%(openvpn)sの設定"
+
+#. %(wireguard)s will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)sの設定"
+
+msgctxt "vpn-settings-view"
+msgid "Add a server"
+msgstr "サーバーを追加"
+
+msgctxt "vpn-settings-view"
+msgid "Add anyway"
+msgstr "追加を続ける"
+
+#. Label for settings that enables ad blocking.
+msgctxt "vpn-settings-view"
+msgid "Ads"
+msgstr "広告"
+
+#. Label for settings that enables block of adult content.
+msgctxt "vpn-settings-view"
+msgid "Adult content"
+msgstr "アダルトコンテンツ"
+
+msgctxt "vpn-settings-view"
+msgid "Attention: enabling this will always require a Mullvad VPN connection in order to reach the internet."
+msgstr "注意: この設定を有効にすると、インターネットにアクセスするために常にMullvad VPNへの接続が必要になります。"
+
+msgctxt "vpn-settings-view"
+msgid "Auto-connect"
+msgstr "自動接続"
+
+msgctxt "vpn-settings-view"
+msgid "Automatically connect to a server when the app launches."
+msgstr "アプリ起動時に自動的にサーバーに接続します。"
+
+#. This is displayed when the custom DNS setting is turned on which makes the block
+#. ads/trackers settings disabled. The text enclosed in "<b></b>" will appear bold.
+#. Available placeholders:
+#. %(customDnsFeatureName)s - The name displayed next to the custom DNS toggle.
+msgctxt "vpn-settings-view"
+msgid "Disable <b>%(customDnsFeatureName)s</b> below to activate these settings."
+msgstr "これらの設定を有効にするには、以下で<b>%(customDnsFeatureName)s</b>を無効にしてください。"
+
+#. This is displayed when either or both of the block ads/trackers settings are
+#. turned on which makes the custom DNS setting disabled.
+#. Available placeholders:
+#. %(preferencesPageName)s - The page title showed on top in the preferences page.
+msgctxt "vpn-settings-view"
+msgid "Disable all <b>DNS content blockers</b> above to activate this setting."
+msgstr "この設定を有効にするには、すべての<b>DNSコンテンツブロッカー</b>を無効にしてください。"
+
+msgctxt "vpn-settings-view"
+msgid "DNS content blockers"
+msgstr "DNSコンテンツブロッカー"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6"
+msgstr "IPv6を有効にする"
+
+msgctxt "vpn-settings-view"
+msgid "Enable IPv6 communication through the tunnel."
+msgstr "トンネル経由のIPv6通信を有効にする"
+
+#. The label next to the multihop settings toggle.
+msgctxt "vpn-settings-view"
+msgid "Enable multihop"
+msgstr "マルチホップを有効にする"
+
+msgctxt "vpn-settings-view"
+msgid "Enable to add at least one DNS server."
+msgstr "1つ以上のDNSサーバーを追加するには有効にしてください。"
+
+msgctxt "vpn-settings-view"
+msgid "Enter IP"
+msgstr "IPを入力"
+
+#. Label for settings that enables block of gamling related websites.
+msgctxt "vpn-settings-view"
+msgid "Gambling"
+msgstr "ギャンブル"
+
+#. Description for multihop settings toggle.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "Increases anonymity by routing your traffic into one %(wireguard)s server and out another, making it harder to trace."
+msgstr "トラフィックをある%(wireguard)sサーバーから別サーバーにルーティングすることで匿名性を高め、追跡を困難にします。"
+
+msgctxt "vpn-settings-view"
+msgid "It does this by allowing network communication outside the tunnel to local multicast and broadcast ranges as well as to and from these private IP ranges:"
+msgstr "これは、トンネル外のネットワーク通信をローカルのマルチキャストおよびブロードキャスト範囲、および以下のプライベート IP 範囲との間で許可することによって行われます。"
+
+msgctxt "vpn-settings-view"
+msgid "Kill switch"
+msgstr "キルスイッチ"
+
+msgctxt "vpn-settings-view"
+msgid "Launch app on start-up"
+msgstr "システム起動時にアプリを起動"
+
+msgctxt "vpn-settings-view"
+msgid "Local network sharing"
+msgstr "ローカルネットワーク共有"
+
+msgctxt "vpn-settings-view"
+msgid "Lockdown mode"
+msgstr "ロックダウンモード"
+
+#. Label for settings that enables malware blocking.
+msgctxt "vpn-settings-view"
+msgid "Malware"
+msgstr "マルウェア"
+
+msgctxt "vpn-settings-view"
+msgid "The app’s built-in kill switch is always on. This setting will additionally block the internet if clicking Disconnect or Quit."
+msgstr "アプリに組み込まれているキルスイッチは常にオンになっています。この設定を有効にすると、\"接続解除\" または \"終了\" をクリックした場合にインターネットが補助的にブロックされます。"
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents."
+msgstr "キルスイッチとロックダウンモードの違いは、キルスイッチではトンネルの自動再接続やソフトウェアのクラッシュなどが発生した場合に漏洩を防止できることです。"
+
+msgctxt "vpn-settings-view"
+msgid "The difference between the Kill Switch and Lockdown Mode is that the Kill Switch will prevent any leaks from happening during automatic tunnel reconnects, software crashes and similar accidents. With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "キルスイッチとロックダウンモードの違いは、キルスイッチではトンネルの自動再接続やソフトウェアのクラッシュなどが発生した場合に漏洩を防止できるのに対し、ロックダウンモードが有効な場合はMullvad VPNサーバーに接続しなければインターネットにアクセスできないことです。手動で接続を解除するか、アプリを終了すると接続がブロックされます。"
+
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is a private IP. You must ensure that your network interfaces are configured to use it."
+msgstr "追加するDNSサーバーのIPアドレスは、プライベートIPです。ネットワークインターフェイスがこのアドレスを使用するように構成されていることを確認してください。"
+
+#. Available placeholders:
+#. %(tunnelProtocol)s - the name of the tunnel protocol setting
+#. %(wireguard)s - will be replaced with "WireGuard"
+msgctxt "vpn-settings-view"
+msgid "The DNS server you want to add is public and will only work with %(wireguard)s. To ensure that it always works, set the \"%(tunnelProtocol)s\" (in Advanced settings) to %(wireguard)s."
+msgstr "追加するDNSサーバーは公開されており、%(wireguard)sでのみ動作します。常に動作させるためには、(詳細設定で) \"%(tunnelProtocol)s\" に%(wireguard)sを設定してください。"
+
+msgctxt "vpn-settings-view"
+msgid "This built-in feature prevents your traffic from leaking outside of the VPN tunnel if your network suddenly stops working or if the tunnel fails, it does this by blocking your traffic until your connection is reestablished."
+msgstr "この組み込みの機能は、突然のネットワーク停止やトンネルの障害が発生した場合に接続が再確立されるまでトラフィックをブロックすることで、トラフィックがVPNトンネルの外に漏洩するのを防ぎます。"
+
+msgctxt "vpn-settings-view"
+msgid "This feature allows access to other devices on the local network, such as for sharing, printing, streaming, etc."
+msgstr "この機能は、共有、印刷、ストリーミングなどのため、ローカルネットワーク上の他デバイスへのアクセスを許可します。"
+
+msgctxt "vpn-settings-view"
+msgid "This might cause issues on certain websites, services, and programs."
+msgstr "これにより、特定のWebサイト、サービス、プログラムで問題が発生する可能性があります。"
+
+#. Label for settings that enables tracker blocking.
+msgctxt "vpn-settings-view"
+msgid "Trackers"
+msgstr "トラッカー"
+
+msgctxt "vpn-settings-view"
+msgid "Tunnel protocol"
+msgstr "トンネルプロトコル"
+
+msgctxt "vpn-settings-view"
+msgid "Use custom DNS server"
+msgstr "カスタムDNSサーバーを使う"
+
+#. Title label in navigation bar
+msgctxt "vpn-settings-view"
+msgid "VPN settings"
+msgstr "VPN設定"
+
+msgctxt "vpn-settings-view"
+msgid "Warning: The malware blocker is not an anti-virus and should not be treated as such, this is just an extra layer of protection."
+msgstr "警告: マルウェアブロッカーはウィルス対策ではありませんので、そのような用途には使用しないでください。あくまで追加の保護レイヤーに過ぎません。"
+
+msgctxt "vpn-settings-view"
+msgid "When this feature is enabled it stops the device from contacting certain domains or websites known for distributing ads, malware, trackers and more."
+msgstr "この機能を有効にすると、広告、マルウェア、トラッカーなどの配信が確認されている特定のドメインまたはWebサイトへのデバイスの接続が阻止されます。"
+
+msgctxt "vpn-settings-view"
+msgid "With Lockdown Mode enabled, you must be connected to a Mullvad VPN server to be able to reach the internet. Manually disconnecting or quitting the app will block your connection."
+msgstr "ロックダウンモードが有効な場合はMullvad VPNサーバーに接続しなければインターネットにアクセスできません。手動で接続を解除するか、アプリを終了すると接続がブロックされます。"
+
+#. Title label in navigation bar
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-nav"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)sの設定"
+
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "%(wireguard)s settings"
+msgstr "%(wireguard)sの設定"
+
+msgctxt "wireguard-settings-view"
+msgid "IP version"
+msgstr "IPバージョン"
+
+msgctxt "wireguard-settings-view"
+msgid "It does this by performing an extra key exchange using a quantum safe algorithm and mixing the result into WireGuard’s regular encryption. This extra step uses approximately 500 kiB of traffic every time a new tunnel is established."
+msgstr "耐量子アルゴリズムで追加の鍵の交換を実行し、結果をWireGuardの通常の暗号化に混合させることで行われます。この追加ステップでは、新しいトンネルが確立されるたびに約500kiBのトラフィックが使用されます。"
+
+msgctxt "wireguard-settings-view"
+msgid "MTU"
+msgstr "MTU"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation"
+msgstr "難読化"
+
+msgctxt "wireguard-settings-view"
+msgid "Obfuscation hides the WireGuard traffic inside another protocol. It can be used to help circumvent censorship and other types of filtering, where a plain WireGuard connect would be blocked."
+msgstr "難読化は、WireGuardトラフィックを別のプロトコル内に隠します。プレーンなWireGuard接続がブロックされる検閲やその他のフィルタリングを回避するために使用できます。"
+
+msgctxt "wireguard-settings-view"
+msgid "On (UDP-over-TCP)"
+msgstr "オン (UDP-over-TCP)"
+
+msgctxt "wireguard-settings-view"
+msgid "Port"
+msgstr "ポート"
+
+#. The title for the WireGuard quantum resistance selector. This setting
+#. makes the cryptography resistant to the future abilities of quantum
+#. computers.
+msgctxt "wireguard-settings-view"
+msgid "Quantum-resistant tunnel"
+msgstr "耐量子トンネル"
+
+#. The hint displayed below the WireGuard MTU input field.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+#. %(max)d - the maximum possible wireguard mtu value
+#. %(min)d - the minimum possible wireguard mtu value
+msgctxt "wireguard-settings-view"
+msgid "Set %(wireguard)s MTU value. Valid range: %(min)d - %(max)d."
+msgstr "%(wireguard)s MTUの値を設定します。有効範囲: %(min)d ～ %(max)d。"
+
+msgctxt "wireguard-settings-view"
+msgid "The automatic setting will randomly choose from the valid port ranges shown below."
+msgstr "自動設定では、以下の有効なポート範囲からランダムに選択されます。"
+
+msgctxt "wireguard-settings-view"
+msgid "The custom port can be any value inside the valid ranges: %(portRanges)s."
+msgstr "カスタムポートは次の有効範囲内の任意の値に設定できます: %(portRanges)s。"
+
+#. The hint displayed below the WireGuard IP version selector.
+#. Available placeholders:
+#. %(wireguard)s - Will be replaced with the string "WireGuard"
+msgctxt "wireguard-settings-view"
+msgid "This allows access to %(wireguard)s for devices that only support IPv6."
+msgstr "これにより、IPv6のみをサポートするデバイスでも%(wireguard)sにアクセスできるようになります。"
+
+msgctxt "wireguard-settings-view"
+msgid "This feature makes the WireGuard tunnel resistant to potential attacks from quantum computers."
+msgstr "この機能は、WireGuardトンネルに量子コンピューターからの潜在的な攻撃に対する耐性を与えます。"
+
+msgctxt "wireguard-settings-view"
+msgid "UDP-over-TCP port"
+msgstr "UDP-over-TCPポート"
+
+msgctxt "wireguard-settings-view"
+msgid "Which TCP port the UDP-over-TCP obfuscation protocol should connect to on the VPN server."
+msgstr "UDP-over-TCP難読化プロトコルで接続する必要のあるVPNサーバーのTCPポートです。"
+
+msgid "Account credit expires in a few minutes"
+msgstr "アカウントのクレジットが数分後に無効になります"
+
+msgid "Account credit expires soon"
+msgstr "アカウントのクレジットがもうすぐ無効になります"
+
+msgid "Account time reminders"
+msgstr "アカウント時間のリマインダー"
+
+msgid "Add DNS server"
+msgstr "DNS サーバーを追加"
+
+msgid "Agree and continue"
+msgstr "同意して続行"
+
+msgid "All applications"
+msgstr "すべてのアプリケーション"
+
+msgid "Allows access to other devices on the same network for sharing, printing etc."
+msgstr "共有や印刷などのため、同一ネットワーク上の他のデバイスへのアクセスを許可します。"
+
+msgid "Always-on VPN assigned to other app"
+msgstr "Always-on VPNは他のアプリに割り当てられています"
+
+msgid "Always-on VPN might be enabled for another app"
+msgstr "Always-on VPNが別のアプリで有効になっている可能性があります"
+
+msgid "Attention: this setting cannot be used in combination with <b>Use custom DNS server</b>."
+msgstr "注意: この設定を「<b>カスタムDNSサーバーを使う</b>」と一緒に使用することはできません。"
+
+msgid "Blocking internet (device offline)"
+msgstr "インターネットをブロック中 (デバイスがオフライン)"
+
+msgid "Changes to DNS related settings might not go into effect immediately due to cached results."
+msgstr "結果がキャッシュされているため、DNS関連の設定の変更はすぐには適用されない可能性があります。"
+
+msgid "Copied Mullvad account number to clipboard"
+msgstr "Mullvadアカウント番号をクリップボードにコピーしました"
+
+msgid "Copied to clipboard"
+msgstr "クリップボードにコピーしました"
+
+msgid "Critical error (your attention is required)"
+msgstr "重大なエラー (ご注意ください)"
+
+msgid "Custom DNS server addresses %s are invalid"
+msgstr "カスタムDNSサーバーアドレス %s は無効です"
+
+msgid "DNS settings might not go into effect immediately"
+msgstr "DNS設定はすぐに適用されない可能性があります"
+
+msgid "Disable all <b>%s</b> above to activate this setting."
+msgstr "この設定を有効にするには、上記のすべての<b>%s</b>を無効にしてください。"
+
+msgid "Enable"
+msgstr "有効にする"
+
+msgid "Enter MTU"
+msgstr "MTU を入力"
+
+msgid "Excluded applications"
+msgstr "除外対象アプリケーション"
+
+msgid "Going to login will unblock the internet on this device."
+msgstr "ログインに進むと、このデバイスのインターネットのブロックが解除されます。"
+
+msgid "Install Mullvad VPN (%s) to stay up to date"
+msgstr "Mullvad VPN (%s) をインストールして常に最新の状態を保ちましょう"
+
+msgid "Manage account"
+msgstr "アカウントを管理する"
+
+msgid "Mullvad account number"
+msgstr "Mullvadアカウント番号"
+
+msgid "Preferences"
+msgstr "環境設定"
+
+msgid "Privacy"
+msgstr "プライバシー"
+
+msgid "Privacy policy"
+msgstr "プライバシーポリシー"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Reset to default"
+msgstr "デフォルトにリセット"
+
+msgid "Secured"
+msgstr "セキュリティ保護されています"
+
+msgid "Set WireGuard MTU value. Valid range: %d - %d."
+msgstr "WireGuard MTUの値を設定します。有効範囲: %d ～ %d"
+
+msgid "Show system apps"
+msgstr "システムアプリの表示"
+
+msgid "Shows current VPN tunnel status"
+msgstr "現在のVPNトンネルのステータスを表示します"
+
+msgid "Shows reminders when the account time is about to expire"
+msgstr "アカウントの期限切れが迫っているときにリマインダーを表示します"
+
+msgid "Split tunneling makes it possible to select which applications should not be routed through the VPN tunnel."
+msgstr "スプリットトンネリングを使用すると、VPNトンネル経由でルーティングしないアプリケーションを選択できます。"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "The local DNS server will not work unless you enable \"Local Network Sharing\" under Preferences."
+msgstr "環境設定で \"ローカルネットワーク共有\" を有効にしない限り、ローカルDNSサーバーは機能しません。"
+
+msgid "This address has already been entered."
+msgstr "このアドレスは入力済みです。"
+
+msgid "This might cause issues on certain websites, services, and apps."
+msgstr "これにより、特定のWebサイト、サービス、アプリで問題が発生する可能性があります。"
+
+msgid "To make sure that you have the most secure version and to inform you of any issues with the current version that is running, the app performs version checks automatically. This sends the app version and Android system version to Mullvad servers. Mullvad keeps counters on number of used app versions and Android versions. The data is never stored or used in any way that can identify you.\\n\\nIf the split tunneling feature is used, then the app queries your system for a list of all installed applications. This list is only retrieved in the split tunneling view. The list of installed applications is never sent from the device."
+msgstr "このアプリは最も安全なバージョンを使用していることを確認し、実行中の現在のバージョンに関する問題を報告できるよう、バージョンチェックを自動的に実行します。これにより、アプリのバージョンと Android システムのバージョンが Mullvad サーバーに送信されます。Mullvad は使用されているアプリのバージョンと Android のバージョンの数を継続的にカウントしています。このデータは保管されることも、ユーザーを特定する目的で使用されることもありません。\\n\\nスプリットトンネル機能が使用される場合、アプリはシステムにインストールされている全アプリケーションのリストを照会します。このリストはスプリットトンネルビューでのみ取得されます。インストール済みアプリケーションのリストがデバイスから送信されることはありません。"
+
+msgid "Toggle VPN"
+msgstr "VPNの切り替え"
+
+msgid "Unable to apply firewall rules. Please troubleshoot or send a problem report."
+msgstr "ファイアウォールのルールを適用できません。問題に対処するか、問題の報告を送信してください。"
+
+msgid "Unable to start tunnel connection. Please disable Always-on VPN for <b>%s</b> before using Mullvad VPN."
+msgstr "トンネル接続を開始できません。Mullvad VPNを使用する前に<b>%s</b>のAlways-on VPNを無効にしてください。"
+
+msgid "Unsecured"
+msgstr "セキュリティ保護されていません"
+
+msgid "Update DNS server"
+msgstr "DNS サーバーを更新"
+
+msgid "Update available, download to remain safe."
+msgstr "アップデートできます。セキュリティを維持するにはダウンロードしてしてください。"
+
+msgid "VPN permission error"
+msgstr "VPN許可エラー"
+
+msgid "VPN permission was denied when creating the tunnel. Please try connecting again."
+msgstr "トンネルを作成中にVPNへのアクセスが拒否されました。もう一度接続してみてください。"
+
+msgid "VPN tunnel status"
+msgstr "VPNトンネルのステータス"
+
+msgid "Valid WireGuard key is missing. Manage keys under Advanced settings."
+msgstr "有効なWireGuard鍵が見つかりません。詳細設定で鍵を管理してください。"
+
+msgid "Virtual adapter error"
+msgstr "仮想アダプタのエラー"
+
+msgid "While connected, your real location is masked with a private and secure location in the selected region."
+msgstr "接続中、あなたの実際の場所は選択した地域内の非公開かつセキュリティ保護された場所で隠されます。"
+
+msgid "WireGuard MTU"
+msgstr "WireGuard MTU"
+
+msgid "WireGuard obfuscation"
+msgstr "WireGuardの難読化"
+
+msgid "YOU MIGHT BE LEAKING NETWORK TRAFFIC"
+msgstr "ネットワーク通信が漏洩している可能性があります"
+
+msgid "You are running an unsupported app version."
+msgstr "サポート対象外バージョンのアプリを実行しています。"
+
+msgid "less than a minute ago"
+msgstr "1分未満前"
+
+msgid "Account credit expires in a day"
+msgid_plural "Account credit expires in %d days"
+msgstr[0] "アカウントのクレジットが%d日後に無効になります"
+
+msgid "Account credit expires in an hour"
+msgid_plural "Account credit expires in %d hours"
+msgstr[0] "アカウントのクレジットが%d時間後に無効になります"
+
+msgid "a day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d 日前"
+
+msgid "a minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d 分前"
+
+msgid "a month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d ヶ月前"
+
+msgid "a year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d 年前"
+
+msgid "an hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d時間前"
+
