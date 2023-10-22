@@ -3,4 +3,4 @@
 #Start each line with a capital letter and end each line with a period.
 #[macOS, Windows, linux] To make an entry platform specific, start the line with an angle bracket enclosed comma separated list of platforms to show the entry on.
 #Only point out the major changes.
-2023.10
+Changed color of systray icons to match rest of Tokyonight-Dark theme.
